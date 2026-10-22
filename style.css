@@ -27,7 +27,7 @@ h2{font-family:var(--display);font-weight:800;font-size:clamp(1.75rem,6vw,2.5rem
 
 /* Secteurs interactifs */
 .sector{cursor:pointer;transition:opacity .15s;outline:none}
-.sector path{stroke:#fff;stroke-width:4;stroke-linejoin:round}
+.sector path{stroke:#fff;stroke-width:2.5;stroke-linejoin:round}
 .sector:focus-visible path{stroke:var(--ink)}
 .hemi.has-active .sector:not(.active){opacity:.3}
 .legend button{display:flex;align-items:center;gap:8px;font:inherit;font-weight:700;color:inherit;background:none;border:2px solid transparent;border-radius:999px;padding:6px 10px;cursor:pointer}
