@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>50 nuances de politique · Le nuancier politique français</title>
+<meta name="description" content="De l'extrême gauche à l'extrême droite : sept nuances expliquées, et les principaux partis placés sur un hémicycle. Présidentielle 2027.">
+<meta name="theme-color" content="#F4F6FA">
+<meta property="og:title" content="50 nuances de politique">
+<meta property="og:description" content="Le nuancier politique français, de l'extrême gauche à l'extrême droite. Présidentielle 2027.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;500;700&display=swap">
+<style>
+:root{
+  color-scheme: light;
+  --ink:#0F172A; --muted:#475569; --soft:#334155;
+  --bg:#F4F6FA; --card:#FFFFFF; --line:#E3E7EF;
+  --c1:#7F1D2D; --c2:#C8312B; --c3:#F08AA6; --c4:#F2B632; --c5:#2F6BC4; --c6:#1F3F8F; --c7:#121B33;
+  --display:'Bricolage Grotesque','DM Sans',system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'DM Sans',system-ui,sans-serif;line-height:1.5}
+.wrap{max-width:1080px;margin:0 auto;padding:32px 16px 40px;display:flex;flex-direction:column;gap:40px}
+h1,h2,h3,p,ul,ol{margin:0}
+ul,ol{padding:0;list-style:none}
+
+/* En-tête */
+.kicker{font-size:.8rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(2.5rem,11vw,4.75rem);line-height:1.02;letter-spacing:-.02em;margin-top:14px}
+.lead{font-size:1.1rem;color:var(--soft);max-width:50rem;margin-top:16px}
+h2{font-family:var(--display);font-weight:800;font-size:clamp(1.75rem,6vw,2.5rem);letter-spacing:-.01em;line-height:1.1}
+
+/* Hémicycle */
+.hemi{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:16px 8px 12px}
+.hemi svg{display:block;width:100%;height:auto}
+.lbl,.cap-svg{display:none}
+.legend{display:flex;flex-wrap:wrap;gap:8px 16px;justify-content:center;padding:12px 8px 4px;font-size:.9rem;font-weight:700}
+.legend li{display:flex;align-items:center;gap:8px}
+.legend i{width:14px;height:14px;border-radius:50%;display:inline-block;flex:none}
+.note{font-size:.85rem;color:var(--muted);text-align:center;margin-top:12px}
+
+/* Partis */
+.parties-head{display:flex;flex-direction:column;gap:12px}
+.parties-head p{color:var(--soft)}
+.parties{display:grid;grid-template-columns:1fr;gap:12px}
+.col{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;display:flex;flex-direction:column;gap:12px}
+.col h3{font-size:1rem;font-weight:700;display:flex;align-items:center;gap:10px}
+.col h3 i{width:14px;height:14px;border-radius:50%;flex:none}
+.chips{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.chip{border:2px solid var(--k);border-radius:14px;background:#fff;padding:10px 6px;text-align:center}
+.chip b{display:block;font-size:1.2rem;font-weight:800}
+.chip span{display:block;font-size:.75rem;color:var(--muted);line-height:1.3}
+
+/* Définitions */
+.defs{display:flex;flex-direction:column;gap:12px;margin-top:20px}
+.def{display:flex;flex-direction:column;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
+.def .tag{display:flex;flex-direction:column;gap:8px;align-items:flex-start}
+.pill{display:inline-block;padding:9px 16px;border-radius:999px;font-family:var(--display);font-weight:800;font-size:1.15rem}
+.sub{font-size:.8rem;color:var(--muted)}
+.def p{font-size:1.02rem}
+.def .who{font-size:.92rem;color:var(--soft);margin-top:8px}
+.def .debate{font-size:.82rem;color:var(--muted);margin-top:8px}
+
+/* Pied */
+footer{border-top:1px solid #CBD2DF;padding-top:20px;display:flex;flex-direction:column;gap:10px;font-size:.8rem;color:var(--muted)}
+
+/* Tablette et plus */
+@media (min-width:720px){
+  .wrap{padding:56px 32px 56px;gap:56px}
+  .hemi{padding:24px 12px 20px}
+  .lbl,.cap-svg{display:inline}
+  .legend{display:none}
+  .parties{grid-template-columns:repeat(7,minmax(0,1fr));gap:6px}
+  .col{background:transparent;border:0;padding:0;gap:10px;align-items:stretch}
+  .col h3{font-size:.88rem;justify-content:center;text-align:center;min-height:36px;line-height:1.25}
+  .col h3 i{display:none}
+  .col{border-top:14px solid var(--k);padding-top:12px;border-radius:0}
+  .chips{grid-template-columns:1fr}
+  .chip span{font-size:.75rem}
+  .def{display:grid;grid-template-columns:250px minmax(0,1fr);gap:28px;padding:22px 26px}
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+
+<header>
+  <div class="kicker">Présidentielle 2027 · Infographie 1</div>
+  <h1>50 nuances de politique</h1>
+  <p class="lead">De l'extrême gauche à l'extrême droite : sept nuances, et les principaux partis placés dessus.</p>
+</header>
+
+<section aria-labelledby="t-hemi">
+  <h2 id="t-hemi" class="sr" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap">Hémicycle des sept nuances</h2>
+  <div class="hemi">
+    <svg viewBox="0 0 1000 450" role="img" aria-label="Hémicycle de sept secteurs colorés, de l'extrême gauche à gauche jusqu'à l'extrême droite à droite">
+      <g fill="#7F1D2D"><circle cx="351.3" cy="410.4" r="15"/><circle cx="361.4" cy="372.6" r="15"/><circle cx="301.0" cy="410.4" r="15"/><circle cx="308.6" cy="371.9" r="15"/><circle cx="250.8" cy="410.4" r="15"/><circle cx="256.9" cy="371.6" r="15"/><circle cx="269.0" cy="334.3" r="15"/><circle cx="200.6" cy="410.4" r="15"/><circle cx="205.8" cy="371.5" r="15"/><circle cx="215.9" cy="333.6" r="15"/><circle cx="150.6" cy="410.4" r="15"/><circle cx="154.9" cy="371.4" r="15"/><circle cx="163.7" cy="333.1" r="15"/><circle cx="176.6" cy="296.1" r="15"/></g>
+      <g fill="#C8312B"><circle cx="381.0" cy="338.7" r="15"/><circle cx="323.6" cy="335.7" r="15"/><circle cx="345.4" cy="303.1" r="15"/><circle cx="373.1" cy="275.4" r="15"/><circle cx="286.8" cy="299.4" r="15"/><circle cx="309.9" cy="267.6" r="15"/><circle cx="337.6" cy="239.9" r="15"/><circle cx="230.9" cy="297.3" r="15"/><circle cx="250.6" cy="263.3" r="15"/><circle cx="274.4" cy="232.2" r="15"/><circle cx="302.2" cy="204.4" r="15"/><circle cx="193.7" cy="260.7" r="15"/><circle cx="214.6" cy="227.5" r="15"/><circle cx="239.0" cy="196.8" r="15"/><circle cx="266.8" cy="169.0" r="15"/></g>
+      <g fill="#F08AA6"><circle cx="408.7" cy="311.0" r="15"/><circle cx="442.6" cy="291.4" r="15"/><circle cx="405.7" cy="253.6" r="15"/><circle cx="441.9" cy="238.6" r="15"/><circle cx="369.4" cy="216.8" r="15"/><circle cx="404.3" cy="199.0" r="15"/><circle cx="441.6" cy="186.9" r="15"/><circle cx="333.3" cy="180.6" r="15"/><circle cx="367.3" cy="160.9" r="15"/><circle cx="403.6" cy="145.9" r="15"/><circle cx="297.5" cy="144.6" r="15"/><circle cx="330.7" cy="123.7" r="15"/><circle cx="366.1" cy="106.6" r="15"/><circle cx="403.1" cy="93.7" r="15"/></g>
+      <g fill="#F2B632"><circle cx="480.4" cy="281.3" r="15"/><circle cx="519.6" cy="281.3" r="15"/><circle cx="480.4" cy="231.0" r="15"/><circle cx="519.6" cy="231.0" r="15"/><circle cx="480.4" cy="180.8" r="15"/><circle cx="519.6" cy="180.8" r="15"/><circle cx="441.5" cy="135.8" r="15"/><circle cx="480.4" cy="130.6" r="15"/><circle cx="519.6" cy="130.6" r="15"/><circle cx="558.5" cy="135.8" r="15"/><circle cx="441.4" cy="84.9" r="15"/><circle cx="480.4" cy="80.6" r="15"/><circle cx="519.6" cy="80.6" r="15"/><circle cx="558.6" cy="84.9" r="15"/></g>
+      <g fill="#2F6BC4"><circle cx="557.4" cy="291.4" r="15"/><circle cx="591.3" cy="311.0" r="15"/><circle cx="558.1" cy="238.6" r="15"/><circle cx="594.3" cy="253.6" r="15"/><circle cx="558.4" cy="186.9" r="15"/><circle cx="595.7" cy="199.0" r="15"/><circle cx="630.6" cy="216.8" r="15"/><circle cx="596.4" cy="145.9" r="15"/><circle cx="632.7" cy="160.9" r="15"/><circle cx="666.7" cy="180.6" r="15"/><circle cx="596.9" cy="93.7" r="15"/><circle cx="633.9" cy="106.6" r="15"/><circle cx="669.3" cy="123.7" r="15"/><circle cx="702.5" cy="144.6" r="15"/></g>
+      <g fill="#1F3F8F"><circle cx="619.0" cy="338.7" r="15"/><circle cx="626.9" cy="275.4" r="15"/><circle cx="654.6" cy="303.1" r="15"/><circle cx="676.4" cy="335.7" r="15"/><circle cx="662.4" cy="239.9" r="15"/><circle cx="690.1" cy="267.6" r="15"/><circle cx="713.2" cy="299.4" r="15"/><circle cx="697.8" cy="204.4" r="15"/><circle cx="725.6" cy="232.2" r="15"/><circle cx="749.4" cy="263.3" r="15"/><circle cx="769.1" cy="297.3" r="15"/><circle cx="733.2" cy="169.0" r="15"/><circle cx="761.0" cy="196.8" r="15"/><circle cx="785.4" cy="227.5" r="15"/><circle cx="806.3" cy="260.7" r="15"/></g>
+      <g fill="#121B33"><circle cx="638.6" cy="372.6" r="15"/><circle cx="648.7" cy="410.4" r="15"/><circle cx="691.4" cy="371.9" r="15"/><circle cx="699.0" cy="410.4" r="15"/><circle cx="731.0" cy="334.3" r="15"/><circle cx="743.1" cy="371.6" r="15"/><circle cx="749.2" cy="410.4" r="15"/><circle cx="784.1" cy="333.6" r="15"/><circle cx="794.2" cy="371.5" r="15"/><circle cx="799.4" cy="410.4" r="15"/><circle cx="823.4" cy="296.1" r="15"/><circle cx="836.3" cy="333.1" r="15"/><circle cx="845.1" cy="371.4" r="15"/><circle cx="849.4" cy="410.4" r="15"/></g>
+      <g class="lbl" font-family="'DM Sans', system-ui, sans-serif" font-size="16" font-weight="700" fill="#0F172A">
+        <text x="105" y="332" text-anchor="end">Extrême<tspan x="105" dy="19">gauche</tspan></text>
+        <text x="183" y="170" text-anchor="end">Gauche<tspan x="183" dy="19">radicale</tspan></text>
+        <text x="322" y="62" text-anchor="end">Gauche</text>
+        <text x="500" y="26" text-anchor="middle">Centre</text>
+        <text x="678" y="62" text-anchor="start">Droite</text>
+        <text x="817" y="170" text-anchor="start">Droite<tspan x="817" dy="19">radicale</tspan></text>
+        <text x="895" y="332" text-anchor="start">Extrême<tspan x="895" dy="19">droite</tspan></text>
+      </g>
+      <text class="cap-svg" x="500" y="352" text-anchor="middle" font-family="'DM Sans', system-ui, sans-serif" font-size="15" font-weight="700" letter-spacing="2" fill="#475569">PRÉSIDENTIELLE</text>
+      <text x="500" y="408" text-anchor="middle" font-family="'Bricolage Grotesque', 'DM Sans', sans-serif" font-size="64" font-weight="800" fill="#0F172A">2027</text>
+    </svg>
+    <ul class="legend" aria-label="Légende des nuances, de gauche à droite">
+      <li><i style="background:var(--c1)"></i>Extrême gauche</li>
+      <li><i style="background:var(--c2)"></i>Gauche radicale</li>
+      <li><i style="background:var(--c3)"></i>Gauche</li>
+      <li><i style="background:var(--c4)"></i>Centre</li>
+      <li><i style="background:var(--c5)"></i>Droite</li>
+      <li><i style="background:var(--c6)"></i>Droite radicale</li>
+      <li><i style="background:var(--c7)"></i>Extrême droite</li>
+    </ul>
+  </div>
+  <p class="note">Hémicycle illustratif : chaque secteur représente une nuance, pas un nombre de sièges.</p>
+</section>
+
+<section aria-labelledby="t-partis">
+  <div class="parties-head">
+    <h2 id="t-partis">Où se placent les partis ?</h2>
+    <p>Positions indicatives des partis représentés à l'Assemblée ou présents à la présidentielle. Chaque pastille est un emplacement pour le logo du parti.</p>
+  </div>
+  <div class="parties" style="margin-top:20px">
+
+    <div class="col" style="--k:var(--c1)">
+      <h3><i style="background:var(--c1)"></i>Extrême gauche</h3>
+      <div class="chips">
+        <div class="chip" style="--k:var(--c1)"><b>LO</b><span>Lutte ouvrière</span></div>
+        <div class="chip" style="--k:var(--c1)"><b>RP</b><span>Révolution permanente</span></div>
+      </div>
+    </div>
+
+    <div class="col" style="--k:var(--c2)">
+      <h3><i style="background:var(--c2)"></i>Gauche radicale</h3>
+      <div class="chips">
+        <div class="chip" style="--k:var(--c2)"><b>LFI</b><span>France insoumise</span></div>
+        <div class="chip" style="--k:var(--c2)"><b>PCF</b><span>Parti communiste</span></div>
+      </div>
+    </div>
+
+    <div class="col" style="--k:var(--c3)">
+      <h3><i style="background:var(--c3)"></i>Gauche</h3>
+      <div class="chips">
+        <div class="chip" style="--k:var(--c3)"><b>PS</b><span>Parti socialiste</span></div>
+        <div class="chip" style="--k:var(--c3)"><b>LÉ</b><span>Les Écologistes</span></div>
+        <div class="chip" style="--k:var(--c3)"><b>PP</b><span>Place publique</span></div>
+      </div>
+    </div>
+
+    <div class="col" style="--k:var(--c4)">
+      <h3><i style="background:var(--c4)"></i>Centre</h3>
+      <div class="chips">
+        <div class="chip" style="--k:var(--c4)"><b>RE</b><span>Renaissance</span></div>
+        <div class="chip" style="--k:var(--c4)"><b>MoDem</b><span>Mouvement démocrate</span></div>
+        <div class="chip" style="--k:var(--c4)"><b>HOR</b><span>Horizons</span></div>
+      </div>
+    </div>
+
+    <div class="col" style="--k:var(--c5)">
+      <h3><i style="background:var(--c5)"></i>Droite</h3>
+      <div class="chips">
+        <div class="chip" style="--k:var(--c5)"><b>LR</b><span>Les Républicains</span></div>
+      </div>
+    </div>
+
+    <div class="col" style="--k:var(--c6)">
+      <h3><i style="background:var(--c6)"></i>Droite radicale</h3>
+      <div class="chips">
+        <div class="chip" style="--k:var(--c6)"><b>UDR</b><span>Union des droites</span></div>
+      </div>
+    </div>
+
+    <div class="col" style="--k:var(--c7)">
+      <h3><i style="background:var(--c7)"></i>Extrême droite</h3>
+      <div class="chips">
+        <div class="chip" style="--k:var(--c7)"><b>RN</b><span>Rassemblement national</span></div>
+        <div class="chip" style="--k:var(--c7)"><b>REC</b><span>Reconquête</span></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section aria-labelledby="t-def">
+  <h2 id="t-def">Les 7 nuances, expliquées</h2>
+  <div class="defs">
+
+    <article class="def">
+      <div class="tag">
+        <div class="pill" style="background:var(--c1);color:#fff">Extrême gauche</div>
+        <div class="sub">Bloc officiel du ministère</div>
+      </div>
+      <div>
+        <p>Veut rompre avec le capitalisme, souvent par la mobilisation sociale ou la révolution. Internationaliste, elle se méfie des institutions représentatives.</p>
+        <p class="who"><strong>Partis :</strong> Lutte ouvrière, Révolution permanente</p>
+      </div>
+    </article>
+
+    <article class="def">
+      <div class="tag">
+        <div class="pill" style="background:var(--c2);color:#fff">Gauche radicale</div>
+        <div class="sub">Catégorie d'analyse</div>
+      </div>
+      <div>
+        <p>Veut transformer l'économie en profondeur (partage des richesses, services publics, planification écologique), mais par les urnes et dans le cadre des institutions.</p>
+        <p class="who"><strong>Partis :</strong> La France insoumise, Parti communiste français</p>
+        <p class="debate">Étiquette débattue : le ministère de l'Intérieur a classé LFI à l'extrême gauche pour les municipales 2026, ce que le parti conteste.</p>
+      </div>
+    </article>
+
+    <article class="def">
+      <div class="tag">
+        <div class="pill" style="background:var(--c3);color:#141413">Gauche</div>
+        <div class="sub">Bloc officiel du ministère</div>
+      </div>
+      <div>
+        <p>Réformiste : social-démocratie et écologie politique. Redistribution, protection sociale et transition écologique, dans une économie de marché régulée.</p>
+        <p class="who"><strong>Partis :</strong> Parti socialiste, Les Écologistes, Place publique</p>
+      </div>
+    </article>
+
+    <article class="def">
+      <div class="tag">
+        <div class="pill" style="background:var(--c4);color:#141413">Centre</div>
+        <div class="sub">Bloc officiel du ministère</div>
+      </div>
+      <div>
+        <p>Mêle libéralisme économique et ouverture sur les questions de société. Cherche le compromis entre les deux camps et défend l'intégration européenne.</p>
+        <p class="who"><strong>Partis :</strong> Renaissance, MoDem, Horizons</p>
+      </div>
+    </article>
+
+    <article class="def">
+      <div class="tag">
+        <div class="pill" style="background:var(--c5);color:#fff">Droite</div>
+        <div class="sub">Bloc officiel du ministère</div>
+      </div>
+      <div>
+        <p>Attachée à l'ordre, à l'autorité, à l'entreprise et à la maîtrise de la dépense publique. Conservatrice sur les valeurs, mais pleinement dans le cadre républicain.</p>
+        <p class="who"><strong>Partis :</strong> Les Républicains</p>
+      </div>
+    </article>
+
+    <article class="def">
+      <div class="tag">
+        <div class="pill" style="background:var(--c6);color:#fff">Droite radicale</div>
+        <div class="sub">Catégorie d'analyse</div>
+      </div>
+      <div>
+        <p>Plus dure que la droite classique sur l'immigration, la sécurité et l'identité nationale, et prête à rompre avec elle. La frontière avec l'extrême droite est discutée.</p>
+        <p class="who"><strong>Partis :</strong> Union des droites pour la République (UDR)</p>
+        <p class="debate">Étiquette débattue : le ministère classe l'UDR à l'extrême droite, ce que le parti conteste.</p>
+      </div>
+    </article>
+
+    <article class="def">
+      <div class="tag">
+        <div class="pill" style="background:var(--c7);color:#fff">Extrême droite</div>
+        <div class="sub">Bloc officiel du ministère</div>
+      </div>
+      <div>
+        <p>Nationalisme affirmé : priorité nationale, vision identitaire de la nation, hostilité à l'immigration, État fort. Le Conseil d'État a validé en 2024 le classement du RN dans ce bloc.</p>
+        <p class="who"><strong>Partis :</strong> Rassemblement national, Reconquête</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<footer>
+  <p>Le ministère de l'Intérieur classe officiellement les candidats en six blocs : extrême gauche, gauche, centre, droite, extrême droite et divers. « Gauche radicale » et « droite radicale » sont des catégories d'analyse, pas des blocs officiels. Un parti peut contester son étiquette.</p>
+  <p>Sources : circulaires de nuançage du ministère de l'Intérieur · Conseil d'État, décision du 11 mars 2024 · Fondation Jean-Jaurès, enquête « Fractures françaises » · Public Sénat, LCP (candidatures 2027).</p>
+</footer>
+
+</main>
+</body>
+</html>
