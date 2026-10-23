@@ -1,0 +1,1358 @@
+{
+ "sources": {
+  "dette": {
+   "label": "Insee – Dette trimestrielle de l'ensemble des administrations publiques, T2 2026 (IR 239)",
+   "url": "https://www.insee.fr/fr/statistiques/9053525",
+   "org": "Insee"
+  },
+  "apu": {
+   "label": "Insee – Le compte des administrations publiques en 2025 (Insee Première 2106)",
+   "url": "https://www.insee.fr/fr/statistiques/8997691",
+   "org": "Insee"
+  },
+  "immigres": {
+   "label": "Insee – Population immigrée et étrangère en France, données annuelles de 1921 à 2025",
+   "url": "https://www.insee.fr/fr/statistiques/2381757",
+   "org": "Insee"
+  },
+  "sejour": {
+   "label": "Ministère de l'Intérieur – Les titres de séjour en 2025",
+   "url": "https://www.immigration.interieur.gouv.fr/documentation/etudes-et-statistiques/titres-de-sejour-en-2025-protections-subsidiaires-ont-plus-que-double.html",
+   "org": "Ministère de l'Intérieur"
+  },
+  "asile": {
+   "label": "Ministère de l'Intérieur – Les demandes d'asile pour l'année 2025",
+   "url": "https://www.immigration.interieur.gouv.fr/publications/chiffres-de-limmigration-en-france/demandes-dasile-pour-lannee-2025",
+   "org": "Ministère de l'Intérieur"
+  },
+  "ofpra": {
+   "label": "Ofpra – Bilan 2025 : une activité record et des évolutions contrastées",
+   "url": "https://www.ofpra.gouv.fr/actualites/bilan-2025-de-lofpra-une-activite-record-et-des-evolutions-contrastees",
+   "org": "Ofpra"
+  },
+  "cns26": {
+   "label": "Drees – Combien coûte la santé en France ? Qui paie ? (comptes de la santé, édition 2026)",
+   "url": "https://drees.solidarites-sante.gouv.fr/actualites-evenements/combien-coute-la-sante-en-france-qui-paie",
+   "org": "Drees"
+  },
+  "cns25": {
+   "label": "Drees – Les dépenses de santé en 2024 (comptes de la santé, édition 2025)",
+   "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse-infographie-documents-de-reference/250930-Panorama-depenses-de-sante",
+   "org": "Drees"
+  },
+  "medecins": {
+   "label": "Insee – Professionnels de santé au 1er janvier 2025 (données Drees)",
+   "url": "https://www.insee.fr/fr/statistiques/2012677",
+   "org": "Insee"
+  },
+  "secu": {
+   "label": "Acteurs publics – La Cour des comptes appelle à un choc de 10 milliards d'économies par an sur les comptes sociaux dès 2027",
+   "url": "https://acteurspublics.fr/articles/la-cour-des-comptes-appelle-a-un-choc-de-10-milliards-deconomies-par-an-sur-les-comptes-sociaux-des-2027-la-rue-cambon-appelle-a-rendre-a-lobjectif-national-des-depenses-dassurance-maladie/",
+   "org": "Acteurs publics"
+  },
+  "fhf": {
+   "label": "FHF – Communiqué du 13 novembre 2025 sur le PLFSS 2026",
+   "url": "https://www.fhf.fr/sites/default/files/2025-11/13%2011%202025%20CP%20FHF%20PLFSS%202026.pdf",
+   "org": "Fédération hospitalière de France"
+  },
+  "prim": {
+   "label": "Éducation nationale – Les effectifs dans le premier degré : 6,155 millions d'élèves à la rentrée 2025",
+   "url": "https://www.education.gouv.fr/depp/les-effectifs-dans-le-premier-degre-6155-millions-d-eleves-scolarises-la-rentree-2025-467612",
+   "org": "Éducation nationale (DEPP)"
+  },
+  "sec": {
+   "label": "Éducation nationale – Les effectifs dans le second degré : 5,621 millions d'élèves à la rentrée 2025",
+   "url": "https://www.education.gouv.fr/sites/default/files/2025-11/depp-ni-2025-59-les-effectifs-dans-le-second-degr-5-621-millions-d-l-ves-scolaris-s-la-rentr-e-2025-473903.pdf",
+   "org": "Éducation nationale (DEPP)"
+  },
+  "rers": {
+   "label": "Éducation nationale – Repères et références statistiques 2025, chapitre 9 : les personnels",
+   "url": "https://www.education.gouv.fr/sites/default/files/2025-07/rers2025-chapitre-9-441738.pdf",
+   "org": "Éducation nationale (DEPP)"
+  },
+  "illet": {
+   "label": "Insee – En 2022, un adulte sur dix rencontre des difficultés à l'écrit (Insee Première 1993)",
+   "url": "https://www.insee.fr/fr/statistiques/8177068",
+   "org": "Insee"
+  },
+  "pauv": {
+   "label": "Insee – Niveau de vie et pauvreté en 2024 (Insee Première 2117)",
+   "url": "https://www.insee.fr/fr/statistiques/9019316",
+   "org": "Insee"
+  },
+  "chom": {
+   "label": "Insee – Chômage au sens du BIT et indicateurs sur le marché du travail, T2 2026 (IR 192)",
+   "url": "https://www.insee.fr/fr/statistiques/9032359",
+   "org": "Insee"
+  },
+  "eurostat": {
+   "label": "Eurostat – Déficit et dette publics en 2025 : zone euro et UE (communiqué du 21 octobre 2026)",
+   "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-21102026-ap",
+   "org": "Eurostat"
+  },
+  "pe_fiche": {
+   "label": "Parlement européen – Le cadre de l'Union européenne pour les politiques budgétaires",
+   "url": "https://www.europarl.europa.eu/factsheets/fr/sheet/89/le-cadre-de-l-union-europeenne-pour-les-politiques-budgetaires",
+   "org": "Parlement européen"
+  },
+  "pe_regles": {
+   "label": "Parlement européen – Règles budgétaires post-Covid : plus de contrôle pour les États",
+   "url": "https://www.europarl.europa.eu/topics/fr/article/20240117STO16883/regles-budgetaires-post-covid-plus-de-controle-pour-les-etats",
+   "org": "Parlement européen"
+  },
+  "pde": {
+   "label": "Commission européenne – Procédure de déficit excessif : France",
+   "url": "https://economy-finance.ec.europa.eu/economic-governance-framework/stability-and-growth-pact/corrective-arm-excessive-deficit-procedure/excessive-deficit-procedures-overview/france_en",
+   "org": "Commission européenne"
+  },
+  "conseil": {
+   "label": "Conseil de l'UE – Pacte de stabilité et de croissance : recommandations aux pays en procédure de déficit excessif (21 janvier 2025)",
+   "url": "https://www.consilium.europa.eu/en/press/press-releases/2025/01/21/stability-and-growth-pact-council-adopts-recommendations-to-countries-under-excessive-deficit-procedure/",
+   "org": "Conseil de l'UE"
+  },
+  "eu_born": {
+   "label": "Eurostat – Population au 1er janvier par pays de naissance (migr_pop3ctb)",
+   "url": "https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table?lang=en",
+   "org": "Eurostat"
+  },
+  "impots": {
+   "label": "Insee – Impôts : données annuelles de 1995 à 2025",
+   "url": "https://www.insee.fr/fr/statistiques/2381408",
+   "org": "Insee"
+  },
+  "cdm": {
+   "label": "Insee – Compte des ménages par catégories en 2023 (Insee Analyses 119)",
+   "url": "https://www.insee.fr/fr/statistiques/8973957",
+   "org": "Insee"
+  },
+  "eu_gov": {
+   "label": "Eurostat – Déficit et dette des administrations publiques (gov_10dd_edpt1), 2025",
+   "url": "https://ec.europa.eu/eurostat/databrowser/view/gov_10dd_edpt1/default/table?lang=en",
+   "org": "Eurostat"
+  },
+  "dgfip": {
+   "label": "LégiFiscal – Recettes fiscales 2025 : +7,1 % selon la DGFiP (Statistiques n°43)",
+   "url": "https://www.legifiscal.fr/actualites-fiscales/4453-recettes-fiscales-2025-hausse-71.html",
+   "org": "DGFiP (via LégiFiscal)"
+  },
+  "plf26": {
+   "label": "Assemblée nationale – Projet de loi de finances pour 2026 (n° 1906), état B : crédits par mission",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b1906_projet-loi.pdf",
+   "org": "Assemblée nationale"
+  },
+  "rpm21": {
+   "label": "Insee – Décomposition du niveau de vie par dixième, 2021 (Revenus et patrimoine des ménages)",
+   "url": "https://www.insee.fr/fr/statistiques/7941377?sommaire=7941491",
+   "org": "Insee"
+  },
+  "nvdec": {
+   "label": "Insee – Niveau de vie moyen par décile",
+   "url": "https://www.insee.fr/fr/statistiques/2417897",
+   "org": "Insee"
+  }
+ },
+ "sections": [
+  {
+   "id": "dette",
+   "title": "Dette et finances publiques",
+   "tiles": [
+    {
+     "v": "3 595,5 Md€",
+     "l": "Dette publique brute (Maastricht), fin du T2 2026",
+     "s": "dette",
+     "d": "119,0 % du PIB, contre 117,5 % fin T1 2026"
+    },
+    {
+     "v": "3 366,8 Md€",
+     "l": "Dette publique nette, fin du T2 2026",
+     "s": "dette",
+     "d": "111,4 % du PIB"
+    },
+    {
+     "v": "152,5 Md€",
+     "l": "Déficit public en 2025",
+     "s": "apu",
+     "d": "5,1 % du PIB, contre 169,1 Md€ (5,8 %) en 2024"
+    },
+    {
+     "v": "64,7 Md€",
+     "l": "Charge d'intérêts de la dette en 2025",
+     "s": "apu",
+     "p": "+11,2 % sur un an"
+    },
+    {
+     "v": "57,3 %",
+     "l": "Dépenses publiques en 2025, en part du PIB",
+     "s": "apu",
+     "d": "1 714,2 Md€"
+    },
+    {
+     "v": "43,6 %",
+     "l": "Prélèvements obligatoires en 2025, en part du PIB",
+     "s": "apu",
+     "p": "+0,9 point sur un an"
+    },
+    {
+     "t": "donut",
+     "l": "Dette par sous-secteur, T2 2026",
+     "items": [
+      [
+       "État",
+       2942.1
+      ],
+      [
+       "Sécurité sociale",
+       309.4
+      ],
+      [
+       "Collectivités locales",
+       274.9
+      ],
+      [
+       "Autres organismes d'administration centrale",
+       69.2
+      ]
+     ],
+     "unit": "Md€",
+     "s": "dette"
+    },
+    {
+     "t": "rank",
+     "l": "Solde public 2025, en % du PIB",
+     "unit": "%",
+     "s": "eu_gov",
+     "mode": "solde",
+     "ref": null,
+     "items": [
+      [
+       "Union européenne",
+       -3.1,
+       "eu"
+      ],
+      [
+       "Roumanie",
+       -7.8,
+       ""
+      ],
+      [
+       "Pologne",
+       -7.2,
+       ""
+      ],
+      [
+       "Belgique",
+       -5.2,
+       ""
+      ],
+      [
+       "France",
+       -5.1,
+       "fr"
+      ],
+      [
+       "Hongrie",
+       -4.7,
+       ""
+      ],
+      [
+       "Slovaquie",
+       -4.4,
+       ""
+      ],
+      [
+       "Autriche",
+       -4.1,
+       ""
+      ],
+      [
+       "Bulgarie",
+       -4.0,
+       ""
+      ],
+      [
+       "Finlande",
+       -3.8,
+       ""
+      ],
+      [
+       "Italie",
+       -3.1,
+       ""
+      ],
+      [
+       "Croatie",
+       -3.0,
+       ""
+      ],
+      [
+       "Allemagne",
+       -2.9,
+       ""
+      ],
+      [
+       "Lettonie",
+       -2.5,
+       ""
+      ],
+      [
+       "Slovénie",
+       -2.5,
+       ""
+      ],
+      [
+       "Espagne",
+       -2.4,
+       ""
+      ],
+      [
+       "Tchéquie",
+       -2.2,
+       ""
+      ],
+      [
+       "Malte",
+       -2.1,
+       ""
+      ],
+      [
+       "Estonie",
+       -2.0,
+       ""
+      ],
+      [
+       "Lituanie",
+       -1.8,
+       ""
+      ],
+      [
+       "Luxembourg",
+       -1.8,
+       ""
+      ],
+      [
+       "Pays-Bas",
+       -1.6,
+       ""
+      ],
+      [
+       "Suède",
+       -1.6,
+       ""
+      ],
+      [
+       "Portugal",
+       0.7,
+       ""
+      ],
+      [
+       "Irlande",
+       1.8,
+       ""
+      ],
+      [
+       "Grèce",
+       2.0,
+       ""
+      ],
+      [
+       "Danemark",
+       2.9,
+       ""
+      ],
+      [
+       "Chypre",
+       3.6,
+       ""
+      ]
+     ],
+     "center": 0,
+     "scale": 10,
+     "only": [
+      "Belgique",
+      "France",
+      "Allemagne",
+      "Italie",
+      "Luxembourg",
+      "Pays-Bas",
+      "Danemark",
+      "Irlande",
+      "Grèce",
+      "Espagne",
+      "Portugal",
+      "Autriche",
+      "Finlande",
+      "Suède"
+     ],
+     "tip": "Déficits à gauche en rouge, excédents à droite en bleu, échelle de −10 % à +10 %. Pays de l'UE à quinze (hors Royaume-Uni) encore membres. Source : Eurostat."
+    },
+    {
+     "t": "rank",
+     "l": "Dette publique 2025, en % du PIB",
+     "unit": "%",
+     "s": "eu_gov",
+     "mode": "dette",
+     "ref": 60,
+     "items": [
+      [
+       "Union européenne",
+       81.5,
+       "eu"
+      ],
+      [
+       "Grèce",
+       145.4,
+       ""
+      ],
+      [
+       "Italie",
+       136.7,
+       ""
+      ],
+      [
+       "France",
+       115.7,
+       "fr"
+      ],
+      [
+       "Belgique",
+       108.1,
+       ""
+      ],
+      [
+       "Espagne",
+       100.5,
+       ""
+      ],
+      [
+       "Portugal",
+       89.2,
+       ""
+      ],
+      [
+       "Finlande",
+       88.4,
+       ""
+      ],
+      [
+       "Autriche",
+       80.7,
+       ""
+      ],
+      [
+       "Hongrie",
+       74.4,
+       ""
+      ],
+      [
+       "Slovénie",
+       65.1,
+       ""
+      ],
+      [
+       "Allemagne",
+       62.8,
+       ""
+      ],
+      [
+       "Slovaquie",
+       60.5,
+       ""
+      ],
+      [
+       "Pologne",
+       59.6,
+       ""
+      ],
+      [
+       "Roumanie",
+       58.9,
+       ""
+      ],
+      [
+       "Croatie",
+       55.7,
+       ""
+      ],
+      [
+       "Chypre",
+       52.3,
+       ""
+      ],
+      [
+       "Malte",
+       46.3,
+       ""
+      ],
+      [
+       "Lettonie",
+       46.2,
+       ""
+      ],
+      [
+       "Pays-Bas",
+       44.7,
+       ""
+      ],
+      [
+       "Tchéquie",
+       44.2,
+       ""
+      ],
+      [
+       "Lituanie",
+       39.3,
+       ""
+      ],
+      [
+       "Suède",
+       35.1,
+       ""
+      ],
+      [
+       "Irlande",
+       34.8,
+       ""
+      ],
+      [
+       "Bulgarie",
+       29.9,
+       ""
+      ],
+      [
+       "Danemark",
+       27.2,
+       ""
+      ],
+      [
+       "Luxembourg",
+       26.0,
+       ""
+      ],
+      [
+       "Estonie",
+       24.0,
+       ""
+      ]
+     ],
+     "center": 60,
+     "scale": 150,
+     "only": [
+      "Belgique",
+      "France",
+      "Allemagne",
+      "Italie",
+      "Luxembourg",
+      "Pays-Bas",
+      "Danemark",
+      "Irlande",
+      "Grèce",
+      "Espagne",
+      "Portugal",
+      "Autriche",
+      "Finlande",
+      "Suède"
+     ],
+     "tip": "En rouge au-delà de la valeur de référence de 60 % du PIB (repère en pointillés), en bleu en dessous. Pays de l'UE à quinze (hors Royaume-Uni) encore membres. Source : Eurostat."
+    },
+    {
+     "t": "rules",
+     "l": "Règles européennes",
+     "s": "eurostat",
+     "items": [],
+     "facts": [
+      {
+       "t": "Depuis le 26 juillet 2024, la France est en procédure de déficit excessif. Le Conseil lui a recommandé le 21 janvier 2025 de mettre fin à cette situation d'ici 2029.",
+       "s": "conseil"
+      },
+      {
+       "t": "Depuis la réforme de 2024, la règle du vingtième annuel de réduction de la dette est abrogée. Une dette supérieure à 90 % du PIB doit baisser d'environ 1 point de PIB par an, et une dette entre 60 et 90 % d'environ 0,5 point par an.",
+       "s": "pe_regles"
+      },
+      {
+       "t": "Un déficit supérieur à 3 % du PIB doit être réduit ; en période de croissance, il doit être ramené à 1,5 % du PIB.",
+       "s": "pe_regles"
+      },
+      {
+       "t": "Pour les pays de la zone euro, l'article 126 du traité prévoit une amende pouvant atteindre 0,05 % du PIB par période de six mois tant que des mesures efficaces ne sont pas prises.",
+       "s": "pe_fiche"
+      },
+      {
+       "t": "La procédure de la France est toujours en cours : son dernier rapport sur les mesures prises date du 7 mai 2026.",
+       "s": "pde"
+      }
+     ]
+    },
+    {
+     "v": "13,6 %",
+     "l": "du budget de l'État en 2026 : mission « Engagements financiers de l'État »",
+     "s": "plf26",
+     "d": "60,4 Md€ de crédits de paiement sur 442,8 Md€, hors remboursements et dégrèvements d'impôts (projet de loi de finances) ; dont 58,6 Md€ de charge de la dette"
+    }
+   ],
+   "icon": "bank",
+   "color": "#3D4F8C",
+   "intro": "La dette publique au sens de Maastricht est la dette brute de l'ensemble des administrations publiques (État, collectivités locales, Sécurité sociale et organismes divers), consolidée et valorisée à sa valeur nominale. La dette nette en déduit la trésorerie et les actifs financiers les plus liquides détenus par les administrations. Le déficit public est le besoin de financement des administrations : la différence entre leurs dépenses et leurs recettes sur l'année. Les prélèvements obligatoires regroupent impôts et cotisations sociales. Les ratios sont exprimés en part du produit intérieur brut (PIB), la richesse produite en un an."
+  },
+  {
+   "id": "impots",
+   "title": "Impôts : qui paie quoi",
+   "icon": "coins",
+   "color": "#2F6F8F",
+   "intro": "Pour la répartition entre ménages, l'Insee publie des comptes nationaux de 2023, calculés par part du foyer : le revenu du ménage est divisé par son nombre d'unités de consommation (un adulte seul = 1, chaque autre personne de 14 ans ou plus = 0,5, chaque enfant de moins de 14 ans = 0,3). Ainsi, 8 000 € par mois pour une famille de quatre personnes équivalent à une base de calcul d'environ 2 000 € par mois et par part. L'Insee publie les résultats par dixième de la population ; je les ai regroupés dans les cinq tranches de revenu par part demandées, d'après le revenu moyen de chaque dixième. Les impôts sur les revenus et le patrimoine regroupent notamment l'impôt sur le revenu et l'impôt sur la fortune immobilière. La TVA et les autres impôts sur la consommation ne sont pas répartis par groupe. Les recettes par impôt de 2025 sont provisoires.",
+   "tiles": [
+    {
+     "v": "208,8 Md€",
+     "l": "TVA, premier impôt en 2025",
+     "s": "impots",
+     "d": "Suivent la CSG (156,6 Md€) et l'impôt sur le revenu (95 Md€, net des crédits d'impôt)",
+     "p": "Données provisoires"
+    },
+    {
+     "t": "bars",
+     "l": "Recettes par impôt, 2025",
+     "unit": "Md€",
+     "s": "impots",
+     "items": [
+      [
+       "TVA",
+       208.8
+      ],
+      [
+       "CSG",
+       156.6
+      ],
+      [
+       "Autres impôts sur les produits",
+       128.1
+      ],
+      [
+       "Impôt sur le revenu",
+       95.0
+      ],
+      [
+       "Impôt sur les sociétés",
+       61.8
+      ],
+      [
+       "Impôts sur les salaires et la main-d'œuvre",
+       60.1
+      ],
+      [
+       "Taxe foncière",
+       44.2
+      ],
+      [
+       "Impôts en capital",
+       21.7
+      ],
+      [
+       "CRDS",
+       9.3
+      ],
+      [
+       "Impôt sur la fortune immobilière",
+       2.7
+      ]
+     ],
+     "s2": "dgfip",
+     "nowrap": true,
+     "tip": "L'impôt sur le revenu et l'impôt sur les sociétés sont nets des crédits d'impôt. Données provisoires."
+    },
+    {
+     "t": "table",
+     "l": "Impôt sur le revenu par dixième, 2021",
+     "tip": "Données Insee par dixième de la population classé par niveau de vie, année 2021 (la dernière avec ce détail), montants en euros de 2024. L'impôt regroupe l'impôt sur le revenu et sur le patrimoine.",
+     "s": "rpm21",
+     "s2": "nvdec",
+     "head": [
+      {
+       "h": "Groupe",
+       "tip": "Dix groupes de même taille (10 % de la population chacun), classés par niveau de vie, du plus modeste au plus aisé. Les classes moyennes se trouvent du 4e au 8e dixième."
+      },
+      {
+       "h": "Niveau de vie",
+       "tip": "Niveau de vie moyen par mois et par unité de consommation, après impôts et prestations, en euros de 2024 : revenu du ménage divisé par son nombre d'unités (un adulte = 1, une autre personne de 14 ans ou plus = 0,5, un enfant de moins de 14 ans = 0,3)."
+      },
+      {
+       "h": "Impôt par mois",
+       "tip": "Impôt sur le revenu et sur le patrimoine payé en moyenne par mois et par unité de consommation. Calculé en appliquant la part de l'impôt dans le niveau de vie au niveau de vie moyen du groupe."
+      },
+      {
+       "h": "Part du niveau de vie",
+       "tip": "Impôt sur le revenu et sur le patrimoine rapporté au niveau de vie du groupe, tel que publié par l'Insee."
+      },
+      {
+       "h": "Part de l'impôt",
+       "tip": "Part du total de l'impôt sur le revenu et le patrimoine payée par le groupe."
+      }
+     ],
+     "rows": [
+      [
+       "1er dixième (le plus modeste)",
+       "828 €",
+       "17 €",
+       "2,0 %",
+       "1,1 %"
+      ],
+      [
+       "2e dixième",
+       "1 314 €",
+       "5 €",
+       "0,4 %",
+       "0,4 %"
+      ],
+      [
+       "3e dixième",
+       "1 593 €",
+       "10 €",
+       "0,6 %",
+       "0,7 %"
+      ],
+      [
+       "4e dixième",
+       "1 838 €",
+       "13 €",
+       "0,7 %",
+       "0,9 %"
+      ],
+      [
+       "5e dixième",
+       "2 062 €",
+       "29 €",
+       "1,4 %",
+       "2,0 %"
+      ],
+      [
+       "6e dixième",
+       "2 296 €",
+       "44 €",
+       "1,9 %",
+       "3,0 %"
+      ],
+      [
+       "7e dixième",
+       "2 562 €",
+       "100 €",
+       "3,9 %",
+       "6,8 %"
+      ],
+      [
+       "8e dixième",
+       "2 911 €",
+       "140 €",
+       "4,8 %",
+       "9,6 %"
+      ],
+      [
+       "9e dixième",
+       "3 478 €",
+       "254 €",
+       "7,3 %",
+       "17,4 %"
+      ],
+      [
+       "10e dixième (le plus aisé)",
+       "6 084 €",
+       "852 €",
+       "14,0 %",
+       "58,3 %"
+      ]
+     ]
+    },
+    {
+     "t": "donut",
+     "l": "Part des impôts payée, 2023",
+     "unit": "%",
+     "s": "cdm",
+     "items": [
+      [
+       "Moins de 1 000 €",
+       1.7
+      ],
+      [
+       "1 001 à 2 000 €",
+       4.1
+      ],
+      [
+       "2 001 à 5 000 €",
+       34.0
+      ],
+      [
+       "5 001 à 10 000 €",
+       15.8
+      ],
+      [
+       "Plus de 10 000 €",
+       44.4
+      ]
+     ],
+     "tip": "Impôts sur les revenus et le patrimoine : part du total payée par chaque tranche de revenu par part."
+    },
+    {
+     "t": "donut",
+     "l": "Part des cotisations payée, 2023",
+     "unit": "%",
+     "s": "cdm",
+     "items": [
+      [
+       "Moins de 1 000 €",
+       1.1
+      ],
+      [
+       "1 001 à 2 000 €",
+       6.8
+      ],
+      [
+       "2 001 à 5 000 €",
+       44.7
+      ],
+      [
+       "5 001 à 10 000 €",
+       17.1
+      ],
+      [
+       "Plus de 10 000 €",
+       30.2
+      ]
+     ],
+     "tip": "Cotisations sociales : part du total payée par chaque tranche de revenu par part."
+    },
+    {
+     "t": "bars",
+     "l": "Impôts par catégorie, % du revenu, 2023",
+     "unit": "%",
+     "s": "cdm",
+     "items": [
+      [
+       "Retraités (4 300 € par an et par UC)",
+       29.7
+      ],
+      [
+       "Cadres, indépendants, chefs d'entreprise (12 200 €)",
+       14.6
+      ],
+      [
+       "Professions intermédiaires (5 500 €)",
+       10.0
+      ],
+      [
+       "Employés (3 500 €)",
+       9.7
+      ],
+      [
+       "Ouvriers (3 100 €)",
+       8.6
+      ]
+     ],
+     "tip": "Impôts sur les revenus et le patrimoine rapportés au revenu primaire brut de chaque catégorie de ménages. Le montant par part et par an est indiqué à côté du nom."
+    },
+    {
+     "t": "bars",
+     "l": "Cotisations par catégorie, % du revenu, 2023",
+     "unit": "%",
+     "s": "cdm",
+     "items": [
+      [
+       "Ouvriers (10 900 € par an et par UC)",
+       30.1
+      ],
+      [
+       "Cadres, indépendants, chefs d'entreprise (24 300 €)",
+       29.1
+      ],
+      [
+       "Professions intermédiaires (16 000 €)",
+       29.1
+      ],
+      [
+       "Employés (10 200 €)",
+       28.3
+      ],
+      [
+       "Retraités (900 €)",
+       6.2
+      ]
+     ],
+     "tip": "Cotisations sociales rapportées au revenu primaire brut de chaque catégorie de ménages. Le montant par part et par an est indiqué à côté du nom."
+    }
+   ]
+  },
+  {
+   "id": "immigration",
+   "title": "Immigration",
+   "tiles": [
+    {
+     "v": "7,97 millions",
+     "l": "d'immigrés en France en 2025",
+     "s": "immigres",
+     "d": "11,6 % des 68,85 millions d'habitants"
+    },
+    {
+     "v": "6,30 millions",
+     "l": "Étrangers en France en 2025 (provisoire)",
+     "s": "immigres",
+     "d": "9,1 % de la population"
+    },
+    {
+     "t": "donut",
+     "l": "Population par nationalité, 2025",
+     "items": [
+      [
+       "Français de naissance",
+       86.0
+      ],
+      [
+       "Français par acquisition",
+       4.8
+      ],
+      [
+       "Étrangers",
+       9.1
+      ]
+     ],
+     "unit": "%",
+     "s": "immigres",
+     "tip": "Données provisoires de l'Insee."
+    },
+    {
+     "v": "377K à 384K",
+     "l": "Premiers titres de séjour délivrés en 2025, selon la version provisoire ou révisée",
+     "s": "sejour",
+     "d": "Environ 4,5 millions d'étrangers avec un titre en cours de validité fin 2025 (8,1 % de la population)"
+    },
+    {
+     "v": "116 476",
+     "l": "Premières demandes d'asile en guichet unique en 2025",
+     "s": "asile",
+     "p": "−10 % sur un an"
+    },
+    {
+     "v": "145 211",
+     "l": "Demandes d'asile enregistrées par l'Ofpra en 2025",
+     "s": "ofpra",
+     "d": "156 500 décisions rendues en 2025",
+     "p": "−5,5 % sur un an"
+    },
+    {
+     "t": "rank",
+     "l": "Population née à l'étranger, 2025",
+     "unit": "%",
+     "s": "eu_born",
+     "items": [
+      [
+       "Union européenne",
+       14.4,
+       "eu"
+      ],
+      [
+       "Luxembourg",
+       51.5,
+       ""
+      ],
+      [
+       "Malte",
+       32.0,
+       ""
+      ],
+      [
+       "Chypre",
+       27.6,
+       ""
+      ],
+      [
+       "Irlande",
+       23.3,
+       ""
+      ],
+      [
+       "Autriche",
+       22.5,
+       ""
+      ],
+      [
+       "Suède",
+       20.8,
+       ""
+      ],
+      [
+       "Allemagne",
+       20.5,
+       ""
+      ],
+      [
+       "Belgique",
+       20.2,
+       ""
+      ],
+      [
+       "Espagne",
+       19.3,
+       ""
+      ],
+      [
+       "Estonie",
+       17.8,
+       ""
+      ],
+      [
+       "Pays-Bas",
+       16.8,
+       ""
+      ],
+      [
+       "Portugal (2024)",
+       16.0,
+       ""
+      ],
+      [
+       "Slovénie",
+       15.5,
+       ""
+      ],
+      [
+       "Danemark",
+       14.4,
+       ""
+      ],
+      [
+       "Croatie",
+       14.1,
+       ""
+      ],
+      [
+       "France",
+       14.0,
+       "fr"
+      ],
+      [
+       "Italie",
+       11.8,
+       ""
+      ],
+      [
+       "Lettonie",
+       11.6,
+       ""
+      ],
+      [
+       "Grèce",
+       11.0,
+       ""
+      ],
+      [
+       "Tchéquie",
+       10.0,
+       ""
+      ],
+      [
+       "Finlande",
+       10.0,
+       ""
+      ],
+      [
+       "Lituanie",
+       9.7,
+       ""
+      ],
+      [
+       "Hongrie",
+       7.3,
+       ""
+      ],
+      [
+       "Roumanie",
+       6.2,
+       ""
+      ],
+      [
+       "Slovaquie",
+       4.0,
+       ""
+      ],
+      [
+       "Bulgarie",
+       3.8,
+       ""
+      ],
+      [
+       "Pologne",
+       2.6,
+       ""
+      ]
+     ],
+     "only": [
+      "Belgique",
+      "France",
+      "Allemagne",
+      "Italie",
+      "Luxembourg",
+      "Pays-Bas",
+      "Danemark",
+      "Irlande",
+      "Grèce",
+      "Espagne",
+      "Portugal (2024)",
+      "Autriche",
+      "Finlande",
+      "Suède"
+     ],
+     "tip": "Au 1er janvier 2025, en % de la population. Pays de l'UE à quinze (hors Royaume-Uni) encore membres ; Portugal : 2024. Calcul à partir des effectifs Eurostat."
+    },
+    {
+     "v": "0,5 %",
+     "l": "du budget de l'État en 2026 : mission « Immigration, asile et intégration »",
+     "s": "plf26",
+     "d": "2,2 Md€ de crédits de paiement sur 442,8 Md€, hors remboursements et dégrèvements d'impôts (projet de loi de finances)"
+    }
+   ],
+   "icon": "globe-hemisphere-west",
+   "color": "#3F7A6E",
+   "intro": "L'Insee distingue deux notions qui se recoupent sans se confondre. Un immigré est une personne née étrangère à l'étranger et résidant en France : elle peut être devenue française. Un étranger est une personne qui n'a pas la nationalité française : elle peut être née en France. Les premiers titres de séjour sont ceux délivrés pour la première fois à un étranger ; les demandes d'asile sont enregistrées en guichet unique (Guda) puis instruites par l'Ofpra."
+  },
+  {
+   "id": "sante",
+   "title": "Santé et hôpital",
+   "tiles": [
+    {
+     "v": "353 Md€",
+     "l": "Dépense courante de santé en 2025",
+     "s": "cns26",
+     "d": "11,8 % du PIB, soit 5 130 € par habitant",
+     "p": "+3,3 % sur un an"
+    },
+    {
+     "t": "bars",
+     "l": "Financement par habitant, 2025",
+     "items": [
+      [
+       "Sécurité sociale",
+       3620
+      ],
+      [
+       "Organismes complémentaires",
+       630
+      ],
+      [
+       "Reste à charge des ménages",
+       495
+      ],
+      [
+       "État et collectivités",
+       353
+      ],
+      [
+       "Entreprises",
+       32
+      ]
+     ],
+     "unit": "€",
+     "s": "cns26"
+    },
+    {
+     "t": "bars",
+     "l": "Postes de dépense, 2025",
+     "items": [
+      [
+       "Soins hospitaliers",
+       124
+      ],
+      [
+       "Soins ambulatoires",
+       75
+      ],
+      [
+       "Soins de longue durée",
+       70
+      ],
+      [
+       "Biens médicaux",
+       57
+      ],
+      [
+       "Gestion du système de santé",
+       18
+      ],
+      [
+       "Prévention",
+       9
+      ]
+     ],
+     "unit": "Md€",
+     "s": "cns26"
+    },
+    {
+     "v": "34,5 Md€",
+     "l": "Dépense de médicaments en 2024",
+     "s": "cns25",
+     "d": "Hôpital public : 93,7 Md€ ; secteur hospitalier privé : 27,1 Md€",
+     "p": "+4,6 % sur un an"
+    },
+    {
+     "v": "237 214",
+     "l": "Médecins au 1er janvier 2025",
+     "s": "medecins",
+     "d": "346 pour 100 000 habitants : 146 généralistes et 200 spécialistes"
+    },
+    {
+     "v": "21,6 Md€",
+     "l": "Déficit de la Sécurité sociale en 2025",
+     "s": "secu",
+     "d": "Cour des comptes, rapport de mai 2026 ; 19,4 Md€ prévus en 2026, dépassement attendu"
+    },
+    {
+     "v": "≈ 3 Md€",
+     "l": "Déficit des hôpitaux publics en 2024",
+     "s": "fhf",
+     "d": "Estimations de 2,7 à 3,5 Md€ selon la source"
+    },
+    {
+     "v": "0,4 %",
+     "l": "du budget de l'État en 2026 : mission « Santé »",
+     "s": "plf26",
+     "d": "1,7 Md€ de crédits de paiement sur 442,8 Md€, hors remboursements et dégrèvements d'impôts (projet de loi de finances) ; la Sécurité sociale finance l'essentiel de la dépense de santé"
+    }
+   ],
+   "icon": "heartbeat",
+   "color": "#A23B63",
+   "intro": "La dépense courante de santé au sens international rassemble les soins hospitaliers et ambulatoires, les biens médicaux (médicaments, dispositifs), les soins de longue durée, la prévention et la gestion du système. Le reste à charge est la part payée directement par les ménages après remboursement de la Sécurité sociale et des complémentaires. Le déficit de la Sécurité sociale est l'écart entre ses recettes et ses dépenses sur l'année."
+  },
+  {
+   "id": "education",
+   "title": "Éducation",
+   "tiles": [
+    {
+     "v": "6,155 millions",
+     "l": "Élèves du premier degré à la rentrée 2025",
+     "s": "prim",
+     "d": "106 900 élèves de moins qu'à la rentrée 2024",
+     "p": "−1,7 % sur un an"
+    },
+    {
+     "v": "5,621 millions",
+     "l": "Élèves du second degré à la rentrée 2025",
+     "s": "sec",
+     "p": "−0,3 % sur un an"
+    },
+    {
+     "v": "852 800",
+     "l": "Enseignants en 2024-2025",
+     "s": "rers",
+     "d": "712 800 dans le public, 139 900 dans le privé sous contrat ; 1,2 million de personnels au total"
+    },
+    {
+     "v": "18,4",
+     "l": "Élèves par enseignant dans le premier degré public, rentrée 2024",
+     "s": "rers",
+     "d": "12,8 dans le second degré public"
+    },
+    {
+     "v": "10 %",
+     "l": "Adultes de 18 à 64 ans en difficulté à l'écrit en 2022",
+     "s": "illet",
+     "d": "4 % en situation d'illettrisme parmi ceux scolarisés en France ; 36 % chez les sans-diplôme"
+    },
+    {
+     "v": "20,2 %",
+     "l": "du budget de l'État en 2026 : mission « Enseignement scolaire »",
+     "s": "plf26",
+     "d": "89,6 Md€ de crédits de paiement sur 442,8 Md€, hors remboursements et dégrèvements d'impôts (projet de loi de finances)"
+    },
+    {
+     "v": "7,1 %",
+     "l": "du budget de l'État en 2026 : mission « Recherche et enseignement supérieur »",
+     "s": "plf26",
+     "d": "31,5 Md€ de crédits de paiement sur 442,8 Md€, hors remboursements et dégrèvements d'impôts (projet de loi de finances)"
+    }
+   ],
+   "icon": "graduation-cap",
+   "color": "#6D4FA3",
+   "intro": "Le premier degré regroupe la maternelle et l'élémentaire, le second degré le collège et le lycée. Le nombre d'élèves par enseignant rapporte l'effectif d'élèves au nombre d'enseignants en équivalents temps plein. L'illettrisme désigne les personnes scolarisées en France qui n'ont pas acquis la maîtrise de la lecture, de l'écriture ou du calcul ; il se distingue de l'analphabétisme, qui concerne les personnes jamais scolarisées."
+  },
+  {
+   "id": "pauvrete",
+   "title": "Pauvreté et niveau de vie",
+   "tiles": [
+    {
+     "v": "15,4 %",
+     "l": "Taux de pauvreté en 2024",
+     "s": "pauv",
+     "d": "Niveau le plus haut depuis 1996 ; 9,8 millions de personnes sous le seuil de 1 337 € par mois"
+    },
+    {
+     "v": "22,4 %",
+     "l": "Enfants de moins de 18 ans pauvres en 2024",
+     "s": "pauv",
+     "p": "+0,5 point sur un an"
+    },
+    {
+     "v": "36,1 %",
+     "l": "Taux de pauvreté des chômeurs en 2024",
+     "s": "pauv",
+     "d": "34,0 % pour les familles monoparentales, 10,4 % pour les retraités"
+    },
+    {
+     "v": "26 740 €",
+     "l": "Niveau de vie médian annuel par unité de consommation en 2024",
+     "s": "pauv",
+     "d": "2 228 € par mois pour une personne seule"
+    },
+    {
+     "v": "0,302",
+     "l": "Indice de Gini en 2024",
+     "s": "pauv",
+     "d": "Maximum depuis 1996"
+    },
+    {
+     "v": "6,7 %",
+     "l": "du budget de l'État en 2026 : mission « Solidarité, insertion et égalité des chances »",
+     "s": "plf26",
+     "d": "29,5 Md€ de crédits de paiement sur 442,8 Md€, hors remboursements et dégrèvements d'impôts (projet de loi de finances)"
+    }
+   ],
+   "icon": "hand-heart",
+   "color": "#9A6B1E",
+   "intro": "Le taux de pauvreté monétaire est la part de la population dont le niveau de vie est inférieur à 60 % du niveau de vie médian. Le niveau de vie est le revenu disponible du ménage divisé par le nombre d'unités de consommation ; la médiane partage la population en deux moitiés égales. L'indice de Gini mesure les inégalités de niveau de vie : 0 correspond à l'égalité parfaite, 1 à l'inégalité maximale."
+  },
+  {
+   "id": "emploi",
+   "title": "Emploi",
+   "tiles": [
+    {
+     "v": "8,3 %",
+     "l": "Taux de chômage au T2 2026",
+     "s": "chom",
+     "d": "2,68 millions de chômeurs ; +0,7 point sur un an (±0,3 point)",
+     "p": "+0,2 point sur le trimestre"
+    },
+    {
+     "v": "69,0 %",
+     "l": "Taux d'emploi des 15-64 ans au T2 2026",
+     "s": "chom",
+     "d": "−0,5 point sur un an",
+     "p": "−0,3 point sur le trimestre"
+    },
+    {
+     "v": "21,6 %",
+     "l": "Taux de chômage des 15-24 ans au T2 2026",
+     "s": "chom",
+     "p": "+2,5 points sur un an"
+    },
+    {
+     "v": "1,87 million",
+     "l": "Personnes dans le halo autour du chômage au T2 2026",
+     "s": "chom",
+     "d": "4,4 % des 15-64 ans"
+    },
+    {
+     "v": "4,0 %",
+     "l": "du budget de l'État en 2026 : mission « Travail, emploi et administration des ministères sociaux »",
+     "s": "plf26",
+     "d": "17,6 Md€ de crédits de paiement sur 442,8 Md€, hors remboursements et dégrèvements d'impôts (projet de loi de finances)"
+    }
+   ],
+   "icon": "briefcase",
+   "color": "#3F7F4A",
+   "intro": "Le taux de chômage au sens du Bureau international du travail (BIT) est la part des chômeurs dans la population active : sont chômeurs les personnes sans emploi, disponibles dans les deux semaines et qui cherchent activement un emploi ou en ont trouvé un qui commence dans les trois mois. Le taux d'emploi est la part des 15-64 ans qui occupent un emploi. Le halo autour du chômage regroupe les personnes sans emploi qui souhaitent travailler mais ne sont pas comptées comme chômeurs."
+  }
+ ]
+}
