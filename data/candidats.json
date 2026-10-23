@@ -61,6 +61,13 @@
     }
    ],
    "resultsNote": null,
+   "mandats": [
+    [
+     2008,
+     2014,
+     "Conseillère municipale de Vaulx-en-Velin"
+    ]
+   ],
    "source": {
     "label": "Wikipédia · Nathalie Arthaud",
     "url": "https://fr.wikipedia.org/wiki/Nathalie_Arthaud"
@@ -120,6 +127,7 @@
     }
    ],
    "resultsNote": "Révolution permanente, indépendante du NPA depuis 2021, n'a jamais figuré sur un bulletin de présidentielle.",
+   "mandats": [],
    "source": {
     "label": "Wikipédia · Anasse Kazib",
     "url": "https://fr.wikipedia.org/wiki/Anasse_Kazib"
@@ -167,6 +175,7 @@
     }
    ],
    "resultsNote": "Selma Labib n'a jamais été candidate : ces scores sont ceux du NPA, dont le NPA – Révolutionnaires est issu, avec Philippe Poutou.",
+   "mandats": [],
    "source": {
     "label": "Wikipédia · Nouveau Parti anticapitaliste",
     "url": "https://fr.wikipedia.org/wiki/Nouveau_Parti_anticapitaliste"
@@ -230,6 +239,48 @@
     }
    ],
    "resultsNote": null,
+   "mandats": [
+    [
+     2017,
+     2022,
+     "Député des Bouches-du-Rhône"
+    ],
+    [
+     2009,
+     2017,
+     "Député européen"
+    ],
+    [
+     2004,
+     2010,
+     "Sénateur de l'Essonne"
+    ],
+    [
+     2000,
+     2002,
+     "Ministre délégué à l'Enseignement professionnel"
+    ],
+    [
+     1998,
+     2004,
+     "Conseiller général de l'Essonne, président délégué du conseil général"
+    ],
+    [
+     1986,
+     2000,
+     "Sénateur de l'Essonne"
+    ],
+    [
+     1989,
+     1995,
+     "Adjoint au maire de Massy"
+    ],
+    [
+     1985,
+     1992,
+     "Conseiller général de l'Essonne"
+    ]
+   ],
    "source": {
     "label": "Wikipédia · Jean-Luc Mélenchon",
     "url": "https://fr.wikipedia.org/wiki/Jean-Luc_M%C3%A9lenchon"
@@ -293,6 +344,23 @@
     }
    ],
    "resultsNote": "En 2012 et 2017, le PCF n'avait pas de candidat propre.",
+   "mandats": [
+    [
+     2025,
+     null,
+     "Maire de Saint-Amand-les-Eaux"
+    ],
+    [
+     2017,
+     2024,
+     "Député du Nord"
+    ],
+    [
+     2014,
+     null,
+     "Conseiller municipal de Saint-Amand-les-Eaux"
+    ]
+   ],
    "source": {
     "label": "Wikipédia · Fabien Roussel",
     "url": "https://fr.wikipedia.org/wiki/Fabien_Roussel"
@@ -348,6 +416,13 @@
     }
    ],
    "resultsNote": "Place publique, fondée en 2018, n'a jamais présenté de candidat à une présidentielle.",
+   "mandats": [
+    [
+     2019,
+     null,
+     "Député européen"
+    ]
+   ],
    "source": {
     "label": "Wikipédia · Raphaël Glucksmann",
     "url": "https://fr.wikipedia.org/wiki/Rapha%C3%ABl_Glucksmann"
@@ -407,6 +482,23 @@
     }
    ],
    "resultsNote": "Karim Bouamrane n'a jamais été candidat : ces scores sont ceux du candidat du Parti socialiste.",
+   "mandats": [
+    [
+     2021,
+     null,
+     "Conseiller départemental de la Seine-Saint-Denis, vice-président du département"
+    ],
+    [
+     2020,
+     null,
+     "Maire de Saint-Ouen-sur-Seine"
+    ],
+    [
+     1995,
+     2014,
+     "Conseiller municipal de Saint-Ouen"
+    ]
+   ],
    "source": {
     "label": "Wikipédia · Karim Bouamrane",
     "url": "https://fr.wikipedia.org/wiki/Karim_Bouamrane"
@@ -470,6 +562,18 @@
     }
    ],
    "resultsNote": "Marine Tondelier n'a jamais été candidate : ces scores sont ceux du candidat des écologistes.",
+   "mandats": [
+    [
+     2021,
+     null,
+     "Conseillère régionale des Hauts-de-France"
+    ],
+    [
+     2014,
+     2026,
+     "Conseillère municipale d'Hénin-Beaumont et conseillère communautaire"
+    ]
+   ],
    "source": {
     "label": "Wikipédia · Marine Tondelier",
     "url": "https://fr.wikipedia.org/wiki/Marine_Tondelier"
@@ -529,6 +633,38 @@
     }
    ],
    "resultsNote": "Horizons, créé en 2021, n'a jamais présenté de candidat propre.",
+   "mandats": [
+    [
+     2020,
+     null,
+     "Maire du Havre et président de Havre Seine Métropole"
+    ],
+    [
+     2017,
+     2020,
+     "Premier ministre"
+    ],
+    [
+     2012,
+     2017,
+     "Député de la Seine-Maritime"
+    ],
+    [
+     2010,
+     2017,
+     "Maire du Havre et président de l'agglomération havraise"
+    ],
+    [
+     2008,
+     2012,
+     "Conseiller général de la Seine-Maritime"
+    ],
+    [
+     2004,
+     2008,
+     "Conseiller régional de Haute-Normandie"
+    ]
+   ],
    "source": {
     "label": "Wikipédia · Édouard Philippe",
     "url": "https://fr.wikipedia.org/wiki/%C3%89douard_Philippe"
@@ -588,6 +724,48 @@
     }
    ],
    "resultsNote": "Gabriel Attal n'a jamais été candidat : ces scores sont ceux d'Emmanuel Macron, fondateur du parti.",
+   "mandats": [
+    [
+     2024,
+     null,
+     "Député des Hauts-de-Seine (depuis juillet)"
+    ],
+    [
+     2024,
+     2024,
+     "Premier ministre"
+    ],
+    [
+     2023,
+     2024,
+     "Ministre de l'Éducation nationale et de la Jeunesse"
+    ],
+    [
+     2022,
+     2023,
+     "Ministre délégué chargé des Comptes publics"
+    ],
+    [
+     2020,
+     2022,
+     "Secrétaire d'État, porte-parole du gouvernement"
+    ],
+    [
+     2018,
+     2020,
+     "Secrétaire d'État auprès du ministre de l'Éducation nationale"
+    ],
+    [
+     2017,
+     2018,
+     "Député des Hauts-de-Seine"
+    ],
+    [
+     2014,
+     null,
+     "Conseiller municipal de Vanves"
+    ]
+   ],
    "source": {
     "label": "Wikipédia · Gabriel Attal",
     "url": "https://fr.wikipedia.org/wiki/Gabriel_Attal"
@@ -647,6 +825,48 @@
     }
    ],
    "resultsNote": "Bruno Retailleau n'a jamais été candidat : ces scores sont ceux du candidat de la droite (UMP puis LR).",
+   "mandats": [
+    [
+     2025,
+     null,
+     "Sénateur de la Vendée"
+    ],
+    [
+     2024,
+     2025,
+     "Ministre de l'Intérieur"
+    ],
+    [
+     2004,
+     2024,
+     "Sénateur de la Vendée"
+    ],
+    [
+     2016,
+     2017,
+     "Président du conseil régional des Pays de la Loire"
+    ],
+    [
+     2010,
+     2015,
+     "Président du conseil général de la Vendée"
+    ],
+    [
+     1998,
+     2004,
+     "Vice-président du conseil régional des Pays de la Loire"
+    ],
+    [
+     1994,
+     1997,
+     "Député de la Vendée"
+    ],
+    [
+     1988,
+     2015,
+     "Conseiller général de la Vendée"
+    ]
+   ],
    "source": {
     "label": "Wikipédia · Bruno Retailleau",
     "url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau"
@@ -702,6 +922,28 @@
     }
    ],
    "resultsNote": "Nouvelle Énergie n'a jamais présenté de candidat à une présidentielle.",
+   "mandats": [
+    [
+     2021,
+     null,
+     "Président de l'Association des maires de France"
+    ],
+    [
+     2017,
+     null,
+     "Président de l'agglomération Cannes Pays de Lérins"
+    ],
+    [
+     2014,
+     null,
+     "Maire de Cannes, vice-président du conseil départemental"
+    ],
+    [
+     2008,
+     null,
+     "Conseiller général puis départemental des Alpes-Maritimes"
+    ]
+   ],
    "source": {
     "label": "Wikipédia · David Lisnard",
     "url": "https://fr.wikipedia.org/wiki/David_Lisnard"
@@ -765,6 +1007,33 @@
     }
    ],
    "resultsNote": null,
+   "mandats": [
+    [
+     2026,
+     null,
+     "Maire d'Yerres"
+    ],
+    [
+     1997,
+     2024,
+     "Député de l'Essonne"
+    ],
+    [
+     2016,
+     2017,
+     "Président de l'agglomération Val d'Yerres Val de Seine"
+    ],
+    [
+     2002,
+     2015,
+     "Président de l'agglomération du Val d'Yerres"
+    ],
+    [
+     1995,
+     2017,
+     "Maire d'Yerres"
+    ]
+   ],
    "source": {
     "label": "Wikipédia · Nicolas Dupont-Aignan",
     "url": "https://fr.wikipedia.org/wiki/Nicolas_Dupont-Aignan"
@@ -828,6 +1097,33 @@
     }
    ],
    "resultsNote": null,
+   "mandats": [
+    [
+     2017,
+     null,
+     "Députée du Pas-de-Calais"
+    ],
+    [
+     2021,
+     2025,
+     "Conseillère départementale du Pas-de-Calais"
+    ],
+    [
+     2004,
+     2017,
+     "Députée européenne"
+    ],
+    [
+     2010,
+     2021,
+     "Conseillère régionale du Nord-Pas-de-Calais puis des Hauts-de-France"
+    ],
+    [
+     1998,
+     2010,
+     "Conseillère régionale d'Île-de-France"
+    ]
+   ],
    "source": {
     "label": "Wikipédia · Marine Le Pen",
     "url": "https://fr.wikipedia.org/wiki/Marine_Le_Pen"
@@ -887,6 +1183,7 @@
     }
    ],
    "resultsNote": null,
+   "mandats": [],
    "source": {
     "label": "Wikipédia · Éric Zemmour",
     "url": "https://fr.wikipedia.org/wiki/%C3%89ric_Zemmour"

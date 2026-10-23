@@ -529,3 +529,9 @@ body.no-scroll{overflow:hidden}
   .site-header nav{gap:0}
   .site-header nav a{padding:6px 9px;font-size:.84rem}
 }
+
+.cd-mandats{display:flex;flex-direction:column;gap:6px}
+.cd-mandats li{display:flex;gap:12px;font-size:.88rem;padding:7px 10px;background:#F8F9FC;border-radius:8px}
+.cd-mandats b{flex:none;width:7.5em;font-variant-numeric:tabular-nums}
+.cd-none{font-size:.86rem;color:var(--muted)}
+.cd-res-round{flex:none;width:5.6em;font-size:.76rem;color:var(--muted)}

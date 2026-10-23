@@ -2,7 +2,7 @@
   var NUANCE_COLORS={'Extrême gauche':'#7F1D2D','Gauche radicale':'#C8312B','Gauche':'#E0678A','Centre':'#D99A00','Droite':'#2F6BC4','Extrême droite':'#121B33'};
   var POLL_NAME={arthaud:'Arthaud',melenchon:'Mélenchon',roussel:'Roussel',tondelier:'Tondelier',glucksmann:'Glucksmann',attal:'Attal',philippe:'Philippe',
     lisnard:'Lisnard',retailleau:'Retailleau',dupontaignan:'Dupont-Aignan',lepen:'Le Pen',zemmour:'Zemmour'};
-  var BAR_MAX=40;
+  
   var $=function(id){return document.getElementById(id)};
   var cands, info, polls, byId={}, lastFocus=null, tab='bio';
   var drawer=$('drawer'), overlay=$('overlay');
@@ -64,12 +64,22 @@
     box.appendChild(el('p','cd-poll-src','Moyenne de '+p.polls+' sondage'+(p.polls>1?'s':'')+', semaine '+weekLabel(p.week)+'.'));
   }
 
+  function years(m){return m[1]===null?'depuis '+m[0]:m[0]===m[1]?String(m[0]):m[0]+' – '+m[1]}
   function renderBio(c,i){
     var p=$('panel-bio'); p.innerHTML='';
     p.appendChild(el('p','cd-bio',i.bio));
+    p.appendChild(el('h3','cd-h','Mandats et fonctions'));
+    if(!i.mandats.length) p.appendChild(el('p','cd-none','Aucun mandat électif ni fonction gouvernementale.'));
+    else {
+      var ml=el('ul','cd-mandats');
+      i.mandats.slice().sort(function(a,b){return b[0]-a[0]||(b[1]||9999)-(a[1]||9999)}).forEach(function(m){
+        var li=el('li'); li.appendChild(el('b',null,years(m))); li.appendChild(el('span',null,m[2])); ml.appendChild(li);
+      });
+      p.appendChild(ml);
+    }
     p.appendChild(el('h3','cd-h','Repères'));
     var ol=el('ol','cd-timeline');
-    i.reperes.forEach(function(r){var li=el('li'); li.appendChild(el('b',null,String(r[0]))); li.appendChild(el('span',null,r[1])); ol.appendChild(li)});
+    i.reperes.slice().reverse().forEach(function(r){var li=el('li'); li.appendChild(el('b',null,String(r[0]))); li.appendChild(el('span',null,r[1])); ol.appendChild(li)});
     p.appendChild(ol);
     var src=el('p','cd-src'); src.appendChild(document.createTextNode('Source : ')); src.appendChild(link(i.source.url,i.source.label+' ↗')); p.appendChild(src);
   }
@@ -79,16 +89,18 @@
     var own=i.results.some(function(r){return r.who===c.name}) ;
     p.appendChild(el('p','cd-lead',own?'Résultats du candidat au premier tour, avec le second tour pour les finalistes.':'Résultats du premier tour pour le candidat du camp (à défaut du candidat lui-même).'));
     var ul=el('ul','cd-res');
-    i.results.forEach(function(r){
+    i.results.slice().sort(function(a,b){return b.year-a.year}).forEach(function(r){
       var li=el('li','cd-res-item'); li.style.setProperty('--k',color(c));
       var head=el('div','cd-res-head'); head.appendChild(el('b',null,String(r.year)));
       var a=link(info.__elections[r.year],'Élection de '+r.year+' ↗'); a.className='cd-res-link'; head.appendChild(a); li.appendChild(head);
       if(r.who){
         li.appendChild(el('p','cd-res-who',r.who+' · '+r.party));
-        var bar=el('div','cd-res-bar'), fill=el('span'); fill.style.width=Math.min(100,r.t1/BAR_MAX*100)+'%'; bar.appendChild(fill);
-        bar.setAttribute('role','img'); bar.setAttribute('aria-label','Premier tour : '+num(r.t1.toFixed(2))+' %');
-        var line=el('div','cd-res-line'); line.appendChild(bar); line.appendChild(el('b',null,num(r.t1.toFixed(2))+' %')); li.appendChild(line);
-        li.appendChild(el('p','cd-res-sub','Premier tour'+(r.t2!=null?' · second tour : '+num(r.t2.toFixed(2))+' %':'')));
+        [['Premier tour',r.t1],['Second tour',r.t2]].forEach(function(t){
+          if(t[1]==null) return;
+          var bar=el('div','cd-res-bar'), fill=el('span'); fill.style.width=Math.min(100,t[1])+'%'; bar.appendChild(fill);
+          bar.setAttribute('role','img'); bar.setAttribute('aria-label',t[0]+' : '+num(t[1].toFixed(2))+' %');
+          var line=el('div','cd-res-line'); line.appendChild(el('small','cd-res-round',t[0])); line.appendChild(bar); line.appendChild(el('b',null,num(t[1].toFixed(2))+' %')); li.appendChild(line);
+        });
         if(r.note) li.appendChild(el('p','cd-res-note',r.note));
       } else li.appendChild(el('p','cd-res-none',r.note));
       ul.appendChild(li);

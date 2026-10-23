@@ -139,6 +139,88 @@ C['zemmour'] = dict(
     results=[none(2012, "Reconquête n'existait pas."), none(2017, "Reconquête n'existait pas."), r(2022, 'Éric Zemmour', 'Reconquête', 7.07)],
     resultsNote=None)
 
+# Mandats électifs et fonctions gouvernementales : (début, fin ou None si en cours, intitulé).
+# Source : infobox de l'article Wikipédia de chaque personnalité.
+MANDATS = {
+    'arthaud': [(2008, 2014, "Conseillère municipale de Vaulx-en-Velin")],
+    'kazib': [],
+    'labib': [],
+    'melenchon': [
+        (2017, 2022, "Député des Bouches-du-Rhône"),
+        (2009, 2017, "Député européen"),
+        (2004, 2010, "Sénateur de l'Essonne"),
+        (2000, 2002, "Ministre délégué à l'Enseignement professionnel"),
+        (1998, 2004, "Conseiller général de l'Essonne, président délégué du conseil général"),
+        (1986, 2000, "Sénateur de l'Essonne"),
+        (1989, 1995, "Adjoint au maire de Massy"),
+        (1985, 1992, "Conseiller général de l'Essonne"),
+    ],
+    'roussel': [
+        (2025, None, "Maire de Saint-Amand-les-Eaux"),
+        (2017, 2024, "Député du Nord"),
+        (2014, None, "Conseiller municipal de Saint-Amand-les-Eaux"),
+    ],
+    'glucksmann': [(2019, None, "Député européen")],
+    'bouamrane': [
+        (2021, None, "Conseiller départemental de la Seine-Saint-Denis, vice-président du département"),
+        (2020, None, "Maire de Saint-Ouen-sur-Seine"),
+        (1995, 2014, "Conseiller municipal de Saint-Ouen"),
+    ],
+    'tondelier': [
+        (2021, None, "Conseillère régionale des Hauts-de-France"),
+        (2014, 2026, "Conseillère municipale d'Hénin-Beaumont et conseillère communautaire"),
+    ],
+    'philippe': [
+        (2020, None, "Maire du Havre et président de Havre Seine Métropole"),
+        (2017, 2020, "Premier ministre"),
+        (2012, 2017, "Député de la Seine-Maritime"),
+        (2010, 2017, "Maire du Havre et président de l'agglomération havraise"),
+        (2008, 2012, "Conseiller général de la Seine-Maritime"),
+        (2004, 2008, "Conseiller régional de Haute-Normandie"),
+    ],
+    'attal': [
+        (2024, None, "Député des Hauts-de-Seine (depuis juillet)"),
+        (2024, 2024, "Premier ministre"),
+        (2023, 2024, "Ministre de l'Éducation nationale et de la Jeunesse"),
+        (2022, 2023, "Ministre délégué chargé des Comptes publics"),
+        (2020, 2022, "Secrétaire d'État, porte-parole du gouvernement"),
+        (2018, 2020, "Secrétaire d'État auprès du ministre de l'Éducation nationale"),
+        (2017, 2018, "Député des Hauts-de-Seine"),
+        (2014, None, "Conseiller municipal de Vanves"),
+    ],
+    'retailleau': [
+        (2025, None, "Sénateur de la Vendée"),
+        (2024, 2025, "Ministre de l'Intérieur"),
+        (2004, 2024, "Sénateur de la Vendée"),
+        (2016, 2017, "Président du conseil régional des Pays de la Loire"),
+        (2010, 2015, "Président du conseil général de la Vendée"),
+        (1998, 2004, "Vice-président du conseil régional des Pays de la Loire"),
+        (1994, 1997, "Député de la Vendée"),
+        (1988, 2015, "Conseiller général de la Vendée"),
+    ],
+    'lisnard': [
+        (2021, None, "Président de l'Association des maires de France"),
+        (2017, None, "Président de l'agglomération Cannes Pays de Lérins"),
+        (2014, None, "Maire de Cannes, vice-président du conseil départemental"),
+        (2008, None, "Conseiller général puis départemental des Alpes-Maritimes"),
+    ],
+    'dupontaignan': [
+        (2026, None, "Maire d'Yerres"),
+        (1997, 2024, "Député de l'Essonne"),
+        (2016, 2017, "Président de l'agglomération Val d'Yerres Val de Seine"),
+        (2002, 2015, "Président de l'agglomération du Val d'Yerres"),
+        (1995, 2017, "Maire d'Yerres"),
+    ],
+    'lepen': [
+        (2017, None, "Députée du Pas-de-Calais"),
+        (2021, 2025, "Conseillère départementale du Pas-de-Calais"),
+        (2004, 2017, "Députée européenne"),
+        (2010, 2021, "Conseillère régionale du Nord-Pas-de-Calais puis des Hauts-de-France"),
+        (1998, 2010, "Conseillère régionale d'Île-de-France"),
+    ],
+    'zemmour': [],
+}
+
 out = {
     'updated': '2026-10-23',
     'note': "Biographies rédigées à partir des articles Wikipédia ; résultats : premier tour (et second tour pour les finalistes) des présidentielles 2012, 2017 et 2022.",
@@ -146,6 +228,7 @@ out = {
     'candidates': {},
 }
 for k, c in C.items():
+    c['mandats'] = [list(m) for m in MANDATS[k]]
     c['source'] = {'label': 'Wikipédia · ' + c['wiki'], 'url': W(c['wiki'])}
     out['candidates'][k] = c
 json.dump(out, open('data/candidats.json', 'w'), ensure_ascii=False, indent=1)
