@@ -684,3 +684,20 @@ body.no-scroll{overflow:hidden}
   .sit-sec{scroll-margin-top:calc(var(--hh,60px) + 60px)}
 }
 .stat-label .info-i{margin-left:6px}
+
+.defs{display:grid;grid-template-columns:1fr;gap:12px}
+.def-card{background:var(--bg);border-radius:12px;padding:14px 16px}
+.def-card dt{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:1.05rem;margin-bottom:6px}
+.def-card dd{margin:0;font-size:.9rem;line-height:1.55}
+.def-src{display:block;margin-top:8px;font-size:.78rem;font-weight:700;color:var(--muted)}
+.def-src a{color:var(--muted);text-decoration:none}
+.def-src a:hover{color:var(--ink);text-decoration:underline}
+.inst-lead{margin-bottom:14px;font-size:.92rem;color:var(--soft)}
+.insts{display:grid;grid-template-columns:1fr;gap:12px}
+.inst-card{background:var(--bg);border-radius:12px;padding:14px 16px}
+.inst-card h3{font-size:1rem;margin-bottom:6px}
+.inst-card p{font-size:.9rem;line-height:1.55}
+.inst-card p.def-src{margin-top:8px;font-size:.78rem;line-height:1.4}
+.grid-head{padding:18px 22px 6px}
+.grid-head h2{font-size:1.15rem}
+@media (min-width:721px){.defs,.insts{grid-template-columns:1fr 1fr}}
