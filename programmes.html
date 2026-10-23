@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Programmes des candidats · Comprendre et choisir</title>
+<meta name="theme-color" content="#F4F6FA">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="site-header-in">
+    <a class="brand" href="index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false">
+        <defs><clipPath id="urne"><rect x="4" y="16" width="32" height="21" rx="3.5"/></clipPath></defs>
+        <g clip-path="url(#urne)"><rect x="4" y="16" width="11" height="21" fill="#0055A4"/><rect x="15" y="16" width="10" height="21" fill="#fff"/><rect x="25" y="16" width="11" height="21" fill="#EF4135"/></g>
+        <rect x="4" y="16" width="32" height="21" rx="3.5" fill="none" stroke="#0F172A" stroke-width="1.6"/>
+        <rect x="12" y="14.2" width="16" height="3.6" rx="1.8" fill="#0F172A"/>
+        <path d="M15.5 16.5V4.2a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1V16.5z" fill="#fff" stroke="#0F172A" stroke-width="1.4" stroke-linejoin="round"/>
+        <path d="M18 7.5h4M18 10.5h4" stroke="#0055A4" stroke-width="1.3" stroke-linecap="round"/>
+      </svg><span>Comprendre et choisir</span></a>
+    <nav aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="programmes.html" aria-current="page">Programmes</a>
+      <a href="sources.html">Sources</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+
+<h1 class="sr">Programmes des candidats</h1>
+
+<section class="pf" aria-label="Filtres">
+  <div class="pf-row">
+    <span class="pf-label" id="l-cand">Candidat</span>
+    <ul class="pf-cands" id="f-cands" aria-labelledby="l-cand"></ul>
+  </div>
+  <div class="pf-row">
+    <span class="pf-label" id="l-theme">Thèmes</span>
+    <div class="pf-combo" id="f-combo"></div>
+  </div>
+  <p class="pf-count" id="pf-count" aria-live="polite"></p>
+</section>
+
+<div id="parties"></div>
+
+</main>
+
+<div class="drawer-overlay" id="overlay" hidden></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="d-title" hidden>
+  <div class="drawer-head">
+    <span class="drawer-theme" id="d-theme"></span>
+    <button type="button" class="drawer-close" id="d-close" aria-label="Fermer">×</button>
+  </div>
+  <div class="drawer-body">
+    <h2 id="d-title"></h2>
+    <div class="drawer-badges" id="d-badges"></div>
+    <div class="drawer-who" id="d-who"></div>
+    <a class="drawer-source" id="d-source" target="_blank" rel="noopener"></a>
+    <p class="drawer-note" id="d-note" hidden></p>
+    <p class="drawer-amount" id="d-amount" hidden></p>
+    <section class="drawer-cost" id="d-cost" hidden>
+      <h3>Chiffrage et réalisme</h3>
+      <p class="dc-amount" id="dc-amount"></p>
+      <p class="dc-real"><span class="dc-level" id="dc-level"></span><span id="dc-text"></span></p>
+      <ul class="dc-src" id="dc-src"></ul>
+    </section>
+    <div class="drawer-links" id="d-links" hidden>
+      <div class="dl" id="d-sim" hidden><h3>Position proche</h3><button type="button" class="dl-btn"></button></div>
+      <div class="dl" id="d-opp" hidden><h3>Position opposée</h3><button type="button" class="dl-btn"></button></div>
+    </div>
+    <div class="drawer-more" id="d-more" hidden>
+      <h3>Autres propositions du même thème</h3>
+      <ul id="d-more-list"></ul>
+    </div>
+  </div>
+</aside>
+
+<script src="programmes.js" defer></script>
+</body>
+</html>
