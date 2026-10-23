@@ -1,0 +1,3512 @@
+{
+ "updated": "2026-10-23",
+ "source": "https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+ "method": "Scénario de référence (première ligne) de chaque sondage ; moyenne par semaine (lundi-dimanche) de la date de fin de terrain.",
+ "candidates": [
+  {
+   "name": "Glucksmann",
+   "party": "PP",
+   "polls": 44,
+   "last": "2026-10-22",
+   "max": 16.0
+  },
+  {
+   "name": "Mélenchon",
+   "party": "LFI",
+   "polls": 44,
+   "last": "2026-10-22",
+   "max": 19.0
+  },
+  {
+   "name": "Retailleau",
+   "party": "LR",
+   "polls": 44,
+   "last": "2026-10-22",
+   "max": 11.0
+  },
+  {
+   "name": "Zemmour",
+   "party": "REC",
+   "polls": 44,
+   "last": "2026-10-22",
+   "max": 6.0
+  },
+  {
+   "name": "Arthaud",
+   "party": "LO",
+   "polls": 43,
+   "last": "2026-10-22",
+   "max": 1.5
+  },
+  {
+   "name": "Roussel",
+   "party": "PCF",
+   "polls": 43,
+   "last": "2026-10-22",
+   "max": 4.0
+  },
+  {
+   "name": "Tondelier",
+   "party": "LE",
+   "polls": 42,
+   "last": "2026-10-22",
+   "max": 6.0
+  },
+  {
+   "name": "Dupont-Aignan",
+   "party": "DLF",
+   "polls": 40,
+   "last": "2026-10-22",
+   "max": 3.0
+  },
+  {
+   "name": "Philippe",
+   "party": "HOR",
+   "polls": 37,
+   "last": "2026-10-22",
+   "max": 21.0
+  },
+  {
+   "name": "Le Pen",
+   "party": "RN",
+   "polls": 33,
+   "last": "2026-10-22",
+   "max": 38.0
+  },
+  {
+   "name": "Attal",
+   "party": "RE",
+   "polls": 27,
+   "last": "2026-10-22",
+   "max": 16.0
+  },
+  {
+   "name": "Lisnard",
+   "party": "NE",
+   "polls": 5,
+   "last": "2026-10-22",
+   "max": 7.0
+  },
+  {
+   "name": "Villepin",
+   "party": "LFH",
+   "polls": 2,
+   "last": "2026-03-27",
+   "max": 3.5
+  }
+ ],
+ "weeks": [
+  {
+   "week": "2026-10-19",
+   "polls": 3,
+   "pollsters": [
+    "Harris",
+    "Ifop",
+    "OpinionWay"
+   ],
+   "average": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.7,
+     "n": 3
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 16.5,
+     "n": 3
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.0,
+     "n": 3
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 2.0,
+     "n": 3
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 12.8,
+     "n": 3
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 4.5,
+     "n": 2
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 13.0,
+     "n": 3
+    },
+    "Lisnard": {
+     "party": "NE",
+     "value": 6.5,
+     "n": 2
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 5.0,
+     "n": 3
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 1.3,
+     "n": 3
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 35.0,
+     "n": 3
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 4.2,
+     "n": 3
+    }
+   }
+  },
+  {
+   "week": "2026-10-12",
+   "polls": 6,
+   "pollsters": [
+    "Cluster17",
+    "Elabe",
+    "Ifop",
+    "OpinionWay",
+    "YouGov"
+   ],
+   "average": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.5,
+     "n": 6
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 15.5,
+     "n": 6
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.0,
+     "n": 6
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 3.0,
+     "n": 6
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 12.7,
+     "n": 6
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 13.4,
+     "n": 6
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 6.3,
+     "n": 6
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 1.9,
+     "n": 6
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 33.6,
+     "n": 6
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 3.6,
+     "n": 6
+    },
+    "Lisnard": {
+     "party": "NE",
+     "value": 5.7,
+     "n": 3
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 5.8,
+     "n": 4
+    }
+   }
+  },
+  {
+   "week": "2026-10-05",
+   "polls": 2,
+   "pollsters": [
+    "Harris",
+    "Odoxa"
+   ],
+   "average": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.8,
+     "n": 2
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 18.5,
+     "n": 2
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.0,
+     "n": 2
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 4.0,
+     "n": 2
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 8.2,
+     "n": 2
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 12.0,
+     "n": 1
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 8.2,
+     "n": 2
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0,
+     "n": 2
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 37.0,
+     "n": 2
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 4.8,
+     "n": 2
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 17.0,
+     "n": 1
+    }
+   }
+  },
+  {
+   "week": "2026-09-28",
+   "polls": 1,
+   "pollsters": [
+    "Ifop"
+   ],
+   "average": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.5,
+     "n": 1
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 15.0,
+     "n": 1
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.5,
+     "n": 1
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 3.0,
+     "n": 1
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 11.0,
+     "n": 1
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 8.0,
+     "n": 1
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 16.0,
+     "n": 1
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 7.0,
+     "n": 1
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 1.0,
+     "n": 1
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 32.0,
+     "n": 1
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 4.0,
+     "n": 1
+    }
+   }
+  },
+  {
+   "week": "2026-09-21",
+   "polls": 2,
+   "pollsters": [
+    "Harris",
+    "YouGov"
+   ],
+   "average": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0,
+     "n": 2
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 17.0,
+     "n": 2
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.5,
+     "n": 2
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 4.0,
+     "n": 2
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 8.0,
+     "n": 2
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 11.0,
+     "n": 2
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 9.0,
+     "n": 2
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0,
+     "n": 2
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 35.0,
+     "n": 2
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 5.5,
+     "n": 2
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 12.0,
+     "n": 1
+    }
+   }
+  },
+  {
+   "week": "2026-09-14",
+   "polls": 1,
+   "pollsters": [
+    "Cluster17"
+   ],
+   "average": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.5,
+     "n": 1
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 19.0,
+     "n": 1
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.0,
+     "n": 1
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 2.5,
+     "n": 1
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 12.0,
+     "n": 1
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 19.0,
+     "n": 1
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 7.5,
+     "n": 1
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 3.0,
+     "n": 1
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 31.0,
+     "n": 1
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 3.5,
+     "n": 1
+    }
+   }
+  },
+  {
+   "week": "2026-09-07",
+   "polls": 5,
+   "pollsters": [
+    "Harris",
+    "Ifop",
+    "Ipsos",
+    "OpinionWay"
+   ],
+   "average": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.7,
+     "n": 5
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 16.1,
+     "n": 5
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.5,
+     "n": 5
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 3.4,
+     "n": 5
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 8.7,
+     "n": 5
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 8.8,
+     "n": 5
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 14.8,
+     "n": 4
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 7.7,
+     "n": 5
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0,
+     "n": 5
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 34.0,
+     "n": 5
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 3.8,
+     "n": 5
+    }
+   }
+  },
+  {
+   "week": "2026-08-31",
+   "polls": 4,
+   "pollsters": [
+    "Cluster17",
+    "Ipsos",
+    "OpinionWay"
+   ],
+   "average": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.9,
+     "n": 4
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 16.5,
+     "n": 4
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.4,
+     "n": 4
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 3.1,
+     "n": 4
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 12.0,
+     "n": 4
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 9.2,
+     "n": 3
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 15.8,
+     "n": 3
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 7.9,
+     "n": 4
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 33.2,
+     "n": 4
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 3.1,
+     "n": 4
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.5,
+     "n": 2
+    }
+   }
+  },
+  {
+   "week": "2026-08-24",
+   "polls": 2,
+   "pollsters": [
+    "Elabe",
+    "Ifop"
+   ],
+   "average": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0,
+     "n": 2
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 15.0,
+     "n": 2
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 3.0,
+     "n": 2
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 3.2,
+     "n": 2
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 11.2,
+     "n": 2
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 15.8,
+     "n": 2
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 6.2,
+     "n": 2
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.2,
+     "n": 2
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 33.5,
+     "n": 2
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 3.8,
+     "n": 2
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 8.0,
+     "n": 1
+    }
+   }
+  },
+  {
+   "week": "2026-08-17",
+   "polls": 1,
+   "pollsters": [
+    "Harris"
+   ],
+   "average": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0,
+     "n": 1
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 17.0,
+     "n": 1
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 3.0,
+     "n": 1
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 4.0,
+     "n": 1
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 8.0,
+     "n": 1
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 14.0,
+     "n": 1
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 9.0,
+     "n": 1
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0,
+     "n": 1
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 38.0,
+     "n": 1
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 4.0,
+     "n": 1
+    }
+   }
+  },
+  {
+   "week": "2026-07-20",
+   "polls": 1,
+   "pollsters": [
+    "Cluster17"
+   ],
+   "average": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0,
+     "n": 1
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 18.0,
+     "n": 1
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.0,
+     "n": 1
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 3.0,
+     "n": 1
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 10.0,
+     "n": 1
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 18.0,
+     "n": 1
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 8.0,
+     "n": 1
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 3.0,
+     "n": 1
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 30.0,
+     "n": 1
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 4.0,
+     "n": 1
+    }
+   }
+  },
+  {
+   "week": "2026-07-06",
+   "polls": 5,
+   "pollsters": [
+    "Elabe",
+    "Harris",
+    "Ifop",
+    "OpinionWay",
+    "Verian"
+   ],
+   "average": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.8,
+     "n": 4
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 15.0,
+     "n": 5
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.3,
+     "n": 5
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 4.4,
+     "n": 4
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 10.1,
+     "n": 5
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 17.2,
+     "n": 3
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 8.2,
+     "n": 5
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 1.8,
+     "n": 3
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 35.8,
+     "n": 5
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 3.5,
+     "n": 5
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 11.5,
+     "n": 4
+    }
+   }
+  },
+  {
+   "week": "2026-06-22",
+   "polls": 1,
+   "pollsters": [
+    "Ifop"
+   ],
+   "average": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.5,
+     "n": 1
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 13.0,
+     "n": 1
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 3.0,
+     "n": 1
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 2.5,
+     "n": 1
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 9.0,
+     "n": 1
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 8.0,
+     "n": 1
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 14.0,
+     "n": 1
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 8.0,
+     "n": 1
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0,
+     "n": 1
+    },
+    "Candidat RN": {
+     "party": "",
+     "value": 36.0,
+     "n": 1
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 4.0,
+     "n": 1
+    }
+   }
+  },
+  {
+   "week": "2026-06-08",
+   "polls": 1,
+   "pollsters": [
+    "OpinionWay"
+   ],
+   "average": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0,
+     "n": 1
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 16.0,
+     "n": 1
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 16.0,
+     "n": 1
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 19.0,
+     "n": 1
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 9.0,
+     "n": 1
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0,
+     "n": 1
+    },
+    "Candidat RN": {
+     "party": "",
+     "value": 34.0,
+     "n": 1
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 3.0,
+     "n": 1
+    }
+   }
+  },
+  {
+   "week": "2026-05-25",
+   "polls": 3,
+   "pollsters": [
+    "Harris",
+    "Ifop",
+    "Ipsos"
+   ],
+   "average": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.8,
+     "n": 3
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 13.7,
+     "n": 3
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.8,
+     "n": 3
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 3.7,
+     "n": 3
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 10.0,
+     "n": 3
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 8.8,
+     "n": 2
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 14.7,
+     "n": 3
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 8.2,
+     "n": 3
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 1.8,
+     "n": 3
+    },
+    "Candidat RN": {
+     "party": "",
+     "value": 33.8,
+     "n": 3
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 4.7,
+     "n": 3
+    }
+   }
+  },
+  {
+   "week": "2026-05-18",
+   "polls": 1,
+   "pollsters": [
+    "Odoxa"
+   ],
+   "average": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.5,
+     "n": 1
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 16.0,
+     "n": 1
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.5,
+     "n": 1
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 4.0,
+     "n": 1
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 11.0,
+     "n": 1
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 17.0,
+     "n": 1
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 9.0,
+     "n": 1
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0,
+     "n": 1
+    },
+    "Candidat RN": {
+     "party": "",
+     "value": 32.0,
+     "n": 1
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 6.0,
+     "n": 1
+    }
+   }
+  },
+  {
+   "week": "2026-04-27",
+   "polls": 1,
+   "pollsters": [
+    "Harris"
+   ],
+   "average": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0,
+     "n": 1
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 12.0,
+     "n": 1
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 4.0,
+     "n": 1
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 4.0,
+     "n": 1
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 11.0,
+     "n": 1
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 19.0,
+     "n": 1
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 9.0,
+     "n": 1
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 1.0,
+     "n": 1
+    },
+    "Candidat RN": {
+     "party": "",
+     "value": 34.0,
+     "n": 1
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 5.0,
+     "n": 1
+    }
+   }
+  },
+  {
+   "week": "2026-03-23",
+   "polls": 2,
+   "pollsters": [
+    "Elabe",
+    "Odoxa"
+   ],
+   "average": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.8,
+     "n": 2
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 11.2,
+     "n": 2
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.5,
+     "n": 2
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 4.8,
+     "n": 2
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 10.2,
+     "n": 2
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 20.8,
+     "n": 2
+    },
+    "Villepin": {
+     "party": "LFH",
+     "value": 3.0,
+     "n": 1
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 7.5,
+     "n": 2
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.2,
+     "n": 2
+    },
+    "Candidat RN": {
+     "party": "",
+     "value": 34.5,
+     "n": 2
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 4.0,
+     "n": 2
+    }
+   }
+  },
+  {
+   "week": "2026-03-16",
+   "polls": 1,
+   "pollsters": [
+    "Harris"
+   ],
+   "average": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0,
+     "n": 1
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 11.0,
+     "n": 1
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 3.0,
+     "n": 1
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 4.0,
+     "n": 1
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 14.0,
+     "n": 1
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 18.0,
+     "n": 1
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 7.0,
+     "n": 1
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0,
+     "n": 1
+    },
+    "Candidat RN": {
+     "party": "",
+     "value": 35.0,
+     "n": 1
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 5.0,
+     "n": 1
+    }
+   }
+  },
+  {
+   "week": "2026-02-23",
+   "polls": 1,
+   "pollsters": [
+    "Ifop"
+   ],
+   "average": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0,
+     "n": 1
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 11.0,
+     "n": 1
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.0,
+     "n": 1
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 4.0,
+     "n": 1
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 10.0,
+     "n": 1
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 16.0,
+     "n": 1
+    },
+    "Villepin": {
+     "party": "LFH",
+     "value": 3.5,
+     "n": 1
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 10.0,
+     "n": 1
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.5,
+     "n": 1
+    },
+    "Candidat RN": {
+     "party": "",
+     "value": 36.0,
+     "n": 1
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 4.0,
+     "n": 1
+    }
+   }
+  }
+ ],
+ "polls": [
+  {
+   "pollster": "OpinionWay",
+   "date": "2026-10-22",
+   "sample": 973,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.5
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 16.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 1.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 1.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 13.0
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 4.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 12.0
+    },
+    "Lisnard": {
+     "party": "NE",
+     "value": 6.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 6.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 1.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 36.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 4.0
+    }
+   }
+  },
+  {
+   "pollster": "Harris",
+   "date": "2026-10-21",
+   "sample": 2094,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 17.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 2.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 12.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 15.0
+    },
+    "Lisnard": {
+     "party": "NE",
+     "value": 7.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 4.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 1.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 33.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 5.0
+    }
+   }
+  },
+  {
+   "pollster": "Ifop",
+   "date": "2026-10-19",
+   "sample": 1928,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.5
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 16.5
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 3.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 3.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 13.5
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 5.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 12.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 5.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 36.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 3.5
+    }
+   }
+  },
+  {
+   "pollster": "Elabe",
+   "date": "2026-10-16",
+   "sample": 1701,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 15.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 1.5
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 3.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 15.5
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 16.5
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 7.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.5
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 32.5
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 3.5
+    }
+   }
+  },
+  {
+   "pollster": "Cluster17",
+   "date": "2026-10-15",
+   "sample": 1263,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.5
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 18.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 1.5
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 2.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 11.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 17.0
+    },
+    "Lisnard": {
+     "party": "NE",
+     "value": 7.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 7.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 31.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 3.0
+    }
+   }
+  },
+  {
+   "pollster": "YouGov",
+   "date": "2026-10-15",
+   "sample": 1094,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.0
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 15.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 3.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 6.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 12.0
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 6.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 10.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 6.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 3.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 36.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 3.0
+    }
+   }
+  },
+  {
+   "pollster": "OpinionWay",
+   "date": "2026-10-14",
+   "sample": 1043,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 15.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 1.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 2.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 13.0
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 5.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 12.0
+    },
+    "Lisnard": {
+     "party": "NE",
+     "value": 4.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 6.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 1.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 35.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 5.0
+    }
+   }
+  },
+  {
+   "pollster": "OpinionWay",
+   "date": "2026-10-14",
+   "sample": 1043,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.5
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 14.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 3.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 3.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 13.0
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 7.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 12.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 7.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 35.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 4.0
+    }
+   }
+  },
+  {
+   "pollster": "Ifop",
+   "date": "2026-10-14",
+   "sample": 1390,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.0
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 16.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 2.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 11.5
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 5.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 13.0
+    },
+    "Lisnard": {
+     "party": "NE",
+     "value": 6.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 5.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 1.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 32.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 3.0
+    }
+   }
+  },
+  {
+   "pollster": "Harris",
+   "date": "2026-10-08",
+   "sample": 2004,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 19.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 5.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 7.0
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 12.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 10.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 37.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 5.0
+    }
+   }
+  },
+  {
+   "pollster": "Odoxa",
+   "date": "2026-10-07",
+   "sample": 12005,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.5
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 18.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 3.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 9.5
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 17.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 6.5
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 37.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 4.5
+    }
+   }
+  },
+  {
+   "pollster": "Ifop",
+   "date": "2026-09-29",
+   "sample": 1527,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.5
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 15.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.5
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 3.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 11.0
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 8.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 16.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 7.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 1.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 32.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 4.0
+    }
+   }
+  },
+  {
+   "pollster": "Harris",
+   "date": "2026-09-24",
+   "sample": 1974,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 17.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 3.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 5.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 8.0
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 13.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 10.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 36.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 5.0
+    }
+   }
+  },
+  {
+   "pollster": "YouGov",
+   "date": "2026-09-21",
+   "sample": 1103,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 17.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 3.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 8.0
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 9.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 12.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 8.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 34.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 6.0
+    }
+   }
+  },
+  {
+   "pollster": "Cluster17",
+   "date": "2026-09-16",
+   "sample": 1943,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.5
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 19.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 2.5
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 12.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 19.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 7.5
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 3.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 31.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 3.5
+    }
+   }
+  },
+  {
+   "pollster": "Ifop",
+   "date": "2026-09-11",
+   "sample": 1548,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.5
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 17.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 3.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 9.0
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 7.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 14.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 6.5
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 35.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 4.0
+    }
+   }
+  },
+  {
+   "pollster": "OpinionWay",
+   "date": "2026-09-10",
+   "sample": 1001,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 16.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 3.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 3.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 7.0
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 8.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 16.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 7.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 32.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 2.0
+    }
+   }
+  },
+  {
+   "pollster": "Harris",
+   "date": "2026-09-10",
+   "sample": 2052,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 17.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 3.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 4.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 7.0
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 15.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 10.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 36.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 5.0
+    }
+   }
+  },
+  {
+   "pollster": "OpinionWay",
+   "date": "2026-09-09",
+   "sample": 1001,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.5
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 15.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 3.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 9.0
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 8.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 15.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 8.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 34.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 4.0
+    }
+   }
+  },
+  {
+   "pollster": "Ipsos",
+   "date": "2026-09-09",
+   "sample": 13060,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.5
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 15.5
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.5
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 4.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 11.5
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 6.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 14.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 7.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 33.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 4.0
+    }
+   }
+  },
+  {
+   "pollster": "OpinionWay",
+   "date": "2026-09-04",
+   "sample": 1034,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 16.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 3.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 12.0
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 7.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 15.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 7.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 34.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 3.0
+    }
+   }
+  },
+  {
+   "pollster": "OpinionWay",
+   "date": "2026-09-03",
+   "sample": 1003,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 17.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 3.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 4.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 13.0
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 13.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 11.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 35.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 3.0
+    }
+   }
+  },
+  {
+   "pollster": "Ipsos",
+   "date": "2026-09-02",
+   "sample": 1500,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.5
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 15.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.5
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 3.5
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 11.5
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 7.5
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 14.5
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 6.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 34.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 3.0
+    }
+   }
+  },
+  {
+   "pollster": "Cluster17",
+   "date": "2026-09-01",
+   "sample": 1711,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 18.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 2.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 11.5
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 18.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 7.5
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 3.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 30.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 3.5
+    }
+   }
+  },
+  {
+   "pollster": "Elabe",
+   "date": "2026-08-28",
+   "sample": 1501,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.5
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 14.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 3.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 3.5
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 11.5
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 17.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 6.5
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 3.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 34.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 4.0
+    }
+   }
+  },
+  {
+   "pollster": "Ifop",
+   "date": "2026-08-25",
+   "sample": 1598,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.5
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 16.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 3.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 3.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 11.0
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 8.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 14.5
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 6.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 1.5
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 33.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 3.5
+    }
+   }
+  },
+  {
+   "pollster": "Harris",
+   "date": "2026-08-19",
+   "sample": 1764,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 17.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 3.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 4.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 8.0
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 14.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 9.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 38.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 4.0
+    }
+   }
+  },
+  {
+   "pollster": "Cluster17",
+   "date": "2026-07-24",
+   "sample": 1506,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 18.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 3.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 10.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 18.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 8.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 3.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 30.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 4.0
+    }
+   }
+  },
+  {
+   "pollster": "Elabe",
+   "date": "2026-07-10",
+   "sample": 1503,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 16.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.5
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 3.5
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 10.5
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 16.5
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 8.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 1.5
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 35.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 3.0
+    }
+   }
+  },
+  {
+   "pollster": "Verian",
+   "date": "2026-07-10",
+   "sample": 1047,
+   "values": {
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 15.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 11.0
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 8.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 17.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 7.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 37.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 3.0
+    }
+   }
+  },
+  {
+   "pollster": "OpinionWay",
+   "date": "2026-07-09",
+   "sample": 963,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.5
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 13.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 5.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 9.0
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 7.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 18.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 8.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 35.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 3.0
+    }
+   }
+  },
+  {
+   "pollster": "Ifop",
+   "date": "2026-07-08",
+   "sample": 984,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.5
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 15.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 4.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 12.0
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 15.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 10.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 36.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 3.5
+    }
+   }
+  },
+  {
+   "pollster": "Harris",
+   "date": "2026-07-08",
+   "sample": 1592,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 16.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 3.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 5.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 8.0
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 16.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 8.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0
+    },
+    "Le Pen": {
+     "party": "RN",
+     "value": 36.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 5.0
+    }
+   }
+  },
+  {
+   "pollster": "Ifop",
+   "date": "2026-06-24",
+   "sample": 1415,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.5
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 13.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 3.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 2.5
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 9.0
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 8.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 14.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 8.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0
+    },
+    "Candidat RN": {
+     "party": "",
+     "value": 36.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 4.0
+    }
+   }
+  },
+  {
+   "pollster": "OpinionWay",
+   "date": "2026-06-11",
+   "sample": 1001,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 16.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 16.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 19.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 9.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0
+    },
+    "Candidat RN": {
+     "party": "",
+     "value": 34.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 3.0
+    }
+   }
+  },
+  {
+   "pollster": "Ipsos",
+   "date": "2026-05-28",
+   "sample": 1500,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 13.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 3.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 4.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 11.0
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 8.5
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 13.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 7.5
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 1.5
+    },
+    "Candidat RN": {
+     "party": "",
+     "value": 33.5
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 4.0
+    }
+   }
+  },
+  {
+   "pollster": "Ifop",
+   "date": "2026-05-28",
+   "sample": 1501,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.5
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 13.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.5
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 4.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 9.0
+    },
+    "Attal": {
+     "party": "RE",
+     "value": 9.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 14.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 8.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0
+    },
+    "Candidat RN": {
+     "party": "",
+     "value": 34.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 4.0
+    }
+   }
+  },
+  {
+   "pollster": "Harris",
+   "date": "2026-05-27",
+   "sample": 1744,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 15.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 3.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 3.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 10.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 17.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 9.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0
+    },
+    "Candidat RN": {
+     "party": "",
+     "value": 34.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 6.0
+    }
+   }
+  },
+  {
+   "pollster": "Odoxa",
+   "date": "2026-05-21",
+   "sample": 1005,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.5
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 16.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.5
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 4.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 11.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 17.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 9.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0
+    },
+    "Candidat RN": {
+     "party": "",
+     "value": 32.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 6.0
+    }
+   }
+  },
+  {
+   "pollster": "Harris",
+   "date": "2026-04-30",
+   "sample": 1725,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 12.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 4.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 4.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 11.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 19.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 9.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 1.0
+    },
+    "Candidat RN": {
+     "party": "",
+     "value": 34.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 5.0
+    }
+   }
+  },
+  {
+   "pollster": "Elabe",
+   "date": "2026-03-27",
+   "sample": 1504,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 0.5
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 10.5
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 3.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 4.5
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 10.5
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 20.5
+    },
+    "Villepin": {
+     "party": "LFH",
+     "value": 3.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 7.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.5
+    },
+    "Candidat RN": {
+     "party": "",
+     "value": 35.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 3.0
+    }
+   }
+  },
+  {
+   "pollster": "Odoxa",
+   "date": "2026-03-26",
+   "sample": 1299,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 12.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 5.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 10.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 21.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 8.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0
+    },
+    "Candidat RN": {
+     "party": "",
+     "value": 34.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 5.0
+    }
+   }
+  },
+  {
+   "pollster": "Harris",
+   "date": "2026-03-22",
+   "sample": 1062,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 11.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 3.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 4.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 14.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 18.0
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 7.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.0
+    },
+    "Candidat RN": {
+     "party": "",
+     "value": 35.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 5.0
+    }
+   }
+  },
+  {
+   "pollster": "Ifop",
+   "date": "2026-02-27",
+   "sample": 1393,
+   "values": {
+    "Arthaud": {
+     "party": "LO",
+     "value": 1.0
+    },
+    "Mélenchon": {
+     "party": "LFI",
+     "value": 11.0
+    },
+    "Roussel": {
+     "party": "PCF",
+     "value": 2.0
+    },
+    "Tondelier": {
+     "party": "LE",
+     "value": 4.0
+    },
+    "Glucksmann": {
+     "party": "PP",
+     "value": 10.0
+    },
+    "Philippe": {
+     "party": "HOR",
+     "value": 16.0
+    },
+    "Villepin": {
+     "party": "LFH",
+     "value": 3.5
+    },
+    "Retailleau": {
+     "party": "LR",
+     "value": 10.0
+    },
+    "Dupont-Aignan": {
+     "party": "DLF",
+     "value": 2.5
+    },
+    "Candidat RN": {
+     "party": "",
+     "value": 36.0
+    },
+    "Zemmour": {
+     "party": "REC",
+     "value": 4.0
+    }
+   }
+  }
+ ]
+}

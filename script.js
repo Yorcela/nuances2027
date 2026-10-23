@@ -23,4 +23,10 @@
   buttons.forEach(function(b){
     b.addEventListener('click',function(){select(+b.dataset.n)});
   });
+  var info=document.querySelector('.hemi .info');
+  var toggle=info&&info.querySelector('.info-toggle');
+  if(toggle) toggle.addEventListener('click',function(){
+    var collapsed=info.classList.toggle('collapsed');
+    toggle.setAttribute('aria-expanded',String(!collapsed));
+  });
 })();
