@@ -11,29 +11,6 @@
    "wiki": "Nathalie Arthaud",
    "logo": "lo.svg",
    "born": "23 février 1970, Peyrins (Drôme)",
-   "bio": "Enseignante en économie et gestion, Nathalie Arthaud s'engage d'abord aux Jeunesses communistes avant de rejoindre Lutte ouvrière en 1988. Conseillère municipale de Vaulx-en-Velin de 2008 à 2014, elle devient la même année porte-parole nationale du parti, après avoir été celle d'Arlette Laguiller en 2007. Elle porte les couleurs de LO à chaque présidentielle depuis 2012.",
-   "reperes": [
-    [
-     1988,
-     "Adhère à Lutte ouvrière"
-    ],
-    [
-     2008,
-     "Conseillère municipale de Vaulx-en-Velin ; devient porte-parole nationale de LO"
-    ],
-    [
-     2012,
-     "Première candidature à la présidentielle"
-    ],
-    [
-     2022,
-     "Troisième candidature à la présidentielle"
-    ],
-    [
-     2027,
-     "Candidate déclarée à la présidentielle"
-    ]
-   ],
    "results": [
     {
      "year": 2012,
@@ -61,6 +38,10 @@
     }
    ],
    "resultsNote": null,
+   "bio": [
+    "Son engagement naît en 1986, en réaction à la famine en Éthiopie : elle passe un an aux Jeunesses communistes avant de rejoindre Lutte ouvrière en 1988, à 18 ans. Enseignante, elle est la porte-parole d'Arlette Laguiller pour la présidentielle de 2007, puis devient porte-parole nationale du parti en 2008.",
+    "Elle est alors élue conseillère municipale de Vaulx-en-Velin sur une liste conduite par le PCF, mais LO reste fidèle à sa ligne : pour elle, les élections ne sont pas l'essentiel, ce qui compte est que « le peuple descende dans la rue », comme en 1936, 1968 ou 1995. Elle porte pourtant les couleurs du parti à la présidentielle en 2012, 2017 et 2022."
+   ],
    "mandats": [
     [
      2008,
@@ -77,29 +58,6 @@
    "wiki": "Anasse Kazib",
    "logo": "rp.png",
    "born": "2 janvier 1987, Sarcelles (Val-d’Oise)",
-   "bio": "Cheminot, délégué syndical SUD Rail au Bourget, Anasse Kazib se fait connaître lors de la grève de 2018 puis comme chroniqueur télé. Militant du courant Révolution permanente, issu du NPA et devenu indépendant en 2021, il tente de se présenter à la présidentielle de 2022 mais ne réunit que 160 parrainages. Il a annoncé en juin 2026 une candidature « ouvrière, communiste et révolutionnaire » pour 2027.",
-   "reperes": [
-    [
-     2017,
-     "Rejoint le Courant communiste révolutionnaire, au sein du NPA"
-    ],
-    [
-     2018,
-     "Figure de la grève des cheminots ; chroniqueur aux Grandes Gueules"
-    ],
-    [
-     2021,
-     "Révolution permanente quitte le NPA ; pré-candidature à la présidentielle"
-    ],
-    [
-     2022,
-     "Candidature non validée faute de parrainages (160)"
-    ],
-    [
-     2026,
-     "Annonce sa candidature pour 2027"
-    ]
-   ],
    "results": [
     {
      "year": 2012,
@@ -127,6 +85,10 @@
     }
    ],
    "resultsNote": "Révolution permanente, indépendante du NPA depuis 2021, n'a jamais figuré sur un bulletin de présidentielle.",
+   "bio": [
+    "Fils d'immigrés marocains de Sarcelles, il grandit avec un père aiguilleur à la SNCF qui n'a jamais obtenu le statut de ses collègues : la discrimination est reconnue par la justice en 2018, dans l'affaire des Chibanis. Il manifeste dès les émeutes de 2005 et contre le CPE en 2006, puis se convertit au trotskisme pendant la mobilisation contre la loi Travail de 2016.",
+    "Cheminot et délégué SUD Rail, il devient une figure de la grève de 2018 contre l'ouverture du rail à la concurrence, ce qui lui ouvre les plateaux télé. En 2021, son courant quitte le NPA pour devenir Révolution permanente : il tente alors de se présenter à la présidentielle de 2022 mais ne réunit que 160 parrainages sur 500. Il remet ça pour 2027."
+   ],
    "mandats": [],
    "source": {
     "label": "Wikipédia · Anasse Kazib",
@@ -137,17 +99,6 @@
    "wiki": "Nouveau Parti anticapitaliste",
    "logo": "npa.svg",
    "born": null,
-   "bio": "Conductrice de bus, Selma Labib est porte-parole du NPA – Révolutionnaires, issu de la scission du NPA. Elle conduit avec Gaël Quirante la liste du NPA-R aux européennes de 2024, après l'échec des négociations avec Lutte ouvrière. Le NPA-R la présente à la présidentielle de 2027.",
-   "reperes": [
-    [
-     2024,
-     "Tête de liste du NPA-R aux élections européennes, avec Gaël Quirante"
-    ],
-    [
-     2027,
-     "Candidate du NPA – Révolutionnaires à la présidentielle"
-    ]
-   ],
    "results": [
     {
      "year": 2012,
@@ -175,6 +126,10 @@
     }
    ],
    "resultsNote": "Selma Labib n'a jamais été candidate : ces scores sont ceux du NPA, dont le NPA – Révolutionnaires est issu, avec Philippe Poutou.",
+   "bio": [
+    "Conductrice de bus, Selma Labib est porte-parole du NPA – Révolutionnaires. Ce parti est né de la division du Nouveau Parti anticapitaliste en deux courants : le NPA – L'Anticapitaliste, dont est issu Philippe Poutou, soutient Jean-Luc Mélenchon dès le premier tour en 2027, tandis que le NPA-R maintient une candidature révolutionnaire indépendante.",
+    "Après l'échec des négociations avec Lutte ouvrière pour une liste commune, elle conduit avec Gaël Quirante la liste du NPA-R aux européennes de 2024, sur le thème « Pour un monde sans frontières ni patrons, urgence révolution ! ». Elle a 30 ans lorsqu'elle est désignée pour 2027."
+   ],
    "mandats": [],
    "source": {
     "label": "Wikipédia · Nouveau Parti anticapitaliste",
@@ -185,33 +140,6 @@
    "wiki": "Jean-Luc Mélenchon",
    "logo": "lfi.svg",
    "born": "19 août 1951, Tanger",
-   "bio": "Militant trotskiste (OCI) dans les années 1970, Jean-Luc Mélenchon entre au Parti socialiste, devient sénateur de l'Essonne en 1986 puis ministre délégué à l'Enseignement professionnel (2000-2002). Il quitte le PS en 2008 pour fonder le Parti de gauche, puis La France insoumise en 2016. Troisième de la présidentielle de 2022 avec 22 %, il a annoncé en 2026 sa candidature pour 2027.",
-   "reperes": [
-    [
-     1986,
-     "Sénateur de l'Essonne"
-    ],
-    [
-     2000,
-     "Ministre délégué à l'Enseignement professionnel"
-    ],
-    [
-     2008,
-     "Quitte le PS ; fonde le Parti de gauche"
-    ],
-    [
-     2016,
-     "Fonde La France insoumise"
-    ],
-    [
-     2022,
-     "Chef de file de la NUPES aux législatives"
-    ],
-    [
-     2026,
-     "Annonce sa candidature pour 2027"
-    ]
-   ],
    "results": [
     {
      "year": 2012,
@@ -239,6 +167,10 @@
     }
    ],
    "resultsNote": null,
+   "bio": [
+    "Trotskiste à l'Organisation communiste internationaliste de 1972 à 1976, il entre ensuite au Parti socialiste, dont il incarne l'aile gauche pendant plus de vingt ans, jusqu'à devenir ministre de Lionel Jospin. À l'issue du congrès de Reims de 2008, il quitte le PS et fonde le Parti de gauche.",
+    "Il construit alors son propre espace : le Front de gauche avec le PCF, avec lequel il affronte François Hollande à la présidentielle de 2012 (11,1 %), puis La France insoumise, lancée en 2016 comme un « mouvement » et non un parti. Quatrième en 2017 (19,6 %) puis troisième en 2022 (22 %), il mène la NUPES aux législatives, qui prive Emmanuel Macron de majorité absolue."
+   ],
    "mandats": [
     [
      2017,
@@ -290,33 +222,6 @@
    "wiki": "Fabien Roussel",
    "logo": "pcf.svg",
    "born": "16 avril 1969, Béthune (Pas-de-Calais)",
-   "bio": "Issu d'une famille de militants communistes, Fabien Roussel adhère au mouvement des jeunes communistes à 16 ans. Député du Nord de 2017 à 2024, il dirige le PCF comme secrétaire national depuis 2018 et est maire de Saint-Amand-les-Eaux depuis 2025. Candidat en 2022 (2,28 %), il a de nouveau été désigné par son parti pour 2027.",
-   "reperes": [
-    [
-     1985,
-     "Adhère au Mouvement des jeunes communistes"
-    ],
-    [
-     2017,
-     "Élu député du Nord"
-    ],
-    [
-     2018,
-     "Secrétaire national du PCF"
-    ],
-    [
-     2022,
-     "Candidat à la présidentielle : 8e avec 2,28 %"
-    ],
-    [
-     2025,
-     "Maire de Saint-Amand-les-Eaux"
-    ],
-    [
-     2026,
-     "Désigné candidat pour 2027"
-    ]
-   ],
    "results": [
     {
      "year": 2012,
@@ -344,6 +249,10 @@
     }
    ],
    "resultsNote": "En 2012 et 2017, le PCF n'avait pas de candidat propre.",
+   "bio": [
+    "Il grandit dans une famille de militants communistes du Nord : son prénom rend hommage au « Colonel Fabien », sa grand-mère institutrice joue un rôle important dans son éducation, et il passe deux ans au Viêt Nam avec son père, journaliste. Il adhère aux jeunes communistes à 16 ans, en 1985, après un tractage contre l'apartheid.",
+    "Élu député du Nord en 2017, il prend la tête du PCF en 2018 et le conduit à la présidentielle de 2022 (2,28 %), après deux scrutins où le parti soutenait Jean-Luc Mélenchon. Maire de Saint-Amand-les-Eaux depuis 2025, il est de nouveau désigné par son parti pour 2027."
+   ],
    "mandats": [
     [
      2025,
@@ -370,25 +279,6 @@
    "wiki": "Raphaël Glucksmann",
    "logo": "pp.svg",
    "born": "15 octobre 1979, Boulogne-Billancourt",
-   "bio": "Documentariste et essayiste, fils du philosophe André Glucksmann, Raphaël Glucksmann a été conseiller du président géorgien Saakachvili de 2009 à 2012. Il fonde Place publique en 2018 et mène en 2019 la liste PS-PP-Nouvelle Donne qui l'envoie au Parlement européen. Il a remporté la primaire socialiste le 11 octobre 2026, après s'être déclaré candidat le 23 août.",
-   "reperes": [
-    [
-     2009,
-     "Conseiller de Mikheil Saakachvili en Géorgie"
-    ],
-    [
-     2018,
-     "Fonde Place publique"
-    ],
-    [
-     2019,
-     "Élu député européen"
-    ],
-    [
-     2026,
-     "Remporte la primaire socialiste (11 octobre)"
-    ]
-   ],
    "results": [
     {
      "year": 2012,
@@ -416,6 +306,10 @@
     }
    ],
    "resultsNote": "Place publique, fondée en 2018, n'a jamais présenté de candidat à une présidentielle.",
+   "bio": [
+    "Fils du philosophe André Glucksmann, il fait ses premières armes comme documentariste : un film sur la responsabilité de la France dans le génocide des Tutsi au Rwanda, un autre sur la révolution orange en Ukraine. Un passage par Alternative libérale en 2007 précède son virage vers la social-démocratie ; il est conseiller du président géorgien Mikheil Saakachvili de 2009 à 2012.",
+    "En 2018, il lance Place publique pour rassembler une gauche proeuropéenne ; en 2019, sa liste commune avec le PS et Nouvelle Donne l'envoie au Parlement européen, où il défend le fédéralisme, l'Ukraine et la cause des Ouïghours. Il remporte la primaire socialiste le 11 octobre 2026."
+   ],
    "mandats": [
     [
      2019,
@@ -432,29 +326,6 @@
    "wiki": "Karim Bouamrane",
    "logo": "ps.png",
    "born": "21 février 1973, Clichy",
-   "bio": "Fils d'un ouvrier du bâtiment marocain, Karim Bouamrane a grandi à Saint-Ouen. Membre du Parti communiste de 1995 à 2014 et conseiller municipal, il rejoint le PS en 2014 et dirige une première liste sans succès. Maire de Saint-Ouen-sur-Seine depuis 2020 (réélu en 2026) et conseiller départemental de Seine-Saint-Denis, il s'est déclaré candidat à la présidentielle de 2027.",
-   "reperes": [
-    [
-     1995,
-     "Adhère au PCF ; conseiller municipal de Saint-Ouen"
-    ],
-    [
-     2014,
-     "Rejoint le PS ; conduit une liste aux municipales"
-    ],
-    [
-     2020,
-     "Élu maire de Saint-Ouen-sur-Seine"
-    ],
-    [
-     2021,
-     "Conseiller départemental de Seine-Saint-Denis"
-    ],
-    [
-     2026,
-     "Réélu maire ; candidat déclaré à la présidentielle"
-    ]
-   ],
    "results": [
     {
      "year": 2012,
@@ -482,6 +353,10 @@
     }
    ],
    "resultsNote": "Karim Bouamrane n'a jamais été candidat : ces scores sont ceux du candidat du Parti socialiste.",
+   "bio": [
+    "Fils d'un ouvrier du bâtiment marocain, il grandit à Saint-Ouen et s'engage à 15 ans dans les manifestations pour Mandela et les sandinistes. Il adhère au PCF en 1995 et devient conseiller municipal à 22 ans, pendant que sa carrière professionnelle se fait dans la vente et la sécurité informatique.",
+    "En 2014, après vingt ans chez les communistes, il rejoint le PS et mène une liste de gauche aux municipales, sans succès (26,99 %). Il prend la mairie de Saint-Ouen en 2020, préside le conseil de surveillance de la Société du Grand Paris en 2022 et est réélu maire en 2026."
+   ],
    "mandats": [
     [
      2021,
@@ -508,33 +383,6 @@
    "wiki": "Marine Tondelier",
    "logo": "ecologistes.svg",
    "born": "23 août 1986, Bois-Bernard (Pas-de-Calais)",
-   "bio": "Élue d'opposition à Hénin-Beaumont depuis 2014, Marine Tondelier a affronté trois fois Marine Le Pen aux législatives. Conseillère régionale des Hauts-de-France depuis 2021, elle devient secrétaire nationale d'EELV en 2022 et rebaptise le parti « Les Écologistes » en 2023. Réélue en 2025, elle a joué un rôle central dans la formation du Nouveau Front populaire en 2024.",
-   "reperes": [
-    [
-     2009,
-     "Adhère à EELV"
-    ],
-    [
-     2014,
-     "Conseillère municipale d'opposition à Hénin-Beaumont"
-    ],
-    [
-     2021,
-     "Conseillère régionale des Hauts-de-France"
-    ],
-    [
-     2022,
-     "Secrétaire nationale d'EELV"
-    ],
-    [
-     2024,
-     "Participe à la formation du Nouveau Front populaire"
-    ],
-    [
-     2025,
-     "Réélue à la tête du parti"
-    ]
-   ],
    "results": [
     {
      "year": 2012,
@@ -562,6 +410,10 @@
     }
    ],
    "resultsNote": "Marine Tondelier n'a jamais été candidate : ces scores sont ceux du candidat des écologistes.",
+   "bio": [
+    "Elle a grandi à Hénin-Beaumont, ville dirigée par le Front national, et c'est là que tout se joue : elle adhère à EELV en 2009, affronte trois fois Marine Le Pen aux législatives, siège dans l'opposition municipale depuis 2014 et publie « Nouvelles du Front » pour dénoncer la gestion du maire Steeve Briois.",
+    "Secrétaire nationale d'EELV en 2022, elle rebaptise le parti « Les Écologistes » en 2023. Lors de la campagne des législatives de 2024, elle joue un rôle central dans l'union de la gauche au sein du Nouveau Front populaire. Désignée candidate à une primaire de la gauche, elle voit le projet échouer en juillet 2026."
+   ],
    "mandats": [
     [
      2021,
@@ -583,29 +435,6 @@
    "wiki": "Édouard Philippe",
    "logo": "horizons.svg",
    "born": "28 novembre 1970, Rouen",
-   "bio": "Énarque et membre du Conseil d'État, Édouard Philippe cofonde l'UMP en 2002. Maire du Havre de 2010 à 2017, député en 2012, il est Premier ministre d'Emmanuel Macron de 2017 à 2020, période marquée par les Gilets jaunes et la crise du Covid-19. Revenu à la mairie du Havre, il crée le parti Horizons en 2021 et annonce en 2024 sa candidature pour 2027.",
-   "reperes": [
-    [
-     2002,
-     "Participe à la création de l'UMP"
-    ],
-    [
-     2010,
-     "Maire du Havre"
-    ],
-    [
-     2017,
-     "Premier ministre (jusqu'en 2020)"
-    ],
-    [
-     2021,
-     "Crée le parti Horizons"
-    ],
-    [
-     2024,
-     "Annonce sa candidature pour 2027"
-    ]
-   ],
    "results": [
     {
      "year": 2012,
@@ -633,6 +462,10 @@
     }
    ],
    "resultsNote": "Horizons, créé en 2021, n'a jamais présenté de candidat propre.",
+   "bio": [
+    "Énarque et conseiller d'État, il participe en 2002 à la création de l'UMP aux côtés d'Alain Juppé, dont il est le porte-parole à la primaire de la droite de 2016. Il soutient ensuite François Fillon, mais prend ses distances quand celui-ci est accusé d'emplois fictifs.",
+    "Emmanuel Macron l'appelle à Matignon en 2017 : il y affronte les Gilets jaunes, porte un projet de réforme des retraites inachevé et gère les débuts du Covid-19. Après quatre ans sans étiquette, il fonde en 2021 Horizons, qui représente l'aile droite de la majorité présidentielle, et annonce en 2024 sa candidature pour 2027."
+   ],
    "mandats": [
     [
      2020,
@@ -674,29 +507,6 @@
    "wiki": "Gabriel Attal",
    "logo": "renaissance.svg",
    "born": "16 mars 1989, Clamart (Hauts-de-Seine)",
-   "bio": "Militant socialiste de 2006 à 2016, Gabriel Attal rejoint En marche en 2016 et devient député des Hauts-de-Seine en 2017. Secrétaire d'État puis ministre de l'Éducation nationale, il est nommé Premier ministre en janvier 2024, à 34 ans, le plus jeune de l'histoire. Président du groupe Ensemble pour la République à l'Assemblée, il est secrétaire général de Renaissance depuis décembre 2024.",
-   "reperes": [
-    [
-     2006,
-     "Militant au Parti socialiste (jusqu'en 2016)"
-    ],
-    [
-     2016,
-     "Rejoint En marche"
-    ],
-    [
-     2017,
-     "Élu député"
-    ],
-    [
-     2024,
-     "Premier ministre (janvier-septembre)"
-    ],
-    [
-     2024,
-     "Secrétaire général de Renaissance"
-    ]
-   ],
    "results": [
     {
      "year": 2012,
@@ -724,6 +534,10 @@
     }
    ],
    "resultsNote": "Gabriel Attal n'a jamais été candidat : ces scores sont ceux d'Emmanuel Macron, fondateur du parti.",
+   "bio": [
+    "Militant au PS de 2006 à 2016, il travaille dans le cabinet de la ministre de la Santé Marisol Touraine, puis rejoint Emmanuel Macron dès la création d'En marche en 2016. Élu député en 2017, il devient en 2018 le plus jeune membre d'un gouvernement de la Ve République.",
+    "Porte-parole du gouvernement, ministre des Comptes publics puis de l'Éducation, il est nommé Premier ministre en janvier 2024 : le plus jeune de l'histoire et le premier ouvertement homosexuel. La dissolution et les législatives de 2024 le font démissionner après moins de huit mois ; il reprend la tête du groupe à l'Assemblée puis le secrétariat général de Renaissance."
+   ],
    "mandats": [
     [
      2024,
@@ -775,29 +589,6 @@
    "wiki": "Bruno Retailleau",
    "logo": "lr.svg",
    "born": "20 novembre 1960, Cholet (Maine-et-Loire)",
-   "bio": "Élu conseiller général de Vendée en 1988, Bruno Retailleau préside le département (2010-2015) puis la région Pays de la Loire (2015-2017). Député en 1994, sénateur de 2004 à 2024 et depuis 2025, il préside le groupe LR au Sénat de 2014 à 2024. Ministre de l'Intérieur de septembre 2024 à octobre 2025, il prend la tête des Républicains en 2025 et en devient le candidat à la présidentielle.",
-   "reperes": [
-    [
-     1988,
-     "Conseiller général de la Vendée"
-    ],
-    [
-     2004,
-     "Sénateur de la Vendée"
-    ],
-    [
-     2014,
-     "Président du groupe LR au Sénat"
-    ],
-    [
-     2024,
-     "Ministre de l'Intérieur"
-    ],
-    [
-     2025,
-     "Élu président des Républicains"
-    ]
-   ],
    "results": [
     {
      "year": 2012,
@@ -825,6 +616,10 @@
     }
    ],
    "resultsNote": "Bruno Retailleau n'a jamais été candidat : ces scores sont ceux du candidat de la droite (UMP puis LR).",
+   "bio": [
+    "Venu du Mouvement pour la France de Philippe de Villiers, qu'il quitte en 2010, il rejoint l'UMP puis Les Républicains, dont il préside le groupe au Sénat de 2014 à 2024. Il échoue à prendre la tête du parti en 2022 face à Éric Ciotti.",
+    "Ministre de l'Intérieur dans les gouvernements Barnier, Bayrou et Lecornu I, il se fait connaître par sa fermeté sur l'immigration et vis-à-vis de l'Algérie, et se démarque de la politique de Macron. Élu président de LR en 2025 face à Laurent Wauquiez, son hostilité à la présence de Bruno Le Maire pousse Sébastien Lecornu à présenter sa démission ; il refuse d'entrer dans le gouvernement suivant. Les militants de LR le désignent candidat."
+   ],
    "mandats": [
     [
      2025,
@@ -876,25 +671,6 @@
    "wiki": "David Lisnard",
    "logo": "nouvelle-energie.png",
    "born": "2 février 1969, Limoges",
-   "bio": "Diplômé de Sciences Po Bordeaux, David Lisnard est conseiller général des Alpes-Maritimes depuis 2008 et maire de Cannes depuis 2014. Il préside l'Association des maires de France. Longtemps membre de LR, dont il était vice-président, il quitte le parti en 2026 et se déclare candidat à la présidentielle de 2027 avec Nouvelle Énergie, le parti libéral de droite qu'il a fondé.",
-   "reperes": [
-    [
-     2008,
-     "Conseiller général des Alpes-Maritimes"
-    ],
-    [
-     2014,
-     "Maire de Cannes"
-    ],
-    [
-     2017,
-     "Président de l'agglomération Cannes Pays de Lérins"
-    ],
-    [
-     2026,
-     "Quitte LR ; candidat avec Nouvelle Énergie"
-    ]
-   ],
    "results": [
     {
      "year": 2012,
@@ -922,6 +698,10 @@
     }
    ],
    "resultsNote": "Nouvelle Énergie n'a jamais présenté de candidat à une présidentielle.",
+   "bio": [
+    "Il milite pour Jacques Chirac aux présidentielles de 1988 et 1995, puis devient collaborateur de Jacques Pélissard, député-maire et futur président de l'Association des maires de France, qu'il présidera lui-même à partir de 2021.",
+    "Maire de Cannes depuis 2014, il fonde le parti libéral de droite Nouvelle Énergie. Longtemps vice-président de LR, il quitte le parti en 2026 pour se déclarer candidat à la présidentielle avec Nouvelle Énergie."
+   ],
    "mandats": [
     [
      2021,
@@ -953,33 +733,6 @@
    "wiki": "Nicolas Dupont-Aignan",
    "logo": "dlf.png",
    "born": "7 mars 1961, Paris",
-   "bio": "Énarque passé par le RPR puis l'UMP, Nicolas Dupont-Aignan fonde Debout la République, devenu Debout la France, parti gaulliste et souverainiste. Maire d'Yerres de 1995 à 2017 et de nouveau depuis 2026, député de l'Essonne de 1997 à 2024, il est candidat à la présidentielle en 2012, 2017 et 2022. Entre les deux tours de 2017, il noue une alliance avec Marine Le Pen, rompue après l'élection.",
-   "reperes": [
-    [
-     1995,
-     "Maire d'Yerres"
-    ],
-    [
-     1997,
-     "Député de l'Essonne"
-    ],
-    [
-     2012,
-     "Première candidature à la présidentielle"
-    ],
-    [
-     2017,
-     "Alliance avec Marine Le Pen entre les deux tours"
-    ],
-    [
-     2024,
-     "Battu aux législatives"
-    ],
-    [
-     2026,
-     "Retrouve la mairie d'Yerres"
-    ]
-   ],
    "results": [
     {
      "year": 2012,
@@ -1007,6 +760,10 @@
     }
    ],
    "resultsNote": null,
+   "bio": [
+    "Il passe du RPR au RPF puis à l'UMP, mais fonde en parallèle Debout la République, devenu Debout la France : un parti qui se réclame du gaullisme et du souverainisme. Il est maire d'Yerres dès 1995 et député de l'Essonne de 1997 à 2024.",
+    "Son moment le plus marquant intervient entre les deux tours de 2017 : après 4,70 % au premier tour, il conclut une alliance de gouvernement avec Marine Le Pen, qui tombe après l'élection d'Emmanuel Macron. Battu aux législatives de 2024, il retrouve la mairie d'Yerres en 2026."
+   ],
    "mandats": [
     [
      2026,
@@ -1043,33 +800,6 @@
    "wiki": "Marine Le Pen",
    "logo": "rn.svg",
    "born": "5 août 1968, Neuilly-sur-Seine",
-   "bio": "Engagée au Front national en 1986, Marine Le Pen siège au Parlement européen de 2004 à 2017 et préside le FN de 2011 à 2021, avant de le rebaptiser Rassemblement national. Finaliste de la présidentielle en 2017 et 2022, elle est députée du Pas-de-Calais et préside le groupe RN à l'Assemblée. Condamnée en 2025 puis en appel en 2026 dans l'affaire des assistants parlementaires, elle s'est pourvue en cassation et officialise sa candidature pour 2027.",
-   "reperes": [
-    [
-     1986,
-     "Adhère au Front national"
-    ],
-    [
-     2011,
-     "Présidente du FN"
-    ],
-    [
-     2017,
-     "Finaliste de la présidentielle ; élue députée"
-    ],
-    [
-     2022,
-     "Finaliste de la présidentielle (41,45 % au second tour)"
-    ],
-    [
-     2025,
-     "Condamnée en première instance (assistants parlementaires)"
-    ],
-    [
-     2026,
-     "Peine réduite en appel ; officialise sa candidature"
-    ]
-   ],
    "results": [
     {
      "year": 2012,
@@ -1097,6 +827,10 @@
     }
    ],
    "resultsNote": null,
+   "bio": [
+    "Née en 1968, elle est la benjamine de Jean-Marie Le Pen, fondateur du Front national. Enfant, elle échappe à l'attentat de la villa Poirier, qui détruit une partie de l'immeuble familial. Elle s'engage au FN en 1986 et en prend la présidence en 2011, succédant à son père.",
+    "Elle entreprend de normaliser le parti, jusqu'à exclure son père en 2015 et rebaptiser le FN « Rassemblement national » en 2018. Finaliste de la présidentielle en 2017 puis en 2022 (41,45 % au second tour), elle préside le groupe RN à l'Assemblée. Condamnée en 2025 dans l'affaire des assistants parlementaires, elle voit sa peine réduite en appel en 2026 et se pourvoit en cassation."
+   ],
    "mandats": [
     [
      2017,
@@ -1133,29 +867,6 @@
    "wiki": "Éric Zemmour",
    "logo": "reconquete.svg",
    "born": "31 août 1958, Montreuil",
-   "bio": "Diplômé de Sciences Po, Éric Zemmour a été journaliste au Figaro et chroniqueur à la radio et à la télévision, et il a publié des essais à succès. Il a été condamné à plusieurs reprises pour provocation à la haine et diffamation. Candidat à la présidentielle de 2022 (7,07 %, quatrième), il fonde Reconquête et annonce en septembre 2026 qu'il se représente en 2027.",
-   "reperes": [
-    [
-     1986,
-     "Journaliste au Quotidien de Paris, puis au Figaro (1996)"
-    ],
-    [
-     2021,
-     "Fonde Reconquête"
-    ],
-    [
-     2022,
-     "Candidat à la présidentielle : 4e avec 7,07 %"
-    ],
-    [
-     2022,
-     "Éliminé au premier tour des législatives (Var)"
-    ],
-    [
-     2026,
-     "Annonce sa candidature pour 2027"
-    ]
-   ],
    "results": [
     {
      "year": 2012,
@@ -1183,6 +894,10 @@
     }
    ],
    "resultsNote": null,
+   "bio": [
+    "Journaliste politique au Figaro, puis polémiste à la radio et à la télévision, Éric Zemmour s'impose dans le débat public grâce à ses essais à succès. Il est condamné à plusieurs reprises, notamment pour provocation à la haine et diffamation.",
+    "En novembre 2021, il se lance dans la présidentielle et fonde Reconquête pour créer une union des droites autour de thèmes identitaires. Quatrième avec 7,07 %, il échoue aux législatives suivantes dans le Var, comme tous les candidats de son parti. Il annonce en septembre 2026 qu'il se représente."
+   ],
    "mandats": [],
    "source": {
     "label": "Wikipédia · Éric Zemmour",

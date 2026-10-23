@@ -535,3 +535,11 @@ body.no-scroll{overflow:hidden}
 .cd-mandats b{flex:none;width:7.5em;font-variant-numeric:tabular-nums}
 .cd-none{font-size:.86rem;color:var(--muted)}
 .cd-res-round{flex:none;width:5.6em;font-size:.76rem;color:var(--muted)}
+.cd-bio+.cd-bio{margin-top:12px}
+
+.cd-term{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:help;border-bottom:1.5px dotted var(--k,#6B7280);font-weight:600}
+.cd-term:hover,.cd-term[aria-expanded="true"]{background:#F1F4F9}
+.cd-term:focus-visible{outline:2px solid var(--ink);outline-offset:1px;border-radius:2px}
+.cd-term-card{display:flex;flex-direction:column;gap:2px;margin:8px 0 4px;padding:10px 12px;font-size:.84rem;line-height:1.45;background:#F8F9FC;border-left:3px solid var(--k,#6B7280);border-radius:8px}
+.cd-term-card[hidden]{display:none}
+.cd-bio{margin-top:12px}.cd-bio:first-child{margin-top:0}

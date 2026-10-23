@@ -1,0 +1,313 @@
+{
+ "terms": [
+  {
+   "label": "Trotskiste",
+   "match": [
+    "trotskiste",
+    "trotskistes",
+    "trotskisme"
+   ],
+   "def": "Courant communiste révolutionnaire se réclamant de Léon Trotski, l'un des dirigeants de la révolution russe de 1917, opposé à Staline. Il défend la révolution mondiale, la rupture avec le capitalisme et l'organisation indépendante des travailleurs.",
+   "cs": false
+  },
+  {
+   "label": "Anticapitaliste",
+   "match": [
+    "anticapitaliste",
+    "anticapitalistes"
+   ],
+   "def": "Qui veut remplacer le capitalisme par un autre système économique, fondé sur la propriété collective ou le contrôle des travailleurs.",
+   "cs": false
+  },
+  {
+   "label": "Souverainisme",
+   "match": [
+    "souverainisme",
+    "souverainiste"
+   ],
+   "def": "Courant qui défend la souveraineté nationale face à l'Union européenne et aux autres institutions supranationales.",
+   "cs": false
+  },
+  {
+   "label": "Gaullisme",
+   "match": [
+    "gaullisme",
+    "gaulliste"
+   ],
+   "def": "Courant inspiré du général de Gaulle : indépendance nationale, État fort et institutions de la Ve République.",
+   "cs": false
+  },
+  {
+   "label": "Social-démocratie",
+   "match": [
+    "social-démocratie"
+   ],
+   "def": "Courant de gauche réformiste qui accepte l'économie de marché mais la corrige par la protection sociale, les services publics et la redistribution.",
+   "cs": false
+  },
+  {
+   "label": "Fédéralisme européen",
+   "match": [
+    "fédéralisme"
+   ],
+   "def": "Idée de transférer davantage de pouvoirs aux institutions européennes communes, jusqu'à former une sorte d'Europe fédérale.",
+   "cs": false
+  },
+  {
+   "label": "Libéral",
+   "match": [
+    "libéral"
+   ],
+   "def": "En économie : favorable à la liberté d'entreprendre, à la concurrence et à un rôle limité de l'État.",
+   "cs": false
+  },
+  {
+   "label": "Apartheid",
+   "match": [
+    "apartheid"
+   ],
+   "def": "Régime de ségrégation raciale imposé en Afrique du Sud jusqu'au début des années 1990.",
+   "cs": false
+  },
+  {
+   "label": "Sandinistes",
+   "match": [
+    "sandinistes"
+   ],
+   "def": "Mouvement de gauche révolutionnaire qui a renversé la dictature de Somoza au Nicaragua en 1979.",
+   "cs": false
+  },
+  {
+   "label": "NUPES",
+   "match": [
+    "NUPES"
+   ],
+   "def": "Nouvelle Union populaire écologique et sociale : alliance de LFI, du PS, des écologistes et du PCF formée pour les législatives de 2022.",
+   "cs": true
+  },
+  {
+   "label": "Front de gauche",
+   "match": [
+    "Front de gauche"
+   ],
+   "def": "Coalition de gauche créée en 2009 autour du Parti de gauche de Jean-Luc Mélenchon et du Parti communiste français.",
+   "cs": false
+  },
+  {
+   "label": "Nouveau Front populaire",
+   "match": [
+    "Nouveau Front populaire"
+   ],
+   "def": "Alliance de la gauche (LFI, PS, écologistes, PCF) formée en juin 2024, après la dissolution de l'Assemblée nationale, pour les législatives anticipées.",
+   "cs": false
+  },
+  {
+   "label": "CPE",
+   "match": [
+    "CPE"
+   ],
+   "def": "Contrat première embauche : contrat de travail pour les moins de 26 ans, retiré en 2006 après un important mouvement étudiant et syndical.",
+   "cs": true
+  },
+  {
+   "label": "Loi Travail",
+   "match": [
+    "loi Travail"
+   ],
+   "def": "Réforme du code du travail adoptée en 2016, qui a provoqué de fortes manifestations et grèves.",
+   "cs": false
+  },
+  {
+   "label": "Chibanis",
+   "match": [
+    "Chibanis"
+   ],
+   "def": "Mot arabe qui signifie « les anciens » : il désigne les travailleurs immigrés maghrébins âgés, venus travailler en France.",
+   "cs": false
+  },
+  {
+   "label": "Gilets jaunes",
+   "match": [
+    "Gilets jaunes"
+   ],
+   "def": "Mouvement de contestation né fin 2018 contre la hausse des taxes sur les carburants, puis contre le coût de la vie et les inégalités.",
+   "cs": false
+  },
+  {
+   "label": "Matignon",
+   "match": [
+    "Matignon"
+   ],
+   "def": "Hôtel où siège le Premier ministre ; par extension, la fonction elle-même.",
+   "cs": false
+  },
+  {
+   "label": "UMP",
+   "match": [
+    "UMP"
+   ],
+   "def": "Union pour un mouvement populaire : grand parti de droite fondé en 2002, devenu Les Républicains en 2015.",
+   "cs": true
+  },
+  {
+   "label": "RPR",
+   "match": [
+    "RPR"
+   ],
+   "def": "Rassemblement pour la République : parti gaulliste de droite fondé par Jacques Chirac en 1976, fusionné dans l'UMP en 2002.",
+   "cs": true
+  },
+  {
+   "label": "RPF",
+   "match": [
+    "RPF"
+   ],
+   "def": "Rassemblement pour la France : parti souverainiste fondé en 1999 par Charles Pasqua et Philippe de Villiers.",
+   "cs": true
+  },
+  {
+   "label": "Mouvement pour la France",
+   "match": [
+    "Mouvement pour la France"
+   ],
+   "def": "Parti souverainiste et conservateur de droite, fondé par Philippe de Villiers en 1994.",
+   "cs": false
+  },
+  {
+   "label": "EELV",
+   "match": [
+    "EELV"
+   ],
+   "def": "Europe Écologie Les Verts : parti écologiste, rebaptisé Les Écologistes en 2023.",
+   "cs": true
+  },
+  {
+   "label": "PCF",
+   "match": [
+    "PCF"
+   ],
+   "def": "Parti communiste français, fondé en 1920.",
+   "cs": true
+  },
+  {
+   "label": "PS",
+   "match": [
+    "PS"
+   ],
+   "def": "Parti socialiste : principal parti de gauche de gouvernement, fondé en 1969 et dirigé par François Mitterrand à partir de 1971.",
+   "cs": true
+  },
+  {
+   "label": "NPA",
+   "match": [
+    "NPA"
+   ],
+   "def": "Nouveau Parti anticapitaliste : parti d'extrême gauche fondé en 2009 autour d'Olivier Besancenot.",
+   "cs": true
+  },
+  {
+   "label": "Organisation communiste internationaliste",
+   "match": [
+    "Organisation communiste internationaliste"
+   ],
+   "def": "Organisation trotskiste française active dans les années 1970, dont est issu notamment le courant lambertiste.",
+   "cs": false
+  },
+  {
+   "label": "Emplois fictifs",
+   "match": [
+    "emplois fictifs"
+   ],
+   "def": "Soupçon d'avoir rémunéré des proches comme collaborateurs sans travail réel. L'affaire visant François Fillon a éclaté en janvier 2017, en pleine campagne présidentielle.",
+   "cs": false
+  },
+  {
+   "label": "Parrainages",
+   "match": [
+    "parrainages"
+   ],
+   "def": "Pour se présenter à la présidentielle, un candidat doit réunir 500 signatures d'élus (maires, parlementaires, conseillers…).",
+   "cs": false
+  },
+  {
+   "label": "Énarque",
+   "match": [
+    "Énarque"
+   ],
+   "def": "Ancien élève de l'ENA, école de la haute fonction publique remplacée en 2022 par l'Institut national du service public.",
+   "cs": false
+  },
+  {
+   "label": "Conseil d'État",
+   "match": [
+    "Conseil d'État"
+   ],
+   "def": "Plus haute juridiction administrative, qui conseille aussi le gouvernement sur ses projets de loi.",
+   "cs": false
+  },
+  {
+   "label": "Affaire des assistants parlementaires",
+   "match": [
+    "affaire des assistants parlementaires"
+   ],
+   "def": "Le tribunal a jugé que des assistants d'eurodéputés du Front national, payés par le Parlement européen, travaillaient en réalité pour le parti.",
+   "cs": false
+  },
+  {
+   "label": "Attentat de la villa Poirier",
+   "match": [
+    "villa Poirier"
+   ],
+   "def": "Attentat à la bombe commis dans la nuit du 1er au 2 novembre 1976 contre le domicile parisien de Jean-Marie Le Pen.",
+   "cs": false
+  },
+  {
+   "label": "Cassation",
+   "match": [
+    "cassation"
+   ],
+   "def": "Recours devant la Cour de cassation, qui vérifie que le droit a été bien appliqué sans rejuger les faits.",
+   "cs": false
+  },
+  {
+   "label": "Dissolution",
+   "match": [
+    "dissolution"
+   ],
+   "def": "Décision du président de la République de mettre fin au mandat des députés et de convoquer de nouvelles élections législatives.",
+   "cs": false
+  },
+  {
+   "label": "Primaire",
+   "match": [
+    "primaire"
+   ],
+   "def": "Scrutin organisé pour choisir le candidat commun d'un camp à l'élection présidentielle.",
+   "cs": false
+  },
+  {
+   "label": "Congrès de Reims",
+   "match": [
+    "congrès de Reims"
+   ],
+   "def": "Congrès du Parti socialiste de novembre 2008, où Martine Aubry l'emporte de justesse sur Ségolène Royal pour diriger le parti.",
+   "cs": false
+  },
+  {
+   "label": "Ve République",
+   "match": [
+    "Ve République"
+   ],
+   "def": "Régime politique de la France depuis 1958, fondé sur un président de la République aux pouvoirs étendus.",
+   "cs": false
+  },
+  {
+   "label": "Union des droites",
+   "match": [
+    "union des droites"
+   ],
+   "def": "Idée de rassembler la droite classique et l'extrême droite dans une même alliance.",
+   "cs": false
+  }
+ ]
+}

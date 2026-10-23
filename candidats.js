@@ -4,7 +4,7 @@
     lisnard:'Lisnard',retailleau:'Retailleau',dupontaignan:'Dupont-Aignan',lepen:'Le Pen',zemmour:'Zemmour'};
   
   var $=function(id){return document.getElementById(id)};
-  var cands, info, polls, byId={}, lastFocus=null, tab='bio';
+  var cands, info, polls, gloss=[], byId={}, lastFocus=null, tab='bio';
   var drawer=$('drawer'), overlay=$('overlay');
 
   function el(tag,cls,text){var e=document.createElement(tag); if(cls)e.className=cls; if(text!=null)e.textContent=text; return e}
@@ -65,9 +65,49 @@
   }
 
   function years(m){return m[1]===null?'depuis '+m[0]:m[0]===m[1]?String(m[0]):m[0]+' – '+m[1]}
+  function esc(s){return s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}
+  function termRegex(){
+    var all=[]; gloss.forEach(function(g,gi){g.match.forEach(function(m){all.push({gi:gi,m:m,cs:g.cs})})});
+    all.sort(function(a,b){return b.m.length-a.m.length});
+    return all;
+  }
+  /* Insère dans le texte des boutons « terme » qui ouvrent une définition ; première occurrence par fiche seulement */
+  function fillTerms(node,text,seen){
+    var hits=[];
+    termRegex().forEach(function(t){
+      if(seen[t.gi]) return;
+      var re=new RegExp('(^|[^\\p{L}])('+esc(t.m)+')(?![\\p{L}])',t.cs?'u':'iu'), m=re.exec(text);
+      if(!m) return;
+      var s=m.index+m[1].length, e=s+m[2].length;
+      if(hits.some(function(h){return s<h.e&&e>h.s||h.gi===t.gi})) return;
+      hits.push({s:s,e:e,gi:t.gi});
+    });
+    hits.sort(function(a,b){return a.s-b.s});
+    var pos=0;
+    hits.forEach(function(h){
+      seen[h.gi]=true;
+      if(h.s>pos) node.appendChild(document.createTextNode(text.slice(pos,h.s)));
+      var b=el('button','cd-term',text.slice(h.s,h.e)); b.type='button'; b.setAttribute('aria-expanded','false');
+      b.addEventListener('click',function(){toggleTerm(node,b,gloss[h.gi])});
+      node.appendChild(b); pos=h.e;
+    });
+    if(pos<text.length) node.appendChild(document.createTextNode(text.slice(pos)));
+  }
+  function toggleTerm(para,btn,g){
+    var panel=$('panel-bio'), card=para._card, open=btn.getAttribute('aria-expanded')==='true';
+    Array.prototype.forEach.call(panel.querySelectorAll('.cd-term'),function(b){b.setAttribute('aria-expanded','false')});
+    Array.prototype.forEach.call(panel.querySelectorAll('.cd-term-card'),function(c){c.hidden=true});
+    if(open) return;
+    btn.setAttribute('aria-expanded','true');
+    card.innerHTML=''; card.appendChild(el('b',null,g.label)); card.appendChild(el('span',null,g.def)); card.hidden=false;
+  }
   function renderBio(c,i){
     var p=$('panel-bio'); p.innerHTML='';
-    p.appendChild(el('p','cd-bio',i.bio));
+    var seen={};
+    i.bio.forEach(function(t){
+      var para=el('p','cd-bio'); fillTerms(para,t,seen); p.appendChild(para);
+      var card=el('div','cd-term-card'); card.hidden=true; card.setAttribute('role','note'); p.appendChild(card); para._card=card;
+    });
     p.appendChild(el('h3','cd-h','Mandats et fonctions'));
     if(!i.mandats.length) p.appendChild(el('p','cd-none','Aucun mandat électif ni fonction gouvernementale.'));
     else {
@@ -77,10 +117,6 @@
       });
       p.appendChild(ml);
     }
-    p.appendChild(el('h3','cd-h','Repères'));
-    var ol=el('ol','cd-timeline');
-    i.reperes.slice().reverse().forEach(function(r){var li=el('li'); li.appendChild(el('b',null,String(r[0]))); li.appendChild(el('span',null,r[1])); ol.appendChild(li)});
-    p.appendChild(ol);
     var src=el('p','cd-src'); src.appendChild(document.createTextNode('Source : ')); src.appendChild(link(i.source.url,i.source.label+' ↗')); p.appendChild(src);
   }
 
@@ -161,8 +197,8 @@
   });
 
   function json(u){return fetch(u).then(function(r){return r.json()})}
-  Promise.all([json('data/programmes.json'),json('data/candidats.json'),json('data/sondages.json').catch(function(){return null})]).then(function(r){
-    cands=r[0].candidates; info=r[1].candidates; info.__elections=r[1].elections; polls=r[2];
+  Promise.all([json('data/programmes.json'),json('data/candidats.json'),json('data/sondages.json').catch(function(){return null}),json('data/glossaire.json').catch(function(){return {terms:[]}})]).then(function(r){
+    cands=r[0].candidates; info=r[1].candidates; info.__elections=r[1].elections; polls=r[2]; gloss=r[3].terms;
     cands=cands.filter(function(c){return info[c.id]});
     cands.forEach(function(c){byId[c.id]=c});
     renderGrid();
