@@ -130,7 +130,6 @@
      "category": "economie",
      "text": "SMIC à 2 000 € net, hausse des salaires de 500 € et indexation des allocations sur l'inflation.",
      "source": "https://anasse2027.fr/programme",
-     "sim": "melenchon:1",
      "cost": {
       "amount": "Aucun chiffrage trouvé pour SMIC à 2 000 € net ; l'Institut Montaigne chiffre 19 Md€ par an pour 1 600 € net, ce coût serait donc nettement supérieur",
       "level": "Faible",
@@ -141,7 +140,12 @@
         "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/augmenter-le-smic-a-1600-e-net"
        }
       ]
-     }
+     },
+     "sim": [
+      "melenchon:1",
+      "roussel:0",
+      "dupontaignan:0"
+     ]
     },
     {
      "category": "economie",
@@ -152,8 +156,17 @@
      "category": "economie",
      "text": "Investissements massifs dans les services publics, sous contrôle des travailleurs.",
      "source": "https://anasse2027.fr/programme",
-     "sim": "roussel:41",
-     "opp": "zemmour:0"
+     "sim": [
+      "roussel:41",
+      "melenchon:57"
+     ],
+     "opp": [
+      "zemmour:0",
+      "lisnard:2",
+      "philippe:3",
+      "dupontaignan:23",
+      "attal:28"
+     ]
     },
     {
      "category": "economie",
@@ -164,28 +177,48 @@
      "category": "economie",
      "text": "Expropriation des secteurs stratégiques (énergie, transports, banques, santé), sous contrôle des travailleurs.",
      "source": "https://anasse2027.fr/programme",
-     "sim": "dupontaignan:1",
-     "opp": "lisnard:93"
+     "sim": [
+      "roussel:25",
+      "dupontaignan:151"
+     ],
+     "opp": [
+      "lisnard:93"
+     ]
     },
     {
      "category": "economie",
      "text": "Interdiction des licenciements.",
      "source": "https://anasse2027.fr/programme",
-     "sim": "roussel:1",
-     "opp": "attal:7"
+     "sim": [
+      "roussel:1"
+     ],
+     "opp": [
+      "attal:7",
+      "retailleau:6",
+      "lisnard:34"
+     ]
     },
     {
      "category": "economie",
      "text": "Semaine de travail de 28 heures sans baisse de salaire.",
      "source": "https://anasse2027.fr/programme",
-     "sim": "roussel:7",
-     "opp": "lisnard:18"
+     "sim": [
+      "roussel:7",
+      "attal:14"
+     ],
+     "opp": [
+      "lisnard:18",
+      "dupontaignan:12"
+     ]
     },
     {
      "category": "economie",
      "text": "Fin de la sous-traitance, CDI pour tous et égalité salariale pour un même travail.",
      "source": "https://anasse2027.fr/programme",
-     "sim": "roussel:44"
+     "sim": [
+      "philippe:35",
+      "roussel:46"
+     ]
     },
     {
      "category": "fiscalite",
@@ -196,21 +229,39 @@
      "category": "retraites",
      "text": "Retraite à 60 ans, et à 55 ans pour les métiers pénibles, sans condition d'annuité.",
      "source": "https://anasse2027.fr/programme",
-     "sim": "melenchon:0",
-     "opp": "lisnard:45"
+     "sim": [
+      "melenchon:0",
+      "roussel:6"
+     ],
+     "opp": [
+      "lisnard:45",
+      "philippe:5"
+     ]
     },
     {
      "category": "immigration",
      "text": "Régularisation de tous les sans-papiers, liberté de circulation et d'installation.",
      "source": "https://anasse2027.fr/programme",
-     "sim": "roussel:52",
-     "opp": "lisnard:55"
+     "sim": [
+      "roussel:52"
+     ],
+     "opp": [
+      "lisnard:55",
+      "dupontaignan:67",
+      "zemmour:8",
+      "attal:19",
+      "philippe:14"
+     ]
     },
     {
      "category": "securite",
      "text": "Abrogation des lois sécuritaires, racistes et islamophobes, à commencer par la loi de 2004.",
      "source": "https://anasse2027.fr/programme",
-     "opp": "dupontaignan:104"
+     "opp": [
+      "dupontaignan:104",
+      "lisnard:109",
+      "philippe:34"
+     ]
     },
     {
      "category": "securite",
@@ -221,7 +272,11 @@
      "category": "securite",
      "text": "Dissolution des corps spéciaux de police.",
      "source": "https://anasse2027.fr/programme",
-     "opp": "dupontaignan:48"
+     "opp": [
+      "dupontaignan:48",
+      "lisnard:60",
+      "melenchon:55"
+     ]
     },
     {
      "category": "ecologie",
@@ -237,45 +292,66 @@
      "category": "logement",
      "text": "Expropriation des logements vides, plafonnement et gel des loyers.",
      "source": "https://anasse2027.fr/programme",
-     "sim": "roussel:55",
-     "opp": "retailleau:36"
+     "sim": [
+      "roussel:55"
+     ],
+     "opp": [
+      "retailleau:36"
+     ]
     },
     {
      "category": "institutions",
      "text": "Fin de la Ve République, du Sénat et de la figure présidentielle.",
      "source": "https://anasse2027.fr/programme",
-     "sim": "melenchon:8"
+     "sim": [
+      "melenchon:8"
+     ]
     },
     {
      "category": "europe",
      "text": "Aucun euro pour la guerre et démantèlement de la machine de guerre française.",
      "source": "https://anasse2027.fr/programme",
-     "opp": "dupontaignan:228"
+     "opp": [
+      "dupontaignan:228",
+      "attal:22"
+     ]
     },
     {
      "category": "europe",
      "text": "Non au SNU et à la militarisation des écoles et des facs.",
      "source": "https://anasse2027.fr/programme",
-     "opp": "dupontaignan:227"
+     "opp": [
+      "dupontaignan:227"
+     ]
     },
     {
      "category": "europe",
      "text": "Retrait des troupes françaises à l'étranger, libération de la Palestine et de la Kanaky, autodétermination des peuples.",
      "source": "https://anasse2027.fr/programme",
-     "opp": "dupontaignan:228"
+     "opp": [
+      "dupontaignan:228",
+      "attal:22"
+     ]
     },
     {
      "category": "societe",
      "text": "Commissions indépendantes de lutte contre les violences sexistes et sexuelles sur les lieux de travail et d'études.",
      "source": "https://anasse2027.fr/programme",
-     "sim": "roussel:45"
+     "sim": [
+      "roussel:45"
+     ]
     },
     {
      "category": "societe",
      "text": "Accès libre et gratuit à l'avortement, à la PMA et aux transitions.",
      "source": "https://anasse2027.fr/programme",
-     "sim": "melenchon:45",
-     "opp": "dupontaignan:222"
+     "sim": [
+      "melenchon:45",
+      "roussel:47"
+     ],
+     "opp": [
+      "dupontaignan:222"
+     ]
     },
     {
      "category": "societe",
@@ -350,8 +426,6 @@
      "text": "Retraite à 60 ans",
      "source": "https://melenchon2027.fr/programme/decouvrir/",
      "edition": "2025",
-     "sim": "roussel:6",
-     "opp": "lisnard:45",
      "cost": {
       "amount": "26,5 Md€ par an (fourchette 23,5 à 38,5 Md€), estimation de l'Institut Montaigne pour une retraite à 60 ans à taux plein avec 40 annuités",
       "level": "Faible",
@@ -362,14 +436,21 @@
         "url": "https://www.institutmontaigne.org/presidentielle-2022/legislatives-2022/rassemblement-national/restaurer-la-retraite-a-60-ans-a-taux-plein-avec-40-annuites-et-revaloriser-le-minimum-vieillesse-2"
        }
       ]
-     }
+     },
+     "sim": [
+      "kazib:9",
+      "roussel:6"
+     ],
+     "opp": [
+      "lisnard:45",
+      "philippe:5"
+     ]
     },
     {
      "category": "economie",
      "text": "SMIC à 1 700 € net",
      "source": "https://melenchon2027.fr/programme/decouvrir/",
      "edition": "2025",
-     "sim": "roussel:0",
      "cost": {
       "amount": "Aucun chiffrage trouvé pour SMIC à 1 700 € net ; l'Institut Montaigne chiffre 19 Md€ par an pour 1 600 € net, ce coût serait donc nettement supérieur",
       "level": "Faible",
@@ -380,7 +461,12 @@
         "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/augmenter-le-smic-a-1600-e-net"
        }
       ]
-     }
+     },
+     "sim": [
+      "kazib:0",
+      "roussel:0",
+      "dupontaignan:0"
+     ]
     },
     {
      "category": "economie",
@@ -393,8 +479,14 @@
      "text": "Rétablissement de l'ISF",
      "source": "https://melenchon2027.fr/programme/decouvrir/",
      "edition": "2025",
-     "sim": "roussel:64",
-     "opp": "retailleau:7"
+     "sim": [
+      "roussel:64",
+      "dupontaignan:17"
+     ],
+     "opp": [
+      "retailleau:7",
+      "lisnard:41"
+     ]
     },
     {
      "category": "ecologie",
@@ -406,7 +498,11 @@
      "category": "economie",
      "text": "Blocage des prix et hausse des salaires",
      "source": "https://melenchon2027.fr/",
-     "sim": "kazib:0"
+     "sim": [
+      "kazib:0",
+      "roussel:0",
+      "dupontaignan:0"
+     ]
     },
     {
      "category": "ecologie",
@@ -422,7 +518,9 @@
      "category": "institutions",
      "text": "Passage à la 6e République",
      "source": "https://melenchon2027.fr/",
-     "sim": "kazib:17"
+     "sim": [
+      "kazib:17"
+     ]
     },
     {
      "category": "europe",
@@ -433,7 +531,9 @@
      "category": "institutions",
      "text": "Rétablir les communes comme cellules de base de la démocratie locale, en abrogeant les lois qui concentrent les pouvoirs dans les métropoles.",
      "source": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/",
-     "sim": "dupontaignan:210"
+     "sim": [
+      "dupontaignan:210"
+     ]
     },
     {
      "category": "institutions",
@@ -449,7 +549,9 @@
      "category": "institutions",
      "text": "Créer un statut de l'élu garantissant droits sociaux, trimestres de retraite, formation et protection contre les violences.",
      "source": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/",
-     "sim": "dupontaignan:214"
+     "sim": [
+      "dupontaignan:214"
+     ]
     },
     {
      "category": "institutions",
@@ -500,7 +602,9 @@
      "category": "economie",
      "text": "Refonder les critères d'implantation des grandes surfaces selon le ZAN et la préservation des petits commerces.",
      "source": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/",
-     "opp": "dupontaignan:177"
+     "opp": [
+      "dupontaignan:177"
+     ]
     },
     {
      "category": "economie",
@@ -511,7 +615,14 @@
      "category": "economie",
      "text": "Relocaliser les industries stratégiques pour la bifurcation écologique.",
      "source": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/",
-     "sim": "glucksmann:2"
+     "sim": [
+      "glucksmann:2",
+      "retailleau:9",
+      "lisnard:38",
+      "dupontaignan:6",
+      "roussel:61",
+      "attal:37"
+     ]
     },
     {
      "category": "economie",
@@ -532,7 +643,9 @@
      "category": "agriculture",
      "text": "Mettre en place une maîtrise publique du foncier agricole, forestier et énergétique.",
      "source": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/",
-     "sim": "dupontaignan:193"
+     "sim": [
+      "dupontaignan:193"
+     ]
     },
     {
      "category": "agriculture",
@@ -553,15 +666,29 @@
      "category": "ecologie",
      "text": "Isoler au moins 700 000 logements par an.",
      "source": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/",
-     "sim": "dupontaignan:155",
-     "opp": "retailleau:35"
+     "sim": [
+      "roussel:27",
+      "dupontaignan:155",
+      "attal:39",
+      "philippe:27"
+     ],
+     "opp": [
+      "retailleau:35"
+     ]
     },
     {
      "category": "ecologie",
      "text": "Créer un service public de la rénovation énergétique, prioritaire contre la précarité énergétique.",
      "source": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/",
-     "sim": "dupontaignan:155",
-     "opp": "retailleau:35"
+     "sim": [
+      "roussel:27",
+      "dupontaignan:155",
+      "attal:39",
+      "philippe:27"
+     ],
+     "opp": [
+      "retailleau:35"
+     ]
     },
     {
      "category": "ecologie",
@@ -587,20 +714,31 @@
      "category": "logement",
      "text": "Construire massivement des logements publics.",
      "source": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/",
-     "sim": "roussel:55",
-     "opp": "lisnard:68"
+     "sim": [
+      "roussel:55"
+     ],
+     "opp": [
+      "lisnard:68",
+      "retailleau:38",
+      "dupontaignan:180"
+     ]
     },
     {
      "category": "logement",
      "text": "Fixer un quota maximal de locations pour les meublés touristiques dans les zones en tension.",
      "source": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/",
-     "sim": "dupontaignan:176"
+     "sim": [
+      "dupontaignan:176"
+     ]
     },
     {
      "category": "sante",
      "text": "Garantir un service public de santé de proximité, avec urgences, maternités et EHPAD publics à moins de 30 minutes.",
      "source": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/",
-     "sim": "roussel:34"
+     "sim": [
+      "roussel:34",
+      "dupontaignan:129"
+     ]
     },
     {
      "category": "sante",
@@ -611,8 +749,15 @@
      "category": "sante",
      "text": "Lancer un plan pluriannuel de recrutement et de revalorisation des soignants et du médico-social.",
      "source": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/",
-     "sim": "roussel:37",
-     "opp": "zemmour:0"
+     "sim": [
+      "roussel:41",
+      "dupontaignan:131"
+     ],
+     "opp": [
+      "zemmour:0",
+      "lisnard:2",
+      "philippe:3"
+     ]
     },
     {
      "category": "sante",
@@ -623,7 +768,10 @@
      "category": "sante",
      "text": "Garantir un accès à l'IVG à proximité, y compris par des consultations itinérantes.",
      "source": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/",
-     "sim": "roussel:47"
+     "sim": [
+      "roussel:47",
+      "kazib:22"
+     ]
     },
     {
      "category": "education",
@@ -639,7 +787,9 @@
      "category": "education",
      "text": "Rendre les transports scolaires gratuits pour tous.",
      "source": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/",
-     "sim": "roussel:20"
+     "sim": [
+      "roussel:20"
+     ]
     },
     {
      "category": "education",
@@ -650,13 +800,17 @@
      "category": "education",
      "text": "Ouvrir des places d'internat gratuites pour la voie professionnelle et les apprentis.",
      "source": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/",
-     "sim": "lisnard:83"
+     "sim": [
+      "lisnard:83"
+     ]
     },
     {
      "category": "education",
      "text": "Garantir les subventions associatives, généraliser les conventions pluriannuelles et sortir des appels à projets.",
      "source": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/",
-     "opp": "zemmour:19"
+     "opp": [
+      "zemmour:19"
+     ]
     },
     {
      "category": "retraites",
@@ -667,7 +821,10 @@
      "category": "societe",
      "text": "Créer un service public de la petite enfance adapté aux horaires des travailleurs ruraux.",
      "source": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/",
-     "sim": "dupontaignan:43"
+     "sim": [
+      "dupontaignan:43",
+      "attal:17"
+     ]
     },
     {
      "category": "societe",
@@ -678,22 +835,37 @@
      "category": "securite",
      "text": "Créer de nouvelles brigades de gendarmerie de proximité en zone rurale.",
      "source": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/",
-     "sim": "lisnard:17",
-     "opp": "kazib:13"
+     "sim": [
+      "dupontaignan:48",
+      "lisnard:60"
+     ],
+     "opp": [
+      "kazib:13"
+     ]
     },
     {
      "category": "autre",
      "text": "Rouvrir des guichets physiques dans les services publics et maintenir les formulaires papier.",
      "source": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/",
-     "sim": "kazib:2",
-     "opp": "lisnard:5"
+     "sim": [
+      "kazib:2"
+     ],
+     "opp": [
+      "lisnard:5",
+      "dupontaignan:23"
+     ]
     },
     {
      "category": "autre",
      "text": "Stopper les fermetures de services publics et lancer un plan de redéploiement en zones rurales et périurbaines.",
      "source": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/",
-     "sim": "kazib:2",
-     "opp": "lisnard:5"
+     "sim": [
+      "kazib:2"
+     ],
+     "opp": [
+      "lisnard:5",
+      "dupontaignan:23"
+     ]
     },
     {
      "category": "autre",
@@ -704,14 +876,20 @@
      "category": "autre",
      "text": "Renationaliser la SNCF, mettre fin à la mise en concurrence et rouvrir les lignes ferroviaires du quotidien.",
      "source": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/",
-     "sim": "roussel:26",
-     "opp": "philippe:24"
+     "sim": [
+      "roussel:26"
+     ],
+     "opp": [
+      "philippe:24"
+     ]
     },
     {
      "category": "autre",
      "text": "Relancer le fret ferroviaire, fluvial et maritime pour réduire les camions sur les routes.",
      "source": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/",
-     "sim": "philippe:24"
+     "sim": [
+      "philippe:24"
+     ]
     },
     {
      "category": "autre",
@@ -745,7 +923,6 @@
      "text": "Hausse générale des salaires : SMIC net porté à 1 600 €, salaires de la fonction publique +30 %, minima sociaux et pensions relevés.",
      "source": "https://www.pcf.fr/objectif_1",
      "edition": "2022",
-     "sim": "dupontaignan:0",
      "cost": {
       "amount": "19 Md€ par an (fourchette 17 à 21 Md€) pour un SMIC à 1 600 € net, chiffrage de l'Institut Montaigne",
       "level": "Moyen",
@@ -756,23 +933,40 @@
         "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/augmenter-le-smic-a-1600-e-net"
        }
       ]
-     }
+     },
+     "sim": [
+      "kazib:0",
+      "melenchon:1",
+      "dupontaignan:0"
+     ]
     },
     {
      "category": "economie",
      "text": "Abrogation de la loi El Khomri, des ordonnances Macron et de la loi Borne sur l'assurance-chômage.",
      "source": "https://www.pcf.fr/objectif_1",
      "edition": "2022",
-     "sim": "kazib:5",
-     "opp": "attal:7"
+     "sim": [
+      "kazib:5"
+     ],
+     "opp": [
+      "attal:7",
+      "retailleau:6",
+      "lisnard:34"
+     ]
     },
     {
      "category": "economie",
      "text": "Suspension des plans sociaux et licenciements en cours, avec examen sous l'autorité des préfets.",
      "source": "https://www.pcf.fr/objectif_1",
      "edition": "2022",
-     "sim": "kazib:5",
-     "opp": "attal:7"
+     "sim": [
+      "kazib:5"
+     ],
+     "opp": [
+      "attal:7",
+      "retailleau:6",
+      "lisnard:34"
+     ]
     },
     {
      "category": "economie",
@@ -797,8 +991,6 @@
      "text": "Retour de la retraite à 60 ans à taux plein, avec pension à 75 % du revenu net d'activité.",
      "source": "https://www.pcf.fr/objectif_1",
      "edition": "2022",
-     "sim": "kazib:9",
-     "opp": "lisnard:45",
      "cost": {
       "amount": "26,5 Md€ par an (fourchette 23,5 à 38,5 Md€), estimation de l'Institut Montaigne pour une retraite à 60 ans à taux plein avec 40 annuités",
       "level": "Faible",
@@ -809,15 +1001,29 @@
         "url": "https://www.institutmontaigne.org/presidentielle-2022/legislatives-2022/rassemblement-national/restaurer-la-retraite-a-60-ans-a-taux-plein-avec-40-annuites-et-revaloriser-le-minimum-vieillesse-2"
        }
       ]
-     }
+     },
+     "sim": [
+      "kazib:9",
+      "melenchon:0"
+     ],
+     "opp": [
+      "lisnard:45",
+      "philippe:5"
+     ]
     },
     {
      "category": "economie",
      "text": "Passage à la semaine de 32 heures sans baisse de salaire.",
      "source": "https://www.pcf.fr/objectif_1",
      "edition": "2022",
-     "sim": "attal:14",
-     "opp": "lisnard:18"
+     "sim": [
+      "kazib:6",
+      "attal:14"
+     ],
+     "opp": [
+      "lisnard:18",
+      "dupontaignan:12"
+     ]
     },
     {
      "category": "economie",
@@ -842,8 +1048,14 @@
      "text": "Faire du CDI et de la titularisation la norme, mettre fin aux contrats précaires.",
      "source": "https://www.pcf.fr/objectif_2",
      "edition": "2022",
-     "sim": "kazib:5",
-     "opp": "attal:7"
+     "sim": [
+      "kazib:5"
+     ],
+     "opp": [
+      "attal:7",
+      "retailleau:6",
+      "lisnard:34"
+     ]
     },
     {
      "category": "economie",
@@ -856,22 +1068,34 @@
      "text": "Plan pluriannuel d'embauches dans la fonction publique avec pré-recrutements rémunérés.",
      "source": "https://www.pcf.fr/objectif_2",
      "edition": "2022",
-     "sim": "melenchon:43",
-     "opp": "zemmour:0"
+     "sim": [
+      "melenchon:43"
+     ],
+     "opp": [
+      "zemmour:0",
+      "lisnard:2",
+      "philippe:3"
+     ]
     },
     {
      "category": "retraites",
      "text": "Ouvrir le RSA aux moins de 25 ans.",
      "source": "https://www.pcf.fr/objectif_2",
      "edition": "2022",
-     "opp": "zemmour:4"
+     "opp": [
+      "zemmour:4",
+      "dupontaignan:28",
+      "retailleau:3"
+     ]
     },
     {
      "category": "education",
      "text": "Supprimer la sélection à l'entrée de l'université, supprimer Parcoursup et abroger les réformes du lycée et du bac.",
      "source": "https://www.pcf.fr/objectif_2",
      "edition": "2022",
-     "sim": "dupontaignan:123"
+     "sim": [
+      "dupontaignan:123"
+     ]
     },
     {
      "category": "education",
@@ -890,7 +1114,10 @@
      "text": "Étendre le bac professionnel à quatre ans et recréer un CAP dans toutes les filières professionnelles.",
      "source": "https://www.pcf.fr/objectif_2",
      "edition": "2022",
-     "sim": "retailleau:48"
+     "sim": [
+      "retailleau:48",
+      "attal:13"
+     ]
     },
     {
      "category": "logement",
@@ -903,37 +1130,55 @@
      "text": "Gratuité des transports en commun urbains et des TER pour les moins de 25 ans.",
      "source": "https://www.pcf.fr/objectif_2",
      "edition": "2022",
-     "sim": "melenchon:48"
+     "sim": [
+      "melenchon:48"
+     ]
     },
     {
      "category": "economie",
      "text": "Loi de programmation pour une nouvelle industrialisation fondée sur des filières stratégiques et une planification démocratique.",
      "source": "https://www.pcf.fr/objectif_3",
      "edition": "2022",
-     "sim": "attal:37"
+     "sim": [
+      "melenchon:25",
+      "glucksmann:2",
+      "retailleau:9",
+      "lisnard:38",
+      "dupontaignan:6",
+      "attal:37"
+     ]
     },
     {
      "category": "fiscalite",
      "text": "Fonds écologique et social de 140 milliards d'euros par an.",
      "source": "https://www.pcf.fr/objectif_3",
      "edition": "2022",
-     "sim": "kazib:2",
-     "opp": "zemmour:0"
+     "sim": [
+      "kazib:2"
+     ],
+     "opp": [
+      "zemmour:0",
+      "lisnard:2",
+      "philippe:3",
+      "dupontaignan:23",
+      "attal:28"
+     ]
     },
     {
      "category": "fiscalite",
      "text": "Baisse des taxes sur l'électricité et le gaz, TVA à 5,5 %, chèque énergie porté à 700 € minimum.",
      "source": "https://www.pcf.fr/objectif_3",
      "edition": "2022",
-     "sim": "retailleau:8"
+     "sim": [
+      "dupontaignan:1",
+      "retailleau:8"
+     ]
     },
     {
      "category": "ecologie",
      "text": "Mix énergétique 100 % public et décarboné, avec énergies renouvelables et au minimum six EPR supplémentaires.",
      "source": "https://www.pcf.fr/objectif_3",
      "edition": "2022",
-     "sim": "philippe:23",
-     "opp": "retailleau:30",
      "cost": {
       "amount": "Six EPR2 : 51,7 Md€ (estimation initiale), 67,4 Md€ (réestimation de 2023), 72,8 Md€ en valeurs 2020 et hors financement (EDF, fin 2025)",
       "level": "Faible",
@@ -948,31 +1193,56 @@
         "url": "https://www.journaldeleconomie.fr/enorme-devis-edf-futurs-epr2/"
        }
       ]
-     }
+     },
+     "sim": [
+      "philippe:23",
+      "attal:36"
+     ],
+     "opp": [
+      "retailleau:30",
+      "dupontaignan:22",
+      "zemmour:12"
+     ]
     },
     {
      "category": "ecologie",
      "text": "Pôle public de l'énergie avec renationalisation d'EDF et d'Engie.",
      "source": "https://www.pcf.fr/objectif_3",
      "edition": "2022",
-     "sim": "dupontaignan:151",
-     "opp": "lisnard:93"
+     "sim": [
+      "dupontaignan:151",
+      "kazib:4"
+     ],
+     "opp": [
+      "lisnard:93"
+     ]
     },
     {
      "category": "ecologie",
      "text": "Renationalisation de la SNCF et gratuité des transports collectifs urbains.",
      "source": "https://www.pcf.fr/objectif_3",
      "edition": "2022",
-     "sim": "melenchon:48",
-     "opp": "philippe:24"
+     "sim": [
+      "melenchon:48"
+     ],
+     "opp": [
+      "philippe:24"
+     ]
     },
     {
      "category": "logement",
      "text": "Obligation de rénovation énergétique des logements d'ici 2040, 700 000 logements rénovés par an.",
      "source": "https://www.pcf.fr/objectif_3",
      "edition": "2022",
-     "sim": "melenchon:33",
-     "opp": "retailleau:35"
+     "sim": [
+      "melenchon:33",
+      "dupontaignan:155",
+      "attal:39",
+      "philippe:27"
+     ],
+     "opp": [
+      "retailleau:35"
+     ]
     },
     {
      "category": "agriculture",
@@ -985,7 +1255,10 @@
      "text": "Remise en cause des accords de libre-échange et forte taxation des importations ne respectant pas nos normes.",
      "source": "https://www.pcf.fr/objectif_3",
      "edition": "2022",
-     "sim": "dupontaignan:185"
+     "sim": [
+      "dupontaignan:185",
+      "philippe:31"
+     ]
     },
     {
      "category": "ecologie",
@@ -1004,22 +1277,34 @@
      "text": "Développer massivement les centres de santé et porter à 12 000 les places d'étudiants en médecine par an.",
      "source": "https://www.pcf.fr/objectif_4",
      "edition": "2022",
-     "sim": "dupontaignan:128"
+     "sim": [
+      "dupontaignan:128"
+     ]
     },
     {
      "category": "sante",
      "text": "Créer 100 000 emplois à l'hôpital et dans les Ehpad, mettre fin à la T2A.",
      "source": "https://www.pcf.fr/objectif_4",
      "edition": "2022",
-     "sim": "melenchon:43",
-     "opp": "zemmour:0"
+     "sim": [
+      "melenchon:43",
+      "dupontaignan:133"
+     ],
+     "opp": [
+      "zemmour:0",
+      "lisnard:2",
+      "philippe:3"
+     ]
     },
     {
      "category": "sante",
      "text": "Garantir un établissement de santé à moins de 30 minutes par bassin de vie.",
      "source": "https://www.pcf.fr/objectif_4",
      "edition": "2022",
-     "sim": "dupontaignan:129"
+     "sim": [
+      "melenchon:41",
+      "dupontaignan:129"
+     ]
     },
     {
      "category": "sante",
@@ -1032,16 +1317,28 @@
      "text": "Supprimer le reste à charge des soins et viser une prise en charge à 100 %.",
      "source": "https://www.pcf.fr/objectif_4",
      "edition": "2022",
-     "sim": "kazib:10",
-     "opp": "lisnard:125"
+     "sim": [
+      "kazib:10"
+     ],
+     "opp": [
+      "lisnard:125",
+      "dupontaignan:76",
+      "zemmour:8"
+     ]
     },
     {
      "category": "retraites",
      "text": "300 000 emplois en Ehpad et service public du grand âge.",
      "source": "https://www.pcf.fr/objectif_4",
      "edition": "2022",
-     "sim": "melenchon:43",
-     "opp": "zemmour:0"
+     "sim": [
+      "melenchon:43"
+     ],
+     "opp": [
+      "zemmour:0",
+      "lisnard:2",
+      "philippe:3"
+     ]
     },
     {
      "category": "education",
@@ -1054,31 +1351,56 @@
      "text": "Recruter 90 000 enseignants et revaloriser leurs salaires de 30 %.",
      "source": "https://www.pcf.fr/objectif_4",
      "edition": "2022",
-     "sim": "melenchon:43",
-     "opp": "zemmour:0"
+     "sim": [
+      "melenchon:43",
+      "philippe:9",
+      "attal:2",
+      "retailleau:43",
+      "dupontaignan:120"
+     ],
+     "opp": [
+      "zemmour:0",
+      "lisnard:2"
+     ]
     },
     {
      "category": "education",
      "text": "Plafonner les effectifs des classes à 15 à 25 élèves selon le niveau.",
      "source": "https://www.pcf.fr/objectif_4",
      "edition": "2022",
-     "sim": "attal:1"
+     "sim": [
+      "attal:1"
+     ]
     },
     {
      "category": "economie",
      "text": "Créer 500 000 emplois dans la fonction publique et les services publics.",
      "source": "https://www.pcf.fr/objectif_4",
      "edition": "2022",
-     "sim": "melenchon:43",
-     "opp": "zemmour:0"
+     "sim": [
+      "melenchon:43",
+      "kazib:2"
+     ],
+     "opp": [
+      "zemmour:0",
+      "lisnard:2",
+      "philippe:3",
+      "dupontaignan:23"
+     ]
     },
     {
      "category": "economie",
      "text": "Revaloriser le point d'indice d'au moins 30 %.",
      "source": "https://www.pcf.fr/objectif_4",
      "edition": "2022",
-     "sim": "melenchon:43",
-     "opp": "zemmour:0"
+     "sim": [
+      "melenchon:43"
+     ],
+     "opp": [
+      "zemmour:0",
+      "lisnard:2",
+      "philippe:3"
+     ]
     },
     {
      "category": "institutions",
@@ -1091,28 +1413,39 @@
      "text": "Créer un ministère des Droits des femmes de plein droit et affecter un milliard d'euros à la lutte contre les violences sexistes et sexuelles.",
      "source": "https://www.pcf.fr/objectif_5",
      "edition": "2022",
-     "sim": "philippe:35"
+     "sim": [
+      "philippe:35",
+      "kazib:7"
+     ]
     },
     {
      "category": "societe",
      "text": "Loi-cadre contre les violences conjugales et intrafamiliales.",
      "source": "https://www.pcf.fr/objectif_5",
      "edition": "2022",
-     "sim": "kazib:21"
+     "sim": [
+      "kazib:21"
+     ]
     },
     {
      "category": "economie",
      "text": "Rendre l'égalité salariale effective dans la fonction publique, puis dans les entreprises.",
      "source": "https://www.pcf.fr/objectif_5",
      "edition": "2022",
-     "sim": "kazib:7"
+     "sim": [
+      "philippe:35",
+      "kazib:7"
+     ]
     },
     {
      "category": "sante",
      "text": "Inscrire le droit à l'IVG dans la Constitution et garantir un accès gratuit à la contraception.",
      "source": "https://www.pcf.fr/objectif_5",
      "edition": "2022",
-     "sim": "kazib:22"
+     "sim": [
+      "melenchon:45",
+      "kazib:22"
+     ]
     },
     {
      "category": "sante",
@@ -1131,7 +1464,10 @@
      "text": "Protéger le congé maternité et aligner le congé parental pour les deux parents.",
      "source": "https://www.pcf.fr/objectif_5",
      "edition": "2022",
-     "sim": "retailleau:25"
+     "sim": [
+      "dupontaignan:42",
+      "retailleau:25"
+     ]
     },
     {
      "category": "securite",
@@ -1144,16 +1480,26 @@
      "text": "Interdire les tests osseux pour les mineurs non accompagnés, régulariser les travailleurs sans papiers et rétablir le droit d'asile.",
      "source": "https://www.pcf.fr/objectif_6",
      "edition": "2022",
-     "sim": "kazib:10",
-     "opp": "lisnard:55"
+     "sim": [
+      "kazib:10"
+     ],
+     "opp": [
+      "lisnard:55",
+      "dupontaignan:67",
+      "zemmour:8"
+     ]
     },
     {
      "category": "societe",
      "text": "PMA pour toutes et tous, changement d'état civil libre et gratuit.",
      "source": "https://www.pcf.fr/objectif_6",
      "edition": "2022",
-     "sim": "kazib:22",
-     "opp": "dupontaignan:222"
+     "sim": [
+      "kazib:22"
+     ],
+     "opp": [
+      "dupontaignan:222"
+     ]
     },
     {
      "category": "retraites",
@@ -1166,22 +1512,34 @@
      "text": "Abrogation de la loi Elan, encadrement des loyers, 200 000 logements sociaux construits chaque année.",
      "source": "https://www.pcf.fr/objectif_6",
      "edition": "2022",
-     "sim": "melenchon:39",
-     "opp": "lisnard:68"
+     "sim": [
+      "melenchon:39",
+      "kazib:16"
+     ],
+     "opp": [
+      "lisnard:68",
+      "retailleau:38",
+      "dupontaignan:180"
+     ]
     },
     {
      "category": "logement",
      "text": "Interdiction des saisies, expulsions et coupures d'eau et d'énergie pour les personnes en difficulté.",
      "source": "https://www.pcf.fr/objectif_6",
      "edition": "2022",
-     "opp": "retailleau:37"
+     "opp": [
+      "retailleau:37",
+      "dupontaignan:183"
+     ]
     },
     {
      "category": "logement",
      "text": "Création d'un service public national du logement avec trois pôles publics.",
      "source": "https://www.pcf.fr/objectif_6",
      "edition": "2022",
-     "sim": "melenchon:39"
+     "sim": [
+      "melenchon:39"
+     ]
     },
     {
      "category": "education",
@@ -1206,37 +1564,61 @@
      "text": "Fonds de 250 milliards d'euros géré par la Caisse des dépôts pour financer le développement économique, social et écologique.",
      "source": "https://www.pcf.fr/moyen_1",
      "edition": "2022",
-     "sim": "attal:37",
-     "opp": "philippe:1"
+     "sim": [
+      "melenchon:25",
+      "glucksmann:2",
+      "retailleau:9",
+      "lisnard:38",
+      "dupontaignan:6",
+      "attal:37",
+      "kazib:2"
+     ],
+     "opp": [
+      "philippe:1"
+     ]
     },
     {
      "category": "fiscalite",
      "text": "Nouvel impôt sur les sociétés progressif, plus élevé pour délocalisations, suppressions d'emplois et pollutions.",
      "source": "https://www.pcf.fr/moyen_1",
      "edition": "2022",
-     "opp": "retailleau:7"
+     "opp": [
+      "retailleau:7"
+     ]
     },
     {
      "category": "fiscalite",
      "text": "Impôt sur le revenu porté à 15 tranches ; disparition progressive de la CSG.",
      "source": "https://www.pcf.fr/moyen_1",
      "edition": "2022",
-     "opp": "retailleau:7"
+     "opp": [
+      "retailleau:7"
+     ]
     },
     {
      "category": "fiscalite",
      "text": "Rétablissement de l'impôt sur la fortune, montant triplé ; abolition du prélèvement forfaitaire unique.",
      "source": "https://www.pcf.fr/moyen_1",
      "edition": "2022",
-     "sim": "dupontaignan:17",
-     "opp": "retailleau:7"
+     "sim": [
+      "melenchon:3",
+      "dupontaignan:17"
+     ],
+     "opp": [
+      "retailleau:7",
+      "lisnard:41"
+     ]
     },
     {
      "category": "fiscalite",
      "text": "Réforme des donations et successions : progressivité renforcée, franchise de 170 000 euros.",
      "source": "https://www.pcf.fr/moyen_1",
      "edition": "2022",
-     "opp": "retailleau:7"
+     "opp": [
+      "retailleau:7",
+      "dupontaignan:19",
+      "lisnard:41"
+     ]
     },
     {
      "category": "fiscalite",
@@ -1316,7 +1698,9 @@
      "category": "retraites",
      "text": "Démarchandiser les EHPAD et les crèches.",
      "source": "https://place-publique.eu/posts/2fgDdljEIy36rgxBjRyiQZ/raphael-glucksmann-sa-lettre-aux-francais",
-     "opp": "retailleau:26"
+     "opp": [
+      "retailleau:26"
+     ]
     },
     {
      "category": "ecologie",
@@ -1329,7 +1713,14 @@
      "text": "Protéger les productions nationales et remettre des usines dans les territoires (sans dispositif précisé).",
      "source": "https://place-publique.eu/posts/2fgDdljEIy36rgxBjRyiQZ/raphael-glucksmann-sa-lettre-aux-francais",
      "kind": "orientation",
-     "sim": "retailleau:9"
+     "sim": [
+      "melenchon:25",
+      "retailleau:9",
+      "lisnard:38",
+      "dupontaignan:6",
+      "roussel:61",
+      "attal:37"
+     ]
     },
     {
      "category": "economie",
@@ -1342,8 +1733,15 @@
      "text": "Faire de la France la locomotive de la puissance européenne naissante.",
      "source": "https://place-publique.eu/posts/2fgDdljEIy36rgxBjRyiQZ/raphael-glucksmann-sa-lettre-aux-francais",
      "kind": "orientation",
-     "sim": "lisnard:30",
-     "opp": "dupontaignan:29"
+     "sim": [
+      "lisnard:30",
+      "attal:27",
+      "philippe:30"
+     ],
+     "opp": [
+      "dupontaignan:29",
+      "zemmour:17"
+     ]
     }
    ]
   },
@@ -1421,71 +1819,122 @@
      "category": "fiscalite",
      "text": "Baisser la dépense publique plutôt qu'augmenter les impôts ; supprimer les niches fiscales avant toute hausse pour ceux qui travaillent.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
-     "sim": "lisnard:2",
-     "opp": "roussel:22"
+     "sim": [
+      "lisnard:2",
+      "attal:28",
+      "dupontaignan:24"
+     ],
+     "opp": [
+      "roussel:22",
+      "kazib:2"
+     ]
     },
     {
      "category": "fiscalite",
      "text": "Ne pas alourdir la fiscalité des entreprises ni créer de nouveaux impôts pour les catégories aisées.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
-     "sim": "retailleau:7"
+     "sim": [
+      "retailleau:7"
+     ]
     },
     {
      "category": "fiscalite",
      "text": "Demander à l'État, aux agences et aux collectivités de réduire leurs dépenses.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
-     "sim": "lisnard:26",
-     "opp": "roussel:41"
+     "sim": [
+      "zemmour:0",
+      "lisnard:2",
+      "dupontaignan:23",
+      "attal:28"
+     ],
+     "opp": [
+      "roussel:41",
+      "melenchon:43",
+      "kazib:2"
+     ]
     },
     {
      "category": "retraites",
      "text": "Demander aux retraités de contribuer davantage au financement du système social.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
-     "opp": "dupontaignan:27"
+     "opp": [
+      "dupontaignan:27",
+      "lisnard:50"
+     ]
     },
     {
      "category": "retraites",
      "text": "Faire travailler plus longtemps les cadres et employés du public comme du privé.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
-     "sim": "lisnard:45",
-     "opp": "kazib:9"
+     "sim": [
+      "lisnard:45",
+      "attal:16"
+     ],
+     "opp": [
+      "kazib:9",
+      "melenchon:0",
+      "roussel:6"
+     ]
     },
     {
      "category": "retraites",
      "text": "Baisser les dépenses sociales.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
-     "sim": "attal:32",
-     "opp": "roussel:22"
+     "sim": [
+      "lisnard:2",
+      "attal:28",
+      "dupontaignan:24"
+     ],
+     "opp": [
+      "roussel:22",
+      "kazib:2"
+     ]
     },
     {
      "category": "education",
      "text": "Donner aux établissements la liberté de fixer méthodes, horaires, équipes, discipline, uniforme, et de choisir et évaluer les enseignants.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
-     "sim": "lisnard:75"
+     "sim": [
+      "lisnard:75",
+      "dupontaignan:102"
+     ]
     },
     {
      "category": "education",
      "text": "Faire des directeurs de véritables chefs d'établissement.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
-     "sim": "lisnard:75"
+     "sim": [
+      "lisnard:75",
+      "dupontaignan:102"
+     ]
     },
     {
      "category": "education",
      "text": "Recruter autrement les enseignants, mieux les former et les rémunérer nettement mieux.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
-     "sim": "attal:2"
+     "sim": [
+      "roussel:39",
+      "attal:2",
+      "retailleau:43",
+      "dupontaignan:120"
+     ]
     },
     {
      "category": "education",
      "text": "Renforcer lire-écrire-compter et intégrer l'IA dans la pédagogie.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
-     "sim": "retailleau:44"
+     "sim": [
+      "retailleau:44",
+      "dupontaignan:107"
+     ]
     },
     {
      "category": "education",
      "text": "Encadrer l'usage des écrans chez les jeunes enfants.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
-     "sim": "dupontaignan:105"
+     "sim": [
+      "dupontaignan:105"
+     ]
     },
     {
      "category": "education",
@@ -1496,32 +1945,51 @@
      "category": "education",
      "text": "Réformer les rythmes : journées plus courtes, plus de sport et de culture, vacances d'été raccourcies.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
-     "sim": "attal:3"
+     "sim": [
+      "attal:3",
+      "retailleau:46"
+     ]
     },
     {
      "category": "immigration",
      "text": "Voter chaque année une liste de pays sûrs pour accélérer les procédures d'asile.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
-     "sim": "dupontaignan:72",
-     "opp": "kazib:10"
+     "sim": [
+      "dupontaignan:72",
+      "lisnard:118"
+     ],
+     "opp": [
+      "kazib:10"
+     ]
     },
     {
      "category": "immigration",
      "text": "Expulser les étrangers délinquants et les priver des aides sociales.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
-     "sim": "zemmour:5"
+     "sim": [
+      "zemmour:3",
+      "dupontaignan:45",
+      "lisnard:128"
+     ]
     },
     {
      "category": "immigration",
      "text": "Contrôler les flux en s'inspirant de pays européens, sans quitter la CEDH ni les traités européens.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
-     "opp": "lisnard:117"
+     "opp": [
+      "lisnard:117",
+      "dupontaignan:99"
+     ]
     },
     {
      "category": "immigration",
      "text": "Accueillir sélectivement étudiants, médecins, soignants et ingénieurs étrangers selon les besoins.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
-     "sim": "dupontaignan:75"
+     "sim": [
+      "lisnard:56",
+      "attal:20",
+      "dupontaignan:75"
+     ]
     },
     {
      "category": "securite",
@@ -1532,7 +2000,10 @@
      "category": "securite",
      "text": "Prévoir des condamnations rapides à de courtes peines de prison systématiques.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
-     "sim": "lisnard:111"
+     "sim": [
+      "lisnard:110",
+      "dupontaignan:90"
+     ]
     },
     {
      "category": "securite",
@@ -1543,27 +2014,44 @@
      "category": "securite",
      "text": "Donner aux maires un pouvoir de sanction pénale pour les petites infractions.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
-     "sim": "lisnard:62"
+     "sim": [
+      "lisnard:102",
+      "dupontaignan:50"
+     ]
     },
     {
      "category": "securite",
      "text": "Renforcer les moyens financiers, humains et numériques de la justice.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
-     "sim": "lisnard:43"
+     "sim": [
+      "lisnard:43",
+      "dupontaignan:95"
+     ]
     },
     {
      "category": "ecologie",
      "text": "Développer une énergie décarbonée reposant sur le nucléaire et les énergies renouvelables.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
-     "sim": "roussel:24",
-     "opp": "retailleau:30"
+     "sim": [
+      "roussel:24",
+      "attal:36"
+     ],
+     "opp": [
+      "retailleau:30",
+      "dupontaignan:22",
+      "zemmour:12"
+     ]
     },
     {
      "category": "ecologie",
      "text": "Lancer un grand plan de fret ferroviaire.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
-     "sim": "melenchon:60",
-     "opp": "melenchon:59"
+     "sim": [
+      "melenchon:60"
+     ],
+     "opp": [
+      "roussel:26"
+     ]
     },
     {
      "category": "ecologie",
@@ -1574,20 +2062,31 @@
      "category": "ecologie",
      "text": "Décentraliser la compétence climatique vers les collectivités territoriales.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
-     "sim": "lisnard:71"
+     "sim": [
+      "lisnard:4"
+     ]
     },
     {
      "category": "logement",
      "text": "Rénover les logements, les hôpitaux et les écoles.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
-     "sim": "roussel:27",
-     "opp": "retailleau:35"
+     "sim": [
+      "roussel:27",
+      "melenchon:33",
+      "dupontaignan:155",
+      "attal:39"
+     ],
+     "opp": [
+      "retailleau:35"
+     ]
     },
     {
      "category": "institutions",
      "text": "Donner plus de liberté aux collectivités territoriales.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
-     "sim": "lisnard:71"
+     "sim": [
+      "lisnard:4"
+     ]
     },
     {
      "category": "institutions",
@@ -1598,22 +2097,37 @@
      "category": "europe",
      "text": "Doter l'Europe d'infrastructures d'IA souveraines à l'échelle des 27 pays.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
-     "sim": "glucksmann:4",
-     "opp": "dupontaignan:29"
+     "sim": [
+      "glucksmann:4",
+      "lisnard:30",
+      "attal:27",
+      "retailleau:39"
+     ],
+     "opp": [
+      "dupontaignan:29",
+      "zemmour:17"
+     ]
     },
     {
      "category": "europe",
      "text": "Exiger des partenaires commerciaux hors UE les mêmes exigences environnementales qu'aux producteurs européens.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
-     "sim": "dupontaignan:164"
+     "sim": [
+      "roussel:29",
+      "dupontaignan:185"
+     ]
     },
     {
      "category": "europe",
      "text": "Soutenir l'Ukraine sans ambiguïté et préparer la défense du pays.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
      "kind": "orientation",
-     "sim": "attal:22",
-     "opp": "dupontaignan:30"
+     "sim": [
+      "attal:22"
+     ],
+     "opp": [
+      "dupontaignan:30"
+     ]
     },
     {
      "category": "education",
@@ -1626,15 +2140,23 @@
      "text": "Faire respecter la laïcité, avec des limites face au fondamentalisme, à l'entrisme et au séparatisme.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
      "kind": "orientation",
-     "sim": "lisnard:107",
-     "opp": "kazib:11"
+     "sim": [
+      "lisnard:107",
+      "dupontaignan:82"
+     ],
+     "opp": [
+      "kazib:11"
+     ]
     },
     {
      "category": "societe",
      "text": "Atteindre l'égalité réelle entre femmes et hommes en salaire, carrière et responsabilités.",
      "source": "https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/",
      "kind": "orientation",
-     "sim": "roussel:46"
+     "sim": [
+      "roussel:46",
+      "kazib:7"
+     ]
     },
     {
      "category": "securite",
@@ -1660,13 +2182,18 @@
      "category": "securite",
      "text": "Lever l'excuse de minorité pour les faits liés au narcotrafic, créer la comparution immédiate des mineurs et des établissements de réinsertion.",
      "source": "https://horizonsleparti.fr/le-plan-dedouard-philippe-contre-le-narcotrafic/",
-     "sim": "lisnard:113"
+     "sim": [
+      "lisnard:113",
+      "dupontaignan:93"
+     ]
     },
     {
      "category": "securite",
      "text": "Permettre aux maires et polices municipales de sanctionner l'usage de stupéfiants et d'élargir les fermetures administratives de lieux de trafic.",
      "source": "https://horizonsleparti.fr/le-plan-dedouard-philippe-contre-le-narcotrafic/",
-     "sim": "lisnard:103"
+     "sim": [
+      "lisnard:103"
+     ]
     },
     {
      "category": "securite",
@@ -1740,19 +2267,29 @@
      "category": "education",
      "text": "Viser moins de 20 élèves par classe en primaire.",
      "source": "https://attalpresident.fr/programme/education",
-     "sim": "roussel:40"
+     "sim": [
+      "roussel:40"
+     ]
     },
     {
      "category": "education",
      "text": "Utiliser les moyens libérés par la baisse démographique pour mieux rémunérer professeurs et personnels, dont les accompagnants d'élèves en situation de handicap.",
      "source": "https://attalpresident.fr/programme/education",
-     "sim": "retailleau:43"
+     "sim": [
+      "roussel:39",
+      "philippe:9",
+      "retailleau:43",
+      "dupontaignan:120"
+     ]
     },
     {
      "category": "education",
      "text": "Adapter les rythmes scolaires aux besoins et à la santé mentale des jeunes.",
      "source": "https://attalpresident.fr/programme/education",
-     "sim": "retailleau:46"
+     "sim": [
+      "philippe:13",
+      "retailleau:46"
+     ]
     },
     {
      "category": "education",
@@ -1773,8 +2310,14 @@
      "category": "economie",
      "text": "Simplifier le droit du travail et réformer le Code du travail en une « constitution du travail ».",
      "source": "https://attalpresident.fr/programme/travail-salaires",
-     "sim": "retailleau:6",
-     "opp": "kazib:5"
+     "sim": [
+      "retailleau:6",
+      "lisnard:34"
+     ],
+     "opp": [
+      "kazib:5",
+      "roussel:1"
+     ]
     },
     {
      "category": "economie",
@@ -1785,21 +2328,35 @@
      "category": "economie",
      "text": "Réduire les cotisations salariales pour augmenter le salaire net.",
      "source": "https://attalpresident.fr/programme/travail-salaires",
-     "sim": "retailleau:0"
+     "sim": [
+      "retailleau:0",
+      "dupontaignan:0",
+      "lisnard:36"
+     ]
     },
     {
      "category": "economie",
      "text": "Réformer l'assurance chômage pour inciter au travail (objectif : 100 000 emplois supplémentaires).",
      "source": "https://attalpresident.fr/programme/travail-salaires",
-     "sim": "retailleau:4",
-     "opp": "roussel:1"
+     "sim": [
+      "retailleau:4"
+     ],
+     "opp": [
+      "roussel:1"
+     ]
     },
     {
      "category": "economie",
      "text": "Supprimer le plafond d'heures supplémentaires fixé par le Code du travail (220 heures par an et par salarié).",
      "source": "https://attalpresident.fr/programme/travail-salaires",
-     "sim": "lisnard:18",
-     "opp": "kazib:6"
+     "sim": [
+      "lisnard:18",
+      "dupontaignan:12"
+     ],
+     "opp": [
+      "kazib:6",
+      "roussel:7"
+     ]
     },
     {
      "category": "economie",
@@ -1810,14 +2367,22 @@
      "category": "economie",
      "text": "Démassifier l'enseignement supérieur, valoriser les métiers manuels, techniques et industriels.",
      "source": "https://attalpresident.fr/programme/travail-salaires",
-     "sim": "roussel:18"
+     "sim": [
+      "roussel:18",
+      "retailleau:48"
+     ]
     },
     {
      "category": "economie",
      "text": "Promouvoir la semaine de quatre jours là où c'est possible.",
      "source": "https://attalpresident.fr/programme/travail-salaires",
-     "sim": "kazib:6",
-     "opp": "lisnard:18"
+     "sim": [
+      "kazib:6",
+      "roussel:7"
+     ],
+     "opp": [
+      "lisnard:18"
+     ]
     },
     {
      "category": "fiscalite",
@@ -1828,32 +2393,52 @@
      "category": "retraites",
      "text": "Pour augmenter le taux d'emploi des seniors, faire de la durée de cotisation, et non de l'âge de départ, l'enjeu central.",
      "source": "https://attalpresident.fr/programme/travail-salaires",
-     "sim": "retailleau:2"
+     "sim": [
+      "retailleau:2",
+      "lisnard:45",
+      "philippe:5"
+     ]
     },
     {
      "category": "retraites",
      "text": "Former 200 000 professionnels de la petite enfance d'ici 2030.",
      "source": "https://attalpresident.fr/programme/travail-salaires",
-     "sim": "melenchon:53"
+     "sim": [
+      "dupontaignan:43",
+      "melenchon:53"
+     ]
     },
     {
      "category": "immigration",
      "text": "Accueillir moins pour accueillir mieux, en privilégiant l'immigration de travail.",
      "source": "https://attalpresident.fr/programme/frontieres",
-     "sim": "philippe:17"
+     "sim": [
+      "lisnard:56",
+      "philippe:17",
+      "dupontaignan:75"
+     ]
     },
     {
      "category": "immigration",
      "text": "Mieux encadrer le regroupement familial, avec l'objectif de le réduire.",
      "source": "https://attalpresident.fr/programme/frontieres",
-     "sim": "lisnard:57",
-     "opp": "kazib:10"
+     "sim": [
+      "lisnard:57",
+      "dupontaignan:71"
+     ],
+     "opp": [
+      "kazib:10"
+     ]
     },
     {
      "category": "immigration",
      "text": "Instaurer une « préférence travail » fondée sur un système à points inspiré du Canada.",
      "source": "https://attalpresident.fr/programme/frontieres",
-     "sim": "philippe:17"
+     "sim": [
+      "lisnard:56",
+      "philippe:17",
+      "dupontaignan:75"
+     ]
     },
     {
      "category": "immigration",
@@ -1864,20 +2449,30 @@
      "category": "europe",
      "text": "Poursuivre et amplifier le réarmement et continuer à soutenir militairement l'Ukraine.",
      "source": "https://attalpresident.fr/programme/frontieres",
-     "sim": "dupontaignan:228",
-     "opp": "kazib:18"
+     "sim": [
+      "dupontaignan:228",
+      "philippe:32"
+     ],
+     "opp": [
+      "kazib:18"
+     ]
     },
     {
      "category": "europe",
      "text": "Faire de la dissuasion nucléaire un outil de puissance, notamment via la dissuasion nucléaire avancée.",
      "source": "https://attalpresident.fr/programme/frontieres",
-     "sim": "dupontaignan:230"
+     "sim": [
+      "dupontaignan:230"
+     ]
     },
     {
      "category": "europe",
      "text": "Appliquer des taxes à l'importation ciblées sur les produits chinois vendus à perte (acier, voitures électriques, panneaux solaires).",
      "source": "https://attalpresident.fr/programme/frontieres",
-     "sim": "glucksmann:2"
+     "sim": [
+      "dupontaignan:9",
+      "glucksmann:2"
+     ]
     },
     {
      "category": "europe",
@@ -1888,21 +2483,38 @@
      "category": "europe",
      "text": "Réduire la dépendance à la Chine (matières premières rares, composants électroniques, médicaments).",
      "source": "https://attalpresident.fr/programme/frontieres",
-     "sim": "dupontaignan:144"
+     "sim": [
+      "dupontaignan:144"
+     ]
     },
     {
      "category": "europe",
      "text": "Lancer des investissements européens massifs en IA, quantique et énergies propres, sans attendre l'unanimité des 27.",
      "source": "https://attalpresident.fr/programme/frontieres",
-     "sim": "philippe:30",
-     "opp": "dupontaignan:29"
+     "sim": [
+      "glucksmann:4",
+      "lisnard:30",
+      "philippe:30",
+      "retailleau:39"
+     ],
+     "opp": [
+      "dupontaignan:29",
+      "zemmour:17"
+     ]
     },
     {
      "category": "fiscalite",
      "text": "Objectif de zéro déficit public en 10 ans maximum.",
      "source": "https://attalpresident.fr/programme/dette-de-letat",
-     "sim": "dupontaignan:24",
-     "opp": "roussel:22"
+     "sim": [
+      "philippe:1",
+      "lisnard:2",
+      "dupontaignan:24"
+     ],
+     "opp": [
+      "roussel:22",
+      "kazib:2"
+     ]
     },
     {
      "category": "fiscalite",
@@ -1923,8 +2535,15 @@
      "category": "fiscalite",
      "text": "Commencer l'effort par la dépense sociale, qui représente plus de la moitié des dépenses publiques.",
      "source": "https://attalpresident.fr/programme/dette-de-letat",
-     "sim": "philippe:1",
-     "opp": "roussel:22"
+     "sim": [
+      "philippe:1",
+      "lisnard:2",
+      "dupontaignan:24"
+     ],
+     "opp": [
+      "roussel:22",
+      "kazib:2"
+     ]
     },
     {
      "category": "retraites",
@@ -1940,32 +2559,54 @@
      "category": "ecologie",
      "text": "Sortir la France de sa dépendance aux énergies fossiles.",
      "source": "https://attalpresident.fr/programme/dette-ecologique",
-     "sim": "lisnard:9"
+     "sim": [
+      "lisnard:9"
+     ]
     },
     {
      "category": "ecologie",
      "text": "Développer massivement l'électrique, accessible à tous.",
      "source": "https://attalpresident.fr/programme/dette-ecologique",
-     "sim": "roussel:24"
+     "sim": [
+      "roussel:24",
+      "philippe:23",
+      "lisnard:9"
+     ]
     },
     {
      "category": "ecologie",
      "text": "Créer une industrie décarbonée qui crée des emplois sur le territoire.",
      "source": "https://attalpresident.fr/programme/dette-ecologique",
-     "sim": "melenchon:25"
+     "sim": [
+      "melenchon:25",
+      "glucksmann:2",
+      "retailleau:9",
+      "lisnard:38",
+      "dupontaignan:6",
+      "roussel:61"
+     ]
     },
     {
      "category": "ecologie",
      "text": "Porter la baisse annuelle des émissions de 1,8 % à 5 % d'ici 2030.",
      "source": "https://attalpresident.fr/programme/dette-ecologique",
-     "sim": "lisnard:9"
+     "sim": [
+      "lisnard:9"
+     ]
     },
     {
      "category": "logement",
      "text": "Rénovation thermique massive pour protéger chaque foyer des canicules comme du froid.",
      "source": "https://attalpresident.fr/programme/dette-ecologique",
-     "sim": "philippe:27",
-     "opp": "retailleau:35"
+     "sim": [
+      "roussel:27",
+      "melenchon:33",
+      "dupontaignan:155",
+      "philippe:27"
+     ],
+     "opp": [
+      "retailleau:35"
+     ]
     },
     {
      "category": "economie",
@@ -1991,13 +2632,19 @@
      "category": "europe",
      "text": "Donner la préférence européenne dans les marchés publics liés à l'IA.",
      "source": "https://attalpresident.fr/programme/intelligence-artificielle",
-     "sim": "retailleau:39"
+     "sim": [
+      "philippe:30",
+      "retailleau:39"
+     ]
     },
     {
      "category": "europe",
      "text": "Développer une IA française et européenne, dite de confiance.",
      "source": "https://attalpresident.fr/programme/intelligence-artificielle",
-     "sim": "retailleau:39"
+     "sim": [
+      "philippe:30",
+      "retailleau:39"
+     ]
     }
    ]
   },
@@ -2065,7 +2712,11 @@
      "category": "economie",
      "text": "Instaurer un seuil « zéro cotisation » pour que le travail rapporte davantage.",
      "source": "https://republicains.fr/nos-propositions/",
-     "sim": "dupontaignan:0"
+     "sim": [
+      "attal:9",
+      "dupontaignan:0",
+      "lisnard:36"
+     ]
     },
     {
      "category": "economie",
@@ -2076,54 +2727,95 @@
      "category": "economie",
      "text": "Permettre aux seniors ayant tous leurs trimestres de continuer à travailler.",
      "source": "https://republicains.fr/nos-propositions/",
-     "sim": "attal:16"
+     "sim": [
+      "attal:16"
+     ]
     },
     {
      "category": "retraites",
      "text": "Réduire l'assistance grâce à un compte social unique (CSU).",
      "source": "https://republicains.fr/nos-propositions/",
-     "sim": "zemmour:4",
-     "opp": "roussel:14"
+     "sim": [
+      "zemmour:4",
+      "dupontaignan:28"
+     ],
+     "opp": [
+      "roussel:14"
+     ]
     },
     {
      "category": "economie",
      "text": "Réformer l'assurance chômage pour accélérer le retour à l'emploi.",
      "source": "https://republicains.fr/nos-propositions/",
-     "sim": "attal:10",
-     "opp": "roussel:1"
+     "sim": [
+      "attal:10"
+     ],
+     "opp": [
+      "roussel:1"
+     ]
     },
     {
      "category": "economie",
      "text": "Supprimer dès l'élection les 50 règles qui paralysent le plus les entreprises.",
      "source": "https://republicains.fr/nos-propositions/",
-     "sim": "attal:7",
-     "opp": "kazib:5"
+     "sim": [
+      "attal:7",
+      "lisnard:34",
+      "dupontaignan:4"
+     ],
+     "opp": [
+      "kazib:5",
+      "roussel:1"
+     ]
     },
     {
      "category": "economie",
      "text": "Refonder le code du travail autour de 50 principes, le reste relevant de la négociation collective.",
      "source": "https://republicains.fr/nos-propositions/",
-     "sim": "lisnard:34",
-     "opp": "kazib:5"
+     "sim": [
+      "attal:7",
+      "lisnard:34"
+     ],
+     "opp": [
+      "kazib:5",
+      "roussel:1"
+     ]
     },
     {
      "category": "fiscalite",
      "text": "Réduire nettement les prélèvements obligatoires.",
      "source": "https://republicains.fr/nos-propositions/",
-     "sim": "lisnard:41",
-     "opp": "melenchon:3"
+     "sim": [
+      "lisnard:41",
+      "philippe:2"
+     ],
+     "opp": [
+      "melenchon:3",
+      "roussel:64",
+      "dupontaignan:17"
+     ]
     },
     {
      "category": "ecologie",
      "text": "Garantir un prix de l'électricité durablement compétitif pour l'industrie française.",
      "source": "https://republicains.fr/nos-propositions/",
-     "sim": "dupontaignan:1"
+     "sim": [
+      "dupontaignan:1",
+      "roussel:23"
+     ]
     },
     {
      "category": "economie",
      "text": "Restaurer la souveraineté industrielle en investissant dans l'outil de production.",
      "source": "https://republicains.fr/nos-propositions/",
-     "sim": "lisnard:38"
+     "sim": [
+      "melenchon:25",
+      "glucksmann:2",
+      "lisnard:38",
+      "dupontaignan:6",
+      "roussel:61",
+      "attal:37"
+     ]
     },
     {
      "category": "education",
@@ -2174,7 +2866,9 @@
      "category": "agriculture",
      "text": "Refonder la PAC comme outil de souveraineté et de sécurisation des revenus agricoles.",
      "source": "https://republicains.fr/nos-propositions/",
-     "opp": "dupontaignan:187"
+     "opp": [
+      "dupontaignan:187"
+     ]
     },
     {
      "category": "agriculture",
@@ -2185,13 +2879,19 @@
      "category": "societe",
      "text": "Créer un revenu familial remplaçant 12 dispositifs d'aide aux parents.",
      "source": "https://republicains.fr/nos-propositions/",
-     "sim": "dupontaignan:216"
+     "sim": [
+      "dupontaignan:216",
+      "lisnard:74"
+     ]
     },
     {
      "category": "societe",
      "text": "Doubler le revenu familial pour le troisième enfant mineur à charge.",
      "source": "https://republicains.fr/nos-propositions/",
-     "sim": "dupontaignan:216"
+     "sim": [
+      "dupontaignan:216",
+      "lisnard:74"
+     ]
     },
     {
      "category": "logement",
@@ -2202,31 +2902,40 @@
      "category": "logement",
      "text": "Soutenir les familles avec enfants dans l'achat de leur résidence principale.",
      "source": "https://republicains.fr/nos-propositions/",
-     "sim": "dupontaignan:167"
+     "sim": [
+      "dupontaignan:167"
+     ]
     },
     {
      "category": "societe",
      "text": "Accompagner les six premiers mois de l'enfant pour créer le lien parental.",
      "source": "https://republicains.fr/nos-propositions/",
-     "sim": "dupontaignan:42"
+     "sim": [
+      "dupontaignan:42",
+      "roussel:50"
+     ]
     },
     {
      "category": "societe",
      "text": "Favoriser la création de solutions de garde par le secteur privé pour chaque enfant de moins de trois ans.",
      "source": "https://republicains.fr/nos-propositions/",
-     "opp": "glucksmann:0"
+     "opp": [
+      "glucksmann:0"
+     ]
     },
     {
      "category": "ecologie",
      "text": "Inscrire le parc nucléaire dans une trajectoire « 80 ans ».",
      "source": "https://republicains.fr/nos-propositions/",
-     "sim": "lisnard:92"
+     "sim": [
+      "lisnard:92",
+      "dupontaignan:33"
+     ]
     },
     {
      "category": "ecologie",
      "text": "Maîtriser les coûts et les délais des nouveaux EPR2.",
      "source": "https://republicains.fr/nos-propositions/",
-     "sim": "lisnard:92",
      "cost": {
       "amount": "Six EPR2 : 51,7 Md€ (estimation initiale), 67,4 Md€ (réestimation de 2023), 72,8 Md€ en valeurs 2020 et hors financement (EDF, fin 2025)",
       "level": "Faible",
@@ -2241,7 +2950,11 @@
         "url": "https://www.journaldeleconomie.fr/enorme-devis-edf-futurs-epr2/"
        }
       ]
-     }
+     },
+     "sim": [
+      "lisnard:92",
+      "dupontaignan:33"
+     ]
     },
     {
      "category": "ecologie",
@@ -2252,14 +2965,23 @@
      "category": "ecologie",
      "text": "Stopper le subventionnement de nouvelles éoliennes et photovoltaïques.",
      "source": "https://republicains.fr/nos-propositions/",
-     "sim": "dupontaignan:22",
-     "opp": "roussel:24"
+     "sim": [
+      "dupontaignan:22",
+      "zemmour:12"
+     ],
+     "opp": [
+      "roussel:24",
+      "philippe:23"
+     ]
     },
     {
      "category": "ecologie",
      "text": "Relancer les études sur un prototype de réacteur à neutrons rapides (4e génération).",
      "source": "https://republicains.fr/nos-propositions/",
-     "sim": "lisnard:92"
+     "sim": [
+      "lisnard:92",
+      "dupontaignan:33"
+     ]
     },
     {
      "category": "europe",
@@ -2275,40 +2997,66 @@
      "category": "logement",
      "text": "Encourager fortement l'accession à la propriété pour tous.",
      "source": "https://republicains.fr/nos-propositions/",
-     "sim": "dupontaignan:167"
+     "sim": [
+      "dupontaignan:167"
+     ]
     },
     {
      "category": "logement",
      "text": "Mettre fin aux interdictions de louer liées au DPE.",
      "source": "https://republicains.fr/nos-propositions/",
-     "sim": "dupontaignan:173",
-     "opp": "roussel:27"
+     "sim": [
+      "dupontaignan:173"
+     ],
+     "opp": [
+      "roussel:27",
+      "melenchon:33",
+      "attal:39",
+      "philippe:27"
+     ]
     },
     {
      "category": "logement",
      "text": "Restaurer la liberté du marché locatif et créer un statut du bailleur privé.",
      "source": "https://republicains.fr/nos-propositions/",
-     "opp": "kazib:16"
+     "opp": [
+      "kazib:16",
+      "roussel:55"
+     ]
     },
     {
      "category": "securite",
      "text": "Appliquer une tolérance zéro contre le squat et les impayés.",
      "source": "https://republicains.fr/nos-propositions/",
-     "sim": "dupontaignan:183",
-     "opp": "roussel:56"
+     "sim": [
+      "dupontaignan:183"
+     ],
+     "opp": [
+      "roussel:56"
+     ]
     },
     {
      "category": "logement",
      "text": "Adapter la loi SRU à la réalité du terrain et redonner aux maires la maîtrise du logement social.",
      "source": "https://republicains.fr/nos-propositions/",
-     "sim": "dupontaignan:180",
-     "opp": "roussel:55"
+     "sim": [
+      "lisnard:68",
+      "dupontaignan:180"
+     ],
+     "opp": [
+      "roussel:55",
+      "melenchon:39"
+     ]
     },
     {
      "category": "europe",
      "text": "Appliquer le principe « Buy European First » à la commande publique en matière d'IA.",
      "source": "https://republicains.fr/nos-propositions/",
-     "sim": "dupontaignan:10"
+     "sim": [
+      "dupontaignan:10",
+      "philippe:30",
+      "attal:27"
+     ]
     },
     {
      "category": "education",
@@ -2329,44 +3077,68 @@
      "category": "education",
      "text": "Mieux payer les professeurs et redonner au professorat son attrait.",
      "source": "https://republicains.fr/nos-propositions/",
-     "sim": "dupontaignan:120"
+     "sim": [
+      "roussel:39",
+      "philippe:9",
+      "attal:2",
+      "dupontaignan:120"
+     ]
     },
     {
      "category": "education",
      "text": "Rendre aux enfants le temps d'apprendre à lire, écrire et compter.",
      "source": "https://republicains.fr/nos-propositions/",
-     "sim": "dupontaignan:107"
+     "sim": [
+      "philippe:10",
+      "dupontaignan:107"
+     ]
     },
     {
      "category": "education",
      "text": "Donner des notes lisibles qui aident parents et élèves à se repérer.",
      "source": "https://republicains.fr/nos-propositions/",
-     "sim": "dupontaignan:122"
+     "sim": [
+      "dupontaignan:122"
+     ]
     },
     {
      "category": "education",
      "text": "Reprendre la maîtrise du temps scolaire.",
      "source": "https://republicains.fr/nos-propositions/",
-     "sim": "philippe:13"
+     "sim": [
+      "philippe:13",
+      "attal:3"
+     ]
     },
     {
      "category": "education",
      "text": "Créer mille écoles libres au sein de l'école publique.",
      "source": "https://republicains.fr/nos-propositions/",
-     "sim": "lisnard:82"
+     "sim": [
+      "lisnard:82"
+     ]
     },
     {
      "category": "education",
      "text": "Faire de la voie professionnelle une filière d'excellence et de fierté.",
      "source": "https://republicains.fr/nos-propositions/",
-     "sim": "attal:13"
+     "sim": [
+      "roussel:18",
+      "attal:13"
+     ]
     },
     {
      "category": "fiscalite",
      "text": "Baisser les impôts de succession (« Je serai le président qui baissera les impôts de succession », 26 août 2026).",
      "source": "https://republicains.fr/actualites/",
-     "sim": "lisnard:41",
-     "opp": "melenchon:3"
+     "sim": [
+      "lisnard:41",
+      "dupontaignan:19"
+     ],
+     "opp": [
+      "melenchon:3",
+      "roussel:64"
+     ]
     },
     {
      "category": "ecologie",
@@ -2377,13 +3149,18 @@
      "category": "immigration",
      "text": "Réserver l'espace Schengen aux Européens (2 août 2026).",
      "source": "https://republicains.fr/actualites/",
-     "sim": "dupontaignan:66"
+     "sim": [
+      "dupontaignan:66"
+     ]
     },
     {
      "category": "institutions",
      "text": "Réviser la Constitution pour restaurer la souveraineté populaire (message de Bruno Retailleau, 24 juin 2026).",
      "source": "https://republicains.fr/actualites/",
-     "sim": "dupontaignan:206"
+     "sim": [
+      "dupontaignan:206",
+      "lisnard:31"
+     ]
     }
    ]
   },
@@ -2459,42 +3236,75 @@
      "category": "retraites",
      "text": "Permettre aux travailleurs de se constituer un capital pour leur retraite, par capitalisation.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/",
-     "sim": "philippe:5",
-     "opp": "kazib:9"
+     "sim": [
+      "philippe:5"
+     ],
+     "opp": [
+      "kazib:9",
+      "melenchon:0",
+      "roussel:6"
+     ]
     },
     {
      "category": "fiscalite",
      "text": "Réduire drastiquement les dépenses publiques.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/",
-     "sim": "philippe:3",
-     "opp": "roussel:41"
+     "sim": [
+      "zemmour:0",
+      "philippe:3",
+      "dupontaignan:23",
+      "attal:28"
+     ],
+     "opp": [
+      "roussel:41",
+      "melenchon:43",
+      "kazib:2"
+     ]
     },
     {
      "category": "economie",
      "text": "Engager un choc massif de dérégulation.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/",
-     "sim": "retailleau:5",
-     "opp": "kazib:5"
+     "sim": [
+      "attal:7",
+      "retailleau:6"
+     ],
+     "opp": [
+      "kazib:5",
+      "roussel:1",
+      "dupontaignan:151"
+     ]
     },
     {
      "category": "institutions",
      "text": "Décentraliser l'action publique vers l'échelon local et garantir la libre administration des collectivités.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/",
-     "sim": "philippe:28"
+     "sim": [
+      "philippe:28"
+     ]
     },
     {
      "category": "institutions",
      "text": "Recentrer l'État sur ses missions premières : instruction, sécurité, justice, diplomatie et santé.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/",
-     "sim": "dupontaignan:23",
-     "opp": "melenchon:57"
+     "sim": [
+      "dupontaignan:23"
+     ],
+     "opp": [
+      "melenchon:57",
+      "kazib:2"
+     ]
     },
     {
      "category": "immigration",
      "text": "Permettre à l'État de maîtriser sa politique migratoire par référendum, sans dépendre des hautes cours.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/",
-     "sim": "dupontaignan:99",
-     "opp": "philippe:16"
+     "sim": [
+      "dupontaignan:99"
+     ],
+     "opp": [
+      "philippe:16"
+     ]
     },
     {
      "category": "securite",
@@ -2510,7 +3320,9 @@
      "category": "ecologie",
      "text": "Engager une transformation écologique profonde, conduite sur la durée avec les citoyens.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/",
-     "sim": "attal:35"
+     "sim": [
+      "attal:35"
+     ]
     },
     {
      "category": "institutions",
@@ -2521,15 +3333,29 @@
      "category": "fiscalite",
      "text": "Instaurer une règle d'or limitant les déficits publics, appliquée aux dépenses de fonctionnement et non à l'investissement.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/",
-     "sim": "attal:28",
-     "opp": "roussel:22"
+     "sim": [
+      "philippe:1",
+      "attal:28",
+      "dupontaignan:24"
+     ],
+     "opp": [
+      "roussel:22",
+      "kazib:2"
+     ]
     },
     {
      "category": "fiscalite",
      "text": "Baisser la dette publique par rapport au PIB dès maintenant, sans attendre 2027.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/",
-     "sim": "attal:28",
-     "opp": "roussel:22"
+     "sim": [
+      "philippe:1",
+      "attal:28",
+      "dupontaignan:24"
+     ],
+     "opp": [
+      "roussel:22",
+      "kazib:2"
+     ]
     },
     {
      "category": "fiscalite",
@@ -2540,8 +3366,15 @@
      "category": "fiscalite",
      "text": "Équilibrer structurellement dépenses et recettes, puis réduire la dette.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/",
-     "sim": "attal:28",
-     "opp": "roussel:22"
+     "sim": [
+      "philippe:1",
+      "attal:28",
+      "dupontaignan:24"
+     ],
+     "opp": [
+      "roussel:22",
+      "kazib:2"
+     ]
     },
     {
      "category": "retraites",
@@ -2557,21 +3390,34 @@
      "category": "securite",
      "text": "Mettre en œuvre des plans de remise à niveau des moyens de la police et de la justice.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/",
-     "sim": "dupontaignan:48",
-     "opp": "kazib:13"
+     "sim": [
+      "dupontaignan:48",
+      "melenchon:55"
+     ],
+     "opp": [
+      "kazib:13"
+     ]
     },
     {
      "category": "economie",
      "text": "Retrouver la croissance par la compétitivité et l'augmentation du travail.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/",
-     "sim": "attal:11",
-     "opp": "kazib:6"
+     "sim": [
+      "attal:11"
+     ],
+     "opp": [
+      "kazib:6",
+      "roussel:7"
+     ]
     },
     {
      "category": "economie",
      "text": "Diviser par deux les contraintes administratives imposées aux entreprises et aux citoyens.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/",
-     "sim": "dupontaignan:4"
+     "sim": [
+      "dupontaignan:4",
+      "retailleau:5"
+     ]
     },
     {
      "category": "institutions",
@@ -2597,7 +3443,9 @@
      "category": "institutions",
      "text": "Transférer le pouvoir normatif d'application de la loi aux collectivités territoriales.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/",
-     "sim": "philippe:28"
+     "sim": [
+      "philippe:28"
+     ]
     },
     {
      "category": "institutions",
@@ -2608,8 +3456,16 @@
      "category": "institutions",
      "text": "Réduire la part des tâches administratives dans la fonction publique de 33 % à 25 % et faire basculer 450 000 fonctionnaires vers le terrain.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/",
-     "sim": "zemmour:0",
-     "opp": "roussel:41"
+     "sim": [
+      "zemmour:0",
+      "philippe:3",
+      "dupontaignan:23"
+     ],
+     "opp": [
+      "roussel:41",
+      "melenchon:43",
+      "kazib:2"
+     ]
     },
     {
      "category": "institutions",
@@ -2630,15 +3486,27 @@
      "category": "europe",
      "text": "Négocier un Traité de démocratisation de l'Europe et renforcer le Conseil européen et le Parlement européen.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/",
-     "sim": "attal:27",
-     "opp": "dupontaignan:29"
+     "sim": [
+      "glucksmann:4",
+      "attal:27",
+      "philippe:30"
+     ],
+     "opp": [
+      "dupontaignan:29",
+      "zemmour:17"
+     ]
     },
     {
      "category": "europe",
      "text": "Permettre aux citoyens d'arbitrer par référendum en cas de blocage lié à des règles supranationales.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/",
-     "sim": "dupontaignan:99",
-     "opp": "philippe:16"
+     "sim": [
+      "dupontaignan:99",
+      "retailleau:52"
+     ],
+     "opp": [
+      "philippe:16"
+     ]
     },
     {
      "category": "europe",
@@ -2654,33 +3522,60 @@
      "category": "economie",
      "text": "Assouplir le Code du travail pour revenir au plein-emploi.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
-     "sim": "retailleau:5",
-     "opp": "kazib:5"
+     "sim": [
+      "attal:7",
+      "retailleau:6"
+     ],
+     "opp": [
+      "kazib:5",
+      "roussel:1"
+     ]
     },
     {
      "category": "economie",
      "text": "Créer un contrat de travail unique pour les nouveaux emplois, fusionnant CDI et CDD, avec des indemnités de licenciement progressives.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
-     "sim": "retailleau:5",
-     "opp": "kazib:5"
+     "sim": [
+      "attal:7",
+      "retailleau:6"
+     ],
+     "opp": [
+      "kazib:5",
+      "roussel:1"
+     ]
     },
     {
      "category": "economie",
      "text": "Supprimer les charges patronales pour les employeurs à domicile rémunérant au niveau du SMIC.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
-     "sim": "attal:9"
+     "sim": [
+      "attal:9",
+      "retailleau:0",
+      "dupontaignan:0"
+     ]
     },
     {
      "category": "economie",
      "text": "Instaurer des charges patronales négatives pour l'embauche de bénéficiaires du RSA depuis plus de deux ans.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
-     "sim": "attal:9"
+     "sim": [
+      "attal:9",
+      "retailleau:0",
+      "dupontaignan:0"
+     ]
     },
     {
      "category": "economie",
      "text": "Soutenir la réindustrialisation via des clusters (robotique, énergie, cybersécurité, IA, data).",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
-     "sim": "dupontaignan:6"
+     "sim": [
+      "melenchon:25",
+      "glucksmann:2",
+      "retailleau:9",
+      "dupontaignan:6",
+      "roussel:61",
+      "attal:37"
+     ]
     },
     {
      "category": "economie",
@@ -2691,14 +3586,22 @@
      "category": "fiscalite",
      "text": "Poursuivre la baisse des impôts de production en supprimant la C3S et, le cas échéant, la CVAE (environ 11,5 milliards d'euros).",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
-     "sim": "dupontaignan:5"
+     "sim": [
+      "dupontaignan:5"
+     ]
     },
     {
      "category": "fiscalite",
      "text": "Réformer les droits de succession sur les entreprises.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
-     "sim": "retailleau:7",
-     "opp": "melenchon:3"
+     "sim": [
+      "retailleau:7",
+      "dupontaignan:19"
+     ],
+     "opp": [
+      "melenchon:3",
+      "roussel:64"
+     ]
     },
     {
      "category": "fiscalite",
@@ -2709,7 +3612,10 @@
      "category": "securite",
      "text": "Doubler le nombre de procureurs et de juges d'application des peines, et rattraper la moyenne européenne du budget de la justice.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
-     "sim": "dupontaignan:95"
+     "sim": [
+      "philippe:22",
+      "dupontaignan:95"
+     ]
     },
     {
      "category": "securite",
@@ -2720,8 +3626,6 @@
      "category": "retraites",
      "text": "Relever l'âge légal de départ à la retraite à 65 ans, préalablement à toute réforme fondamentale.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
-     "sim": "philippe:5",
-     "opp": "kazib:9",
      "cost": {
       "amount": "Économie brute de 8 Md€ en 2027 (estimation gouvernementale pour une hausse de 4 mois par an) et 32 Md€ par an en 2035 (chiffrage présenté aux partenaires sociaux)",
       "level": "Moyen",
@@ -2732,21 +3636,40 @@
         "url": "https://www.publicsenat.fr/actualites/politique/reforme-des-retraites-combien-pourrait-rapporter-le-report-de-l-age-legal-a-65"
        }
       ]
-     }
+     },
+     "sim": [
+      "philippe:5",
+      "attal:16"
+     ],
+     "opp": [
+      "kazib:9",
+      "melenchon:0",
+      "roussel:6"
+     ]
     },
     {
      "category": "retraites",
      "text": "Garantir une pension minimale par répartition dès 65 ans, avec un minimum vieillesse de 1 000 euros par mois.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
-     "sim": "dupontaignan:27",
-     "opp": "philippe:4"
+     "sim": [
+      "dupontaignan:27"
+     ],
+     "opp": [
+      "philippe:4"
+     ]
     },
     {
      "category": "retraites",
      "text": "Faire évoluer les autres régimes vers la capitalisation, alimentée par les cotisations obligatoires.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
-     "sim": "philippe:5",
-     "opp": "kazib:9"
+     "sim": [
+      "philippe:5"
+     ],
+     "opp": [
+      "kazib:9",
+      "melenchon:0",
+      "roussel:6"
+     ]
     },
     {
      "category": "retraites",
@@ -2762,8 +3685,12 @@
      "category": "retraites",
      "text": "Augmenter les petites retraites.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
-     "sim": "dupontaignan:27",
-     "opp": "philippe:4"
+     "sim": [
+      "dupontaignan:27"
+     ],
+     "opp": [
+      "philippe:4"
+     ]
     },
     {
      "category": "sante",
@@ -2789,21 +3716,35 @@
      "category": "immigration",
      "text": "Supprimer toute possibilité de régularisation après une entrée clandestine.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
-     "sim": "dupontaignan:67",
-     "opp": "kazib:10"
+     "sim": [
+      "dupontaignan:67"
+     ],
+     "opp": [
+      "kazib:10",
+      "roussel:52"
+     ]
     },
     {
      "category": "immigration",
      "text": "Instaurer des quotas d'immigration économique limités aux secteurs « sous tension ».",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
-     "sim": "attal:20"
+     "sim": [
+      "attal:20",
+      "philippe:17",
+      "dupontaignan:75"
+     ]
     },
     {
      "category": "immigration",
      "text": "Limiter strictement les titres de séjour « vie privée et familiale ».",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
-     "sim": "dupontaignan:71",
-     "opp": "kazib:10"
+     "sim": [
+      "attal:19",
+      "dupontaignan:71"
+     ],
+     "opp": [
+      "kazib:10"
+     ]
     },
     {
      "category": "immigration",
@@ -2814,15 +3755,24 @@
      "category": "immigration",
      "text": "Lever les contraintes imposées par les juges nationaux au titre des traités, avec un référendum.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
-     "sim": "dupontaignan:99",
-     "opp": "philippe:16"
+     "sim": [
+      "dupontaignan:99"
+     ],
+     "opp": [
+      "philippe:16"
+     ]
     },
     {
      "category": "securite",
      "text": "Lancer un plan massif de remise à niveau de la police nationale sur 10 ans.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
-     "sim": "melenchon:55",
-     "opp": "kazib:13"
+     "sim": [
+      "dupontaignan:48",
+      "melenchon:55"
+     ],
+     "opp": [
+      "kazib:13"
+     ]
     },
     {
      "category": "securite",
@@ -2833,13 +3783,18 @@
      "category": "securite",
      "text": "Attribuer la qualité d'officiers et d'agents de police judiciaire aux polices territoriales.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
-     "sim": "dupontaignan:50"
+     "sim": [
+      "dupontaignan:50",
+      "philippe:21"
+     ]
     },
     {
      "category": "securite",
      "text": "Plan de remise à niveau de la justice : raccourcir les délais, augmenter les places de prison, développer les peines alternatives.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
-     "sim": "dupontaignan:59"
+     "sim": [
+      "dupontaignan:59"
+     ]
     },
     {
      "category": "securite",
@@ -2865,8 +3820,14 @@
      "category": "logement",
      "text": "Supprimer l'article 55 de la loi SRU imposant 20 % puis 25 % de logements sociaux.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
-     "sim": "retailleau:38",
-     "opp": "roussel:55"
+     "sim": [
+      "retailleau:38",
+      "dupontaignan:180"
+     ],
+     "opp": [
+      "roussel:55",
+      "melenchon:39"
+     ]
     },
     {
      "category": "logement",
@@ -2882,7 +3843,9 @@
      "category": "institutions",
      "text": "Alléger les normes et poursuivre la décentralisation.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
-     "sim": "philippe:28"
+     "sim": [
+      "philippe:28"
+     ]
     },
     {
      "category": "agriculture",
@@ -2893,19 +3856,27 @@
      "category": "agriculture",
      "text": "Lutter contre l'enclavement des territoires par un plan d'investissement routier et ferroviaire et le déploiement du très haut débit.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
-     "sim": "dupontaignan:162"
+     "sim": [
+      "dupontaignan:162"
+     ]
     },
     {
      "category": "societe",
      "text": "Relancer la politique familiale : allocations, déplafonnement du quotient familial, accueil, logement familial.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
-     "sim": "retailleau:21"
+     "sim": [
+      "dupontaignan:216",
+      "retailleau:21"
+     ]
     },
     {
      "category": "education",
      "text": "Donner aux chefs d'établissement l'autonomie de recruter et d'évaluer les enseignants, avec une revalorisation du métier.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/",
-     "sim": "dupontaignan:102"
+     "sim": [
+      "philippe:7",
+      "dupontaignan:102"
+     ]
     },
     {
      "category": "education",
@@ -2916,13 +3887,19 @@
      "category": "education",
      "text": "Assouplir puis supprimer la carte scolaire, avec plus d'autonomie des programmes et des pédagogies.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/",
-     "sim": "dupontaignan:102"
+     "sim": [
+      "philippe:7",
+      "dupontaignan:102"
+     ]
     },
     {
      "category": "education",
      "text": "Recentrer les programmes sur un tronc commun horaire, le reste étant défini par le projet de chaque école.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/",
-     "sim": "dupontaignan:102"
+     "sim": [
+      "philippe:7",
+      "dupontaignan:102"
+     ]
     },
     {
      "category": "education",
@@ -2943,13 +3920,17 @@
      "category": "education",
      "text": "Instaurer un chèque-éducation, neutre pour les budgets publics, et développer les bourses sociales et au mérite.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/",
-     "sim": "retailleau:47"
+     "sim": [
+      "retailleau:47"
+     ]
     },
     {
      "category": "education",
      "text": "Développer les internats d'excellence et créer des externats d'excellence.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/",
-     "sim": "melenchon:50"
+     "sim": [
+      "melenchon:50"
+     ]
     },
     {
      "category": "education",
@@ -2960,26 +3941,40 @@
      "category": "institutions",
      "text": "Instaurer un schéma à trois niveaux (État, provinces, bloc communal), validé par référendum constitutionnel.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/",
-     "sim": "philippe:28"
+     "sim": [
+      "philippe:28"
+     ]
     },
     {
      "category": "institutions",
      "text": "Remplacer départements et régions par une quarantaine ou cinquantaine de provinces.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/",
-     "sim": "philippe:28"
+     "sim": [
+      "philippe:28"
+     ]
     },
     {
      "category": "institutions",
      "text": "Transférer aux collectivités l'essentiel des compétences de l'État hors missions régaliennes, avec un pouvoir réglementaire local.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/",
-     "sim": "philippe:28"
+     "sim": [
+      "philippe:28"
+     ]
     },
     {
      "category": "institutions",
      "text": "Supprimer des services déconcentrés de l'État (DREAL, ARS, DIREN).",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/",
-     "sim": "zemmour:0",
-     "opp": "roussel:41"
+     "sim": [
+      "zemmour:0",
+      "philippe:3",
+      "dupontaignan:23"
+     ],
+     "opp": [
+      "roussel:41",
+      "kazib:2",
+      "melenchon:57"
+     ]
     },
     {
      "category": "fiscalite",
@@ -2990,19 +3985,22 @@
      "category": "agriculture",
      "text": "Placer chaque zone rurale à moins de 20 minutes d'une ville moyenne, et chaque ville moyenne à moins d'1h30 d'une métropole.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/",
-     "sim": "dupontaignan:162"
+     "sim": [
+      "dupontaignan:162"
+     ]
     },
     {
      "category": "agriculture",
      "text": "Créer bases logistiques, tiers-lieux de coworking et réseaux de transport pour attirer les activités dans les territoires.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/",
-     "sim": "dupontaignan:162"
+     "sim": [
+      "dupontaignan:162"
+     ]
     },
     {
      "category": "ecologie",
      "text": "Prolonger la durée de vie des réacteurs nucléaires jusqu'à 60 ans, construire des EPR de nouvelle génération et des mini-réacteurs.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/",
-     "sim": "dupontaignan:33",
      "cost": {
       "amount": "Six EPR2 : 51,7 Md€ (estimation initiale), 67,4 Md€ (réestimation de 2023), 72,8 Md€ en valeurs 2020 et hors financement (EDF, fin 2025)",
       "level": "Faible",
@@ -3017,13 +4015,21 @@
         "url": "https://www.journaldeleconomie.fr/enorme-devis-edf-futurs-epr2/"
        }
       ]
-     }
+     },
+     "sim": [
+      "retailleau:27",
+      "dupontaignan:33"
+     ]
     },
     {
      "category": "ecologie",
      "text": "Faire rentrer les énergies renouvelables dans le droit commun, avec les règles de prix du marché et d'urbanisme.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/",
-     "opp": "roussel:25"
+     "opp": [
+      "roussel:25",
+      "dupontaignan:151",
+      "kazib:4"
+     ]
     },
     {
      "category": "ecologie",
@@ -3069,13 +4075,18 @@
      "category": "securite",
      "text": "Permettre aux communes volontaires d'armer leur police municipale, avec accès aux fichiers et verbalisation renforcée.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/securite/",
-     "sim": "dupontaignan:50"
+     "sim": [
+      "dupontaignan:50",
+      "philippe:21"
+     ]
     },
     {
      "category": "securite",
      "text": "Créer des cellules locales anti-stupéfiants sous l'autorité du préfet.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/securite/",
-     "sim": "philippe:41"
+     "sim": [
+      "philippe:41"
+     ]
     },
     {
      "category": "securite",
@@ -3096,46 +4107,72 @@
      "category": "securite",
      "text": "Désigner officiellement l'islamisme radical comme ennemi idéologique, interdire les Frères musulmans.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/securite/",
-     "sim": "dupontaignan:82",
-     "opp": "kazib:11"
+     "sim": [
+      "dupontaignan:82",
+      "philippe:34"
+     ],
+     "opp": [
+      "kazib:11"
+     ]
     },
     {
      "category": "securite",
      "text": "Renforcer le contrôle des écoles hors contrat et expulser les prêcheurs radicaux.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/securite/",
-     "sim": "dupontaignan:82",
-     "opp": "kazib:11"
+     "sim": [
+      "dupontaignan:82",
+      "philippe:34"
+     ],
+     "opp": [
+      "kazib:11"
+     ]
     },
     {
      "category": "securite",
      "text": "Interdire le port du voile à l'université.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/securite/",
-     "sim": "dupontaignan:83",
-     "opp": "kazib:11"
+     "sim": [
+      "dupontaignan:104"
+     ],
+     "opp": [
+      "kazib:11"
+     ]
     },
     {
      "category": "securite",
      "text": "Supprimer les réductions de peine automatiques et rétablir les peines planchers pour les récidivistes.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/securite/",
-     "sim": "dupontaignan:90"
+     "sim": [
+      "dupontaignan:90",
+      "philippe:19"
+     ]
     },
     {
      "category": "securite",
      "text": "Appliquer systématiquement une sanction, même courte, dès la première infraction.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/securite/",
-     "sim": "dupontaignan:87"
+     "sim": [
+      "dupontaignan:90",
+      "philippe:19"
+     ]
     },
     {
      "category": "securite",
      "text": "Doubler les effectifs des juridictions correctionnelles et dématérialiser le circuit judiciaire.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/securite/",
-     "sim": "dupontaignan:95"
+     "sim": [
+      "philippe:22",
+      "dupontaignan:95"
+     ]
     },
     {
      "category": "securite",
      "text": "Abaisser la majorité pénale à 16 ans et inverser le principe de l'excuse de minorité dès 13 ans.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/securite/",
-     "sim": "dupontaignan:93"
+     "sim": [
+      "dupontaignan:93",
+      "philippe:40"
+     ]
     },
     {
      "category": "securite",
@@ -3156,35 +4193,57 @@
      "category": "immigration",
      "text": "Engager un rapport de force avec la CEDH pour affirmer la primauté de la souveraineté nationale.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
-     "sim": "dupontaignan:99",
-     "opp": "philippe:16"
+     "sim": [
+      "dupontaignan:99"
+     ],
+     "opp": [
+      "philippe:16"
+     ]
     },
     {
      "category": "immigration",
      "text": "Traiter les demandes d'asile dans les consulats français à l'étranger.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
-     "sim": "philippe:14",
-     "opp": "kazib:10"
+     "sim": [
+      "dupontaignan:72",
+      "philippe:14"
+     ],
+     "opp": [
+      "kazib:10"
+     ]
     },
     {
      "category": "immigration",
      "text": "Diviser par huit la délivrance des titres de séjour.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
-     "sim": "dupontaignan:67",
-     "opp": "kazib:10"
+     "sim": [
+      "dupontaignan:67"
+     ],
+     "opp": [
+      "kazib:10",
+      "roussel:52"
+     ]
     },
     {
      "category": "immigration",
      "text": "Fixer des quotas de main-d'œuvre qualifiée et conditionner le regroupement familial à des critères de ressources et d'intégration.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
-     "sim": "attal:20"
+     "sim": [
+      "attal:20",
+      "philippe:17",
+      "dupontaignan:75"
+     ]
     },
     {
      "category": "immigration",
      "text": "Mettre fin à l'automaticité du droit du sol.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
-     "sim": "dupontaignan:77",
-     "opp": "kazib:10"
+     "sim": [
+      "dupontaignan:77"
+     ],
+     "opp": [
+      "kazib:10"
+     ]
     },
     {
      "category": "immigration",
@@ -3195,22 +4254,28 @@
      "category": "immigration",
      "text": "Inscrire dans la Constitution la primauté du droit national en matière migratoire.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
-     "sim": "dupontaignan:99",
-     "opp": "philippe:16"
+     "sim": [
+      "dupontaignan:99"
+     ],
+     "opp": [
+      "philippe:16"
+     ]
     },
     {
      "category": "immigration",
      "text": "Sortir de la CEDH en dernier recours.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
-     "sim": "dupontaignan:99",
-     "opp": "philippe:16"
+     "sim": [
+      "dupontaignan:99"
+     ],
+     "opp": [
+      "philippe:16"
+     ]
     },
     {
      "category": "immigration",
      "text": "Supprimer l'aide médicale d'État et la remplacer par une aide d'urgence.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
-     "sim": "dupontaignan:76",
-     "opp": "kazib:10",
      "cost": {
       "amount": "Coût total de l'aide médicale d'État : 1,46 Md€ en 2025 selon le rapporteur spécial du Sénat (1,34 Md€ de dépenses de droit commun)",
       "level": "Moyen",
@@ -3221,26 +4286,46 @@
         "url": "https://www.senat.fr/rap/l25-736-228/l25-736-2281.pdf"
        }
       ]
-     }
+     },
+     "sim": [
+      "dupontaignan:76",
+      "zemmour:8"
+     ],
+     "opp": [
+      "kazib:10",
+      "roussel:52"
+     ]
     },
     {
      "category": "immigration",
      "text": "Rétablir le délit de séjour irrégulier.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
-     "sim": "dupontaignan:67",
-     "opp": "kazib:10"
+     "sim": [
+      "dupontaignan:67"
+     ],
+     "opp": [
+      "kazib:10",
+      "roussel:52"
+     ]
     },
     {
      "category": "immigration",
      "text": "Expulser systématiquement les étrangers condamnés pour délits graves ainsi que les étrangers fichés S.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
-     "sim": "dupontaignan:81"
+     "sim": [
+      "philippe:15",
+      "dupontaignan:81"
+     ]
     },
     {
      "category": "immigration",
      "text": "Conditionner les prestations sociales non contributives à au moins cinq ans de séjour régulier.",
      "source": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
-     "sim": "dupontaignan:148"
+     "sim": [
+      "zemmour:3",
+      "dupontaignan:45",
+      "philippe:15"
+     ]
     }
    ]
   },
@@ -3338,14 +4423,27 @@
      "category": "economie",
      "text": "Hausse de 8 % des salaires jusqu'à 3 SMIC, financée par une baisse des cotisations salariales.",
      "source": "https://www.debout-la-france.fr/projet/economie-travail/",
-     "sim": "melenchon:5"
+     "sim": [
+      "kazib:0",
+      "melenchon:1",
+      "roussel:0",
+      "attal:9",
+      "retailleau:0",
+      "lisnard:36"
+     ]
     },
     {
      "category": "economie",
      "text": "Diviser par 2 le prix de l'électricité : sortie du marché européen, monopole EDF, tarif réglementé de 10 centimes/kWh.",
      "source": "https://www.debout-la-france.fr/projet/economie-travail/",
-     "sim": "roussel:23",
-     "opp": "lisnard:93"
+     "sim": [
+      "roussel:23",
+      "retailleau:8",
+      "kazib:4"
+     ],
+     "opp": [
+      "lisnard:93"
+     ]
     },
     {
      "category": "economie",
@@ -3361,20 +4459,34 @@
      "category": "economie",
      "text": "Diviser par 2 les normes administratives, supprimer les ZFE, zéro taxe et zéro norme nouvelles pour TPE/PME.",
      "source": "https://www.debout-la-france.fr/projet/economie-travail/",
-     "sim": "retailleau:5",
-     "opp": "melenchon:23"
+     "sim": [
+      "lisnard:19",
+      "retailleau:5"
+     ],
+     "opp": [
+      "melenchon:23"
+     ]
     },
     {
      "category": "economie",
      "text": "Baisser les impôts de production.",
      "source": "https://www.debout-la-france.fr/projet/economie-travail/",
-     "sim": "lisnard:40"
+     "sim": [
+      "lisnard:40"
+     ]
     },
     {
      "category": "economie",
      "text": "Fonds d'investissement et de relocalisation géré par la Caisse des dépôts.",
      "source": "https://www.debout-la-france.fr/projet/economie-travail/",
-     "sim": "roussel:61"
+     "sim": [
+      "melenchon:25",
+      "glucksmann:2",
+      "retailleau:9",
+      "lisnard:38",
+      "roussel:61",
+      "attal:37"
+     ]
     },
     {
      "category": "economie",
@@ -3390,13 +4502,18 @@
      "category": "economie",
      "text": "Protectionnisme : contrôles aux frontières, droits de douane compensateurs, renégociation des accords de libre-échange.",
      "source": "https://www.debout-la-france.fr/projet/economie-travail/",
-     "sim": "attal:24"
+     "sim": [
+      "attal:24",
+      "glucksmann:2"
+     ]
     },
     {
      "category": "economie",
      "text": "« BUY French Act » : 75 % des achats publics réservés aux entreprises produisant en France.",
      "source": "https://www.debout-la-france.fr/projet/economie-travail/",
-     "sim": "retailleau:39"
+     "sim": [
+      "retailleau:39"
+     ]
     },
     {
      "category": "economie",
@@ -3407,8 +4524,13 @@
      "category": "economie",
      "text": "Défiscaliser les heures supplémentaires au-delà de 1 607 h/an, dans la limite de 100 h/an.",
      "source": "https://www.debout-la-france.fr/projet/economie-travail/",
-     "sim": "attal:11",
-     "opp": "roussel:7"
+     "sim": [
+      "attal:11"
+     ],
+     "opp": [
+      "roussel:7",
+      "kazib:6"
+     ]
     },
     {
      "category": "economie",
@@ -3434,8 +4556,14 @@
      "category": "fiscalite",
      "text": "Rétablir un impôt sur les très grandes fortunes, hors résidence principale, avec déduction des investissements productifs.",
      "source": "https://www.debout-la-france.fr/projet/economie-travail/",
-     "sim": "melenchon:3",
-     "opp": "retailleau:7"
+     "sim": [
+      "melenchon:3",
+      "roussel:64"
+     ],
+     "opp": [
+      "retailleau:7",
+      "lisnard:41"
+     ]
     },
     {
      "category": "fiscalite",
@@ -3446,15 +4574,25 @@
      "category": "fiscalite",
      "text": "Exonérer de droits de succession 90 % de la valeur d'une entreprise transmise.",
      "source": "https://www.debout-la-france.fr/projet/economie-travail/",
-     "sim": "lisnard:41",
-     "opp": "roussel:65"
+     "sim": [
+      "retailleau:49",
+      "lisnard:41"
+     ],
+     "opp": [
+      "roussel:65"
+     ]
     },
     {
      "category": "fiscalite",
      "text": "Supprimer les droits de succession sur la résidence principale et les 100 premiers hectares agricoles.",
      "source": "https://www.debout-la-france.fr/projet/economie-travail/",
-     "sim": "lisnard:41",
-     "opp": "roussel:65"
+     "sim": [
+      "retailleau:49",
+      "lisnard:41"
+     ],
+     "opp": [
+      "roussel:65"
+     ]
     },
     {
      "category": "fiscalite",
@@ -3465,22 +4603,43 @@
      "category": "fiscalite",
      "text": "Supprimer les aides de l'État aux éoliennes et panneaux solaires.",
      "source": "https://www.debout-la-france.fr/projet/economie-travail/",
-     "sim": "zemmour:12",
-     "opp": "roussel:24"
+     "sim": [
+      "retailleau:30",
+      "zemmour:12"
+     ],
+     "opp": [
+      "roussel:24",
+      "philippe:23"
+     ]
     },
     {
      "category": "fiscalite",
      "text": "Supprimer agences d'État, échelon régional, CESE et intercommunalités inutiles ; réduire les subventions aux associations.",
      "source": "https://www.debout-la-france.fr/projet/economie-travail/",
-     "sim": "lisnard:88",
-     "opp": "roussel:41"
+     "sim": [
+      "zemmour:0",
+      "lisnard:2",
+      "philippe:3"
+     ],
+     "opp": [
+      "roussel:41",
+      "kazib:2",
+      "melenchon:57"
+     ]
     },
     {
      "category": "fiscalite",
      "text": "Ramener le déficit sous 3 % du PIB, avec 130 milliards d'euros d'économies sur cinq ans.",
      "source": "https://www.debout-la-france.fr/projet/economie-travail/",
-     "sim": "philippe:6",
-     "opp": "roussel:22"
+     "sim": [
+      "philippe:1",
+      "lisnard:2",
+      "attal:28"
+     ],
+     "opp": [
+      "roussel:22",
+      "kazib:2"
+     ]
     },
     {
      "category": "fiscalite",
@@ -3496,22 +4655,29 @@
      "category": "retraites",
      "text": "Réindexer pensions de retraite et traitements des fonctionnaires sur l'inflation.",
      "source": "https://www.debout-la-france.fr/projet/economie-travail/",
-     "sim": "lisnard:50",
-     "opp": "philippe:4"
+     "sim": [
+      "lisnard:50"
+     ],
+     "opp": [
+      "philippe:4"
+     ]
     },
     {
      "category": "retraites",
      "text": "Limiter les prestations sociales d'un inactif à 70 % du SMIC net.",
      "source": "https://www.debout-la-france.fr/projet/economie-travail/",
-     "sim": "retailleau:3",
-     "opp": "roussel:14"
+     "sim": [
+      "zemmour:4",
+      "retailleau:3"
+     ],
+     "opp": [
+      "roussel:14"
+     ]
     },
     {
      "category": "europe",
      "text": "Sortir de l'UE pour économiser 15 milliards d'euros de solde contributeur.",
      "source": "https://www.debout-la-france.fr/projet/economie-travail/",
-     "sim": "zemmour:17",
-     "opp": "glucksmann:4",
      "cost": {
       "amount": "Contribution nette de la France : environ 9,3 Md€ en 2023 (Sénat) ; prélèvement sur recettes brut : 23,1 Md€ en 2025, en hausse prévue à 28,4 Md€ en 2026",
       "level": "",
@@ -3522,13 +4688,25 @@
         "url": "https://www.senat.fr/rap/l25-736-233/l25-736-2331.pdf"
        }
       ]
-     }
+     },
+     "sim": [
+      "zemmour:17"
+     ],
+     "opp": [
+      "glucksmann:4",
+      "lisnard:30",
+      "attal:27",
+      "philippe:30"
+     ]
     },
     {
      "category": "europe",
      "text": "Mettre fin aux aides à l'Ukraine.",
      "source": "https://www.debout-la-france.fr/projet/economie-travail/",
-     "opp": "attal:22"
+     "opp": [
+      "attal:22",
+      "philippe:32"
+     ]
     },
     {
      "category": "europe",
@@ -3544,7 +4722,6 @@
      "category": "ecologie",
      "text": "Accélérer les EPR2 et les petits réacteurs modulaires ; lancer la R&D sur les réacteurs à neutrons rapides.",
      "source": "https://www.debout-la-france.fr/projet/economie-travail/",
-     "sim": "retailleau:31",
      "cost": {
       "amount": "Six EPR2 : 51,7 Md€ (estimation initiale), 67,4 Md€ (réestimation de 2023), 72,8 Md€ en valeurs 2020 et hors financement (EDF, fin 2025)",
       "level": "Faible",
@@ -3559,14 +4736,23 @@
         "url": "https://www.journaldeleconomie.fr/enorme-devis-edf-futurs-epr2/"
        }
       ]
-     }
+     },
+     "sim": [
+      "retailleau:27",
+      "lisnard:92"
+     ]
     },
     {
      "category": "ecologie",
      "text": "Rénover les barrages hydroélectriques et les garder dans le giron d'EDF.",
      "source": "https://www.debout-la-france.fr/projet/economie-travail/",
-     "sim": "kazib:4",
-     "opp": "lisnard:93"
+     "sim": [
+      "roussel:25",
+      "kazib:4"
+     ],
+     "opp": [
+      "lisnard:93"
+     ]
     },
     {
      "category": "ecologie",
@@ -3587,8 +4773,12 @@
      "category": "retraites",
      "text": "Indexer les pensions au minimum sur l'inflation.",
      "source": "https://www.debout-la-france.fr/projet/retraites/",
-     "sim": "lisnard:50",
-     "opp": "philippe:4"
+     "sim": [
+      "lisnard:50"
+     ],
+     "opp": [
+      "philippe:4"
+     ]
     },
     {
      "category": "retraites",
@@ -3604,31 +4794,48 @@
      "category": "retraites",
      "text": "Exiger 10 ans minimum de cotisation pour verser l'ASPA aux étrangers non communautaires.",
      "source": "https://www.debout-la-france.fr/projet/retraites/",
-     "sim": "lisnard:128"
+     "sim": [
+      "zemmour:3",
+      "lisnard:128",
+      "philippe:15"
+     ]
     },
     {
      "category": "societe",
      "text": "Créer un congé parental optionnel, paritaire et rémunéré, pris en charge par l'État à 75 % du SMIC net.",
      "source": "https://www.debout-la-france.fr/projet/retraites/",
-     "sim": "roussel:50"
+     "sim": [
+      "roussel:50",
+      "retailleau:25"
+     ]
     },
     {
      "category": "societe",
      "text": "Augmenter de 10 % le nombre de places en crèche, soit 250 000 places.",
      "source": "https://www.debout-la-france.fr/projet/retraites/",
-     "sim": "attal:17"
+     "sim": [
+      "attal:17",
+      "melenchon:53"
+     ]
     },
     {
      "category": "societe",
      "text": "Doubler le plafond de revenus pour les allocations familiales et les ouvrir dès le premier enfant.",
      "source": "https://www.debout-la-france.fr/projet/retraites/",
-     "sim": "lisnard:74"
+     "sim": [
+      "lisnard:74",
+      "retailleau:21"
+     ]
     },
     {
      "category": "immigration",
      "text": "Exiger 5 ans de résidence habituelle pour toucher les allocations familiales.",
      "source": "https://www.debout-la-france.fr/projet/retraites/",
-     "sim": "lisnard:128"
+     "sim": [
+      "zemmour:3",
+      "lisnard:128",
+      "philippe:15"
+     ]
     },
     {
      "category": "economie",
@@ -3644,8 +4851,13 @@
      "category": "securite",
      "text": "Renforcer les effectifs de police et de gendarmerie (10 000 en cinq ans) et de douanes/PAF (10 000), via une loi de programmation.",
      "source": "https://www.debout-la-france.fr/projet/securite/",
-     "sim": "lisnard:60",
-     "opp": "kazib:13"
+     "sim": [
+      "lisnard:60",
+      "melenchon:55"
+     ],
+     "opp": [
+      "kazib:13"
+     ]
     },
     {
      "category": "securite",
@@ -3656,7 +4868,10 @@
      "category": "securite",
      "text": "Élargir les missions des polices municipales et les rendre interopérables avec la police nationale.",
      "source": "https://www.debout-la-france.fr/projet/securite/",
-     "sim": "philippe:21"
+     "sim": [
+      "lisnard:102",
+      "philippe:21"
+     ]
     },
     {
      "category": "securite",
@@ -3702,7 +4917,6 @@
      "category": "securite",
      "text": "Créer 40 000 places de prison et recruter 20 000 surveillants supplémentaires.",
      "source": "https://www.debout-la-france.fr/projet/securite/",
-     "sim": "lisnard:63",
      "cost": {
       "amount": "Environ 9,4 Md€ d'investissement pour 40 000 places (calcul : 236 000 € par place, coût unitaire du programme « 15 000 places » repris par l'Institut Montaigne), hors fonctionnement",
       "level": "Faible",
@@ -3713,7 +4927,10 @@
         "url": "https://www.institutmontaigne.org/presidentielle-2022/legislatives-2022/les-republicains/ouvrir-20-000-places-de-prison-supplementaires"
        }
       ]
-     }
+     },
+     "sim": [
+      "lisnard:63"
+     ]
     },
     {
      "category": "securite",
@@ -3749,14 +4966,21 @@
      "category": "immigration",
      "text": "Rétablir le contrôle aux frontières en sortant de l'espace Schengen, avec 10 000 agents supplémentaires.",
      "source": "https://www.debout-la-france.fr/projet/immigration-et-assimilation/",
-     "sim": "retailleau:51"
+     "sim": [
+      "retailleau:51"
+     ]
     },
     {
      "category": "immigration",
      "text": "Rétablir le délit de séjour irrégulier, puni de prison ferme.",
      "source": "https://www.debout-la-france.fr/projet/immigration-et-assimilation/",
-     "sim": "lisnard:119",
-     "opp": "kazib:10"
+     "sim": [
+      "lisnard:55"
+     ],
+     "opp": [
+      "kazib:10",
+      "roussel:52"
+     ]
     },
     {
      "category": "immigration",
@@ -3777,41 +5001,60 @@
      "category": "immigration",
      "text": "Limiter strictement le regroupement familial et supprimer le régime d'exception accordé aux Algériens.",
      "source": "https://www.debout-la-france.fr/projet/immigration-et-assimilation/",
-     "sim": "attal:19",
-     "opp": "kazib:10"
+     "sim": [
+      "attal:19",
+      "lisnard:57"
+     ],
+     "opp": [
+      "kazib:10"
+     ]
     },
     {
      "category": "immigration",
      "text": "Restreindre le droit d'asile aux demandes faites directement aux frontières.",
      "source": "https://www.debout-la-france.fr/projet/immigration-et-assimilation/",
-     "sim": "lisnard:118",
-     "opp": "kazib:10"
+     "sim": [
+      "lisnard:118",
+      "philippe:14"
+     ],
+     "opp": [
+      "kazib:10"
+     ]
     },
     {
      "category": "immigration",
      "text": "Limiter le statut de réfugié aux menaces individuelles, selon la Convention de Genève.",
      "source": "https://www.debout-la-france.fr/projet/immigration-et-assimilation/",
-     "sim": "lisnard:118",
-     "opp": "kazib:10"
+     "sim": [
+      "lisnard:118",
+      "philippe:14"
+     ],
+     "opp": [
+      "kazib:10"
+     ]
     },
     {
      "category": "immigration",
      "text": "Remettre sans délai les mineurs isolés aux autorités de leur pays d'origine.",
      "source": "https://www.debout-la-france.fr/projet/immigration-et-assimilation/",
-     "opp": "roussel:52"
+     "opp": [
+      "roussel:52"
+     ]
     },
     {
      "category": "immigration",
      "text": "Subordonner l'immigration économique au taux de chômage.",
      "source": "https://www.debout-la-france.fr/projet/immigration-et-assimilation/",
-     "sim": "lisnard:56"
+     "sim": [
+      "lisnard:56",
+      "attal:20",
+      "philippe:17"
+     ]
     },
     {
      "category": "immigration",
      "text": "Supprimer l'Aide Médicale d'État et créer un dispensaire d'urgence par département.",
      "source": "https://www.debout-la-france.fr/projet/immigration-et-assimilation/",
-     "sim": "zemmour:8",
-     "opp": "kazib:10",
      "cost": {
       "amount": "Coût total de l'aide médicale d'État : 1,46 Md€ en 2025 selon le rapporteur spécial du Sénat (1,34 Md€ de dépenses de droit commun)",
       "level": "Moyen",
@@ -3822,14 +5065,26 @@
         "url": "https://www.senat.fr/rap/l25-736-228/l25-736-2281.pdf"
        }
       ]
-     }
+     },
+     "sim": [
+      "lisnard:125",
+      "zemmour:8"
+     ],
+     "opp": [
+      "kazib:10",
+      "roussel:52"
+     ]
     },
     {
      "category": "immigration",
      "text": "Supprimer le droit du sol par référendum, en maintenant la naturalisation.",
      "source": "https://www.debout-la-france.fr/projet/immigration-et-assimilation/",
-     "sim": "lisnard:121",
-     "opp": "kazib:10"
+     "sim": [
+      "lisnard:121"
+     ],
+     "opp": [
+      "kazib:10"
+     ]
     },
     {
      "category": "immigration",
@@ -3840,7 +5095,12 @@
      "category": "immigration",
      "text": "Quotas d'étudiants étrangers par filière et pays, avec retour obligatoire après les études.",
      "source": "https://www.debout-la-france.fr/projet/immigration-et-assimilation/",
-     "sim": "lisnard:56"
+     "sim": [
+      "lisnard:56",
+      "attal:20",
+      "philippe:17",
+      "zemmour:7"
+     ]
     },
     {
      "category": "immigration",
@@ -3851,35 +5111,57 @@
      "category": "securite",
      "text": "Expulsion automatique après une peine de prison ferme, avec retrait du titre de séjour.",
      "source": "https://www.debout-la-france.fr/projet/immigration-et-assimilation/",
-     "sim": "philippe:15"
+     "sim": [
+      "philippe:15",
+      "lisnard:127"
+     ]
     },
     {
      "category": "securite",
      "text": "Peine de 10 ans de prison et 100 000 € d'amende pour les prédicateurs subversifs.",
      "source": "https://www.debout-la-france.fr/projet/immigration-et-assimilation/",
-     "sim": "philippe:34",
-     "opp": "kazib:11"
+     "sim": [
+      "lisnard:107",
+      "philippe:34"
+     ],
+     "opp": [
+      "kazib:11"
+     ]
     },
     {
      "category": "societe",
      "text": "Interdire les signes religieux visibles dans le service public, notamment universités et hôpitaux.",
      "source": "https://www.debout-la-france.fr/projet/immigration-et-assimilation/",
-     "sim": "lisnard:109",
-     "opp": "kazib:11"
+     "sim": [
+      "lisnard:109"
+     ],
+     "opp": [
+      "kazib:11"
+     ]
     },
     {
      "category": "societe",
      "text": "Conditionner l'ouverture d'une mosquée à la signature du serment de fidélité à la République.",
      "source": "https://www.debout-la-france.fr/projet/immigration-et-assimilation/",
-     "sim": "philippe:34",
-     "opp": "kazib:11"
+     "sim": [
+      "lisnard:107",
+      "philippe:34"
+     ],
+     "opp": [
+      "kazib:11"
+     ]
     },
     {
      "category": "societe",
      "text": "Fermer immédiatement les mosquées fondamentalistes et les associations refusant la Charte de conformité de l'Islam.",
      "source": "https://www.debout-la-france.fr/projet/immigration-et-assimilation/",
-     "sim": "philippe:34",
-     "opp": "kazib:11"
+     "sim": [
+      "lisnard:107",
+      "philippe:34"
+     ],
+     "opp": [
+      "kazib:11"
+     ]
     },
     {
      "category": "education",
@@ -3890,7 +5172,10 @@
      "category": "securite",
      "text": "Abroger la loi du 23 mars 2019 et poser le principe du mandat de dépôt à l'audience en cas de peine ferme.",
      "source": "https://www.debout-la-france.fr/projet/justice/",
-     "sim": "lisnard:110"
+     "sim": [
+      "lisnard:110",
+      "philippe:19"
+     ]
     },
     {
      "category": "securite",
@@ -3906,7 +5191,10 @@
      "category": "securite",
      "text": "Peines planchers pour les agressions contre policiers, gendarmes, pompiers, enseignants et soignants.",
      "source": "https://www.debout-la-france.fr/projet/justice/",
-     "sim": "philippe:19"
+     "sim": [
+      "lisnard:110",
+      "philippe:19"
+     ]
     },
     {
      "category": "securite",
@@ -3922,19 +5210,28 @@
      "category": "securite",
      "text": "Abroger l'ordonnance de 1945 sur la justice des mineurs ; majorité pénale à 16 ans.",
      "source": "https://www.debout-la-france.fr/projet/justice/",
-     "sim": "philippe:40"
+     "sim": [
+      "lisnard:113",
+      "philippe:40"
+     ]
     },
     {
      "category": "securite",
      "text": "Expulsion sans délai des délinquants et prisonniers étrangers en fin de peine.",
      "source": "https://www.debout-la-france.fr/projet/justice/",
-     "sim": "philippe:15"
+     "sim": [
+      "philippe:15",
+      "lisnard:127"
+     ]
     },
     {
      "category": "securite",
      "text": "Plan d'urgence : plus de magistrats et de greffiers ; budget de la justice porté de 10,1 à 15 milliards d'euros.",
      "source": "https://www.debout-la-france.fr/projet/justice/",
-     "sim": "philippe:22"
+     "sim": [
+      "philippe:22",
+      "lisnard:43"
+     ]
     },
     {
      "category": "securite",
@@ -3955,8 +5252,12 @@
      "category": "institutions",
      "text": "Inscrire dans la Constitution, par référendum, la primauté du droit français sur toute norme européenne.",
      "source": "https://www.debout-la-france.fr/projet/justice/",
-     "sim": "lisnard:31",
-     "opp": "philippe:16"
+     "sim": [
+      "lisnard:117"
+     ],
+     "opp": [
+      "philippe:16"
+     ]
     },
     {
      "category": "institutions",
@@ -3967,13 +5268,18 @@
      "category": "immigration",
      "text": "Reconduire dans leur pays d'origine les mineurs étrangers isolés ou non accompagnés.",
      "source": "https://www.debout-la-france.fr/projet/justice/",
-     "opp": "roussel:52"
+     "opp": [
+      "roussel:52"
+     ]
     },
     {
      "category": "education",
      "text": "Rendre l'uniforme obligatoire, exiger un niveau de langage minimal et le vouvoiement.",
      "source": "https://www.debout-la-france.fr/projet/instruction-publique/",
-     "sim": "philippe:7"
+     "sim": [
+      "philippe:7",
+      "lisnard:75"
+     ]
     },
     {
      "category": "education",
@@ -3984,14 +5290,20 @@
      "category": "education",
      "text": "Interdire les signes religieux démonstratifs pour tous.",
      "source": "https://www.debout-la-france.fr/projet/instruction-publique/",
-     "sim": "lisnard:109",
-     "opp": "kazib:11"
+     "sim": [
+      "lisnard:109"
+     ],
+     "opp": [
+      "kazib:11"
+     ]
     },
     {
      "category": "education",
      "text": "Interdire les objets connectés dans l'enceinte des établissements.",
      "source": "https://www.debout-la-france.fr/projet/instruction-publique/",
-     "sim": "philippe:11"
+     "sim": [
+      "philippe:11"
+     ]
     },
     {
      "category": "education",
@@ -4002,13 +5314,19 @@
      "category": "education",
      "text": "Augmenter de 30 % les heures de français et de mathématiques au primaire.",
      "source": "https://www.debout-la-france.fr/projet/instruction-publique/",
-     "sim": "philippe:10"
+     "sim": [
+      "philippe:10",
+      "retailleau:44"
+     ]
     },
     {
      "category": "education",
      "text": "Revenir à la méthode syllabique d'apprentissage de la lecture.",
      "source": "https://www.debout-la-france.fr/projet/instruction-publique/",
-     "sim": "philippe:10"
+     "sim": [
+      "philippe:10",
+      "retailleau:44"
+     ]
     },
     {
      "category": "education",
@@ -4069,7 +5387,12 @@
      "category": "education",
      "text": "Augmenter de 15 % en quatre ans les salaires nets des professeurs.",
      "source": "https://www.debout-la-france.fr/projet/instruction-publique/",
-     "sim": "roussel:39"
+     "sim": [
+      "roussel:39",
+      "philippe:9",
+      "attal:2",
+      "retailleau:43"
+     ]
     },
     {
      "category": "education",
@@ -4080,13 +5403,17 @@
      "category": "education",
      "text": "Rétablir des notes chiffrées claires et réduire nettement le contrôle continu du bac.",
      "source": "https://www.debout-la-france.fr/projet/instruction-publique/",
-     "sim": "retailleau:45"
+     "sim": [
+      "retailleau:45"
+     ]
     },
     {
      "category": "education",
      "text": "Réformer Parcoursup pour le rendre équitable et transparent.",
      "source": "https://www.debout-la-france.fr/projet/instruction-publique/",
-     "sim": "roussel:15"
+     "sim": [
+      "roussel:15"
+     ]
     },
     {
      "category": "education",
@@ -4112,13 +5439,18 @@
      "category": "sante",
      "text": "Augmenter les places en études de médecine pour atteindre 12 000 diplômés par an.",
      "source": "https://www.debout-la-france.fr/projet/sante/",
-     "sim": "roussel:32"
+     "sim": [
+      "roussel:32"
+     ]
     },
     {
      "category": "sante",
      "text": "Arrêter les fermetures de lits et rouvrir un établissement de santé par département.",
      "source": "https://www.debout-la-france.fr/projet/sante/",
-     "sim": "melenchon:41"
+     "sim": [
+      "melenchon:41",
+      "roussel:34"
+     ]
     },
     {
      "category": "sante",
@@ -4129,7 +5461,10 @@
      "category": "sante",
      "text": "Créer des primes spécifiques pour la pénibilité du travail hospitalier.",
      "source": "https://www.debout-la-france.fr/projet/sante/",
-     "sim": "melenchon:43"
+     "sim": [
+      "melenchon:43",
+      "roussel:33"
+     ]
     },
     {
      "category": "sante",
@@ -4140,7 +5475,9 @@
      "category": "sante",
      "text": "Mettre fin à la tarification à l'acte au profit d'un financement fondé sur des critères objectifs.",
      "source": "https://www.debout-la-france.fr/projet/sante/",
-     "sim": "roussel:33"
+     "sim": [
+      "roussel:33"
+     ]
     },
     {
      "category": "sante",
@@ -4181,7 +5518,10 @@
      "category": "sante",
      "text": "Supprimer les ARS au profit de directions départementales sous l'autorité du préfet.",
      "source": "https://www.debout-la-france.fr/projet/sante/",
-     "sim": "zemmour:6"
+     "sim": [
+      "zemmour:6",
+      "lisnard:88"
+     ]
     },
     {
      "category": "sante",
@@ -4197,7 +5537,9 @@
      "category": "sante",
      "text": "Relocaliser la production de médicaments stratégiques : au moins 50 % du volume produit en France pour les plus remboursés.",
      "source": "https://www.debout-la-france.fr/projet/sante/",
-     "sim": "attal:26"
+     "sim": [
+      "attal:26"
+     ]
     },
     {
      "category": "sante",
@@ -4213,8 +5555,6 @@
      "category": "immigration",
      "text": "Supprimer l'Aide médicale d'État, remplacée par une aide limitée aux urgences sanitaires et maladies contagieuses.",
      "source": "https://www.debout-la-france.fr/projet/sante/",
-     "sim": "zemmour:8",
-     "opp": "kazib:10",
      "cost": {
       "amount": "Coût total de l'aide médicale d'État : 1,46 Md€ en 2025 selon le rapporteur spécial du Sénat (1,34 Md€ de dépenses de droit commun)",
       "level": "Moyen",
@@ -4225,13 +5565,25 @@
         "url": "https://www.senat.fr/rap/l25-736-228/l25-736-2281.pdf"
        }
       ]
-     }
+     },
+     "sim": [
+      "lisnard:125",
+      "zemmour:8"
+     ],
+     "opp": [
+      "kazib:10",
+      "roussel:52"
+     ]
     },
     {
      "category": "retraites",
      "text": "Conditionner les aides sociales à une volonté d'insertion, avec un délai de carence de cinq ans pour l'aide au logement et le RSA.",
      "source": "https://www.debout-la-france.fr/projet/sante/",
-     "sim": "philippe:15"
+     "sim": [
+      "zemmour:3",
+      "lisnard:128",
+      "philippe:15"
+     ]
     },
     {
      "category": "institutions",
@@ -4247,34 +5599,57 @@
      "category": "ecologie",
      "text": "Maintenir l'actionnariat public d'EDF et confier au CEA la maîtrise de la recherche nucléaire.",
      "source": "https://www.debout-la-france.fr/projet/environnement-energie/",
-     "sim": "kazib:4",
-     "opp": "lisnard:93"
+     "sim": [
+      "roussel:25",
+      "kazib:4"
+     ],
+     "opp": [
+      "lisnard:93"
+     ]
     },
     {
      "category": "ecologie",
      "text": "Abandonner l'objectif de 50 % de nucléaire en 2035 ; garder au minimum 70 % de nucléaire.",
      "source": "https://www.debout-la-france.fr/projet/environnement-energie/",
-     "sim": "retailleau:31"
+     "sim": [
+      "retailleau:27",
+      "lisnard:92"
+     ]
     },
     {
      "category": "ecologie",
      "text": "Développer les réacteurs de génération IV et une filière thorium.",
      "source": "https://www.debout-la-france.fr/projet/environnement-energie/",
-     "sim": "retailleau:31"
+     "sim": [
+      "retailleau:27",
+      "lisnard:92"
+     ]
     },
     {
      "category": "ecologie",
      "text": "Annuler la privatisation de 150 barrages et nationaliser ceux déjà privatisés.",
      "source": "https://www.debout-la-france.fr/projet/environnement-energie/",
-     "sim": "kazib:4",
-     "opp": "lisnard:93"
+     "sim": [
+      "roussel:25",
+      "kazib:4"
+     ],
+     "opp": [
+      "lisnard:93"
+     ]
     },
     {
      "category": "ecologie",
      "text": "Grand plan d'isolation thermique et phonique, avec doublement du budget MaPrimeRénov' (3 à 6 milliards d'euros).",
      "source": "https://www.debout-la-france.fr/projet/environnement-energie/",
-     "sim": "attal:39",
-     "opp": "retailleau:35"
+     "sim": [
+      "roussel:27",
+      "melenchon:33",
+      "attal:39",
+      "philippe:27"
+     ],
+     "opp": [
+      "retailleau:35"
+     ]
     },
     {
      "category": "ecologie",
@@ -4310,7 +5685,9 @@
      "category": "agriculture",
      "text": "Rompre avec la métropolisation et développer les petites communes.",
      "source": "https://www.debout-la-france.fr/projet/environnement-energie/",
-     "sim": "lisnard:73"
+     "sim": [
+      "lisnard:73"
+     ]
     },
     {
      "category": "agriculture",
@@ -4321,7 +5698,10 @@
      "category": "europe",
      "text": "Conditionner les traités de libre-échange au respect de normes environnementales minimales.",
      "source": "https://www.debout-la-france.fr/projet/environnement-energie/",
-     "sim": "roussel:29"
+     "sim": [
+      "roussel:29",
+      "philippe:31"
+     ]
     },
     {
      "category": "autre",
@@ -4337,33 +5717,49 @@
      "category": "logement",
      "text": "Élargir les conditions du Prêt à Taux Zéro : plafond relevé, part du PTZ accrue, différé de remboursement prolongé.",
      "source": "https://www.debout-la-france.fr/projet/logement/",
-     "sim": "retailleau:34"
+     "sim": [
+      "retailleau:34"
+     ]
     },
     {
      "category": "logement",
      "text": "Créer un Prêt Accession à la Propriété à taux préférentiel pour les classes moyennes.",
      "source": "https://www.debout-la-france.fr/projet/logement/",
-     "sim": "retailleau:34"
+     "sim": [
+      "retailleau:34"
+     ]
     },
     {
      "category": "logement",
      "text": "Généraliser la location-accession et réintroduire l'APL « Accession ».",
      "source": "https://www.debout-la-france.fr/projet/logement/",
-     "sim": "retailleau:34"
+     "sim": [
+      "retailleau:34"
+     ]
     },
     {
      "category": "fiscalite",
      "text": "Relever de 100 000 euros le plafond des donations exonérées par enfant ou petit-enfant.",
      "source": "https://www.debout-la-france.fr/projet/logement/",
-     "sim": "lisnard:41",
-     "opp": "roussel:65"
+     "sim": [
+      "retailleau:49",
+      "lisnard:41"
+     ],
+     "opp": [
+      "roussel:65"
+     ]
     },
     {
      "category": "fiscalite",
      "text": "Supprimer les droits de succession sur les résidences principales et exclure la résidence principale de l'IFI.",
      "source": "https://www.debout-la-france.fr/projet/logement/",
-     "sim": "lisnard:41",
-     "opp": "roussel:65"
+     "sim": [
+      "retailleau:49",
+      "lisnard:41"
+     ],
+     "opp": [
+      "roussel:65"
+     ]
     },
     {
      "category": "fiscalite",
@@ -4374,8 +5770,15 @@
      "category": "logement",
      "text": "Abandonner l'interdiction de location des logements classés selon le DPE.",
      "source": "https://www.debout-la-france.fr/projet/logement/",
-     "sim": "retailleau:35",
-     "opp": "roussel:27"
+     "sim": [
+      "retailleau:35"
+     ],
+     "opp": [
+      "roussel:27",
+      "melenchon:33",
+      "attal:39",
+      "philippe:27"
+     ]
     },
     {
      "category": "logement",
@@ -4391,13 +5794,17 @@
      "category": "logement",
      "text": "Réguler les locations de type Airbnb et renforcer les pouvoirs des maires.",
      "source": "https://www.debout-la-france.fr/projet/logement/",
-     "sim": "melenchon:40"
+     "sim": [
+      "melenchon:40"
+     ]
     },
     {
      "category": "logement",
      "text": "Supprimer l'objectif de Zéro Artificialisation Nette et exclure les terrains des maisons individuelles du calcul.",
      "source": "https://www.debout-la-france.fr/projet/logement/",
-     "opp": "melenchon:23"
+     "opp": [
+      "melenchon:23"
+     ]
     },
     {
      "category": "logement",
@@ -4413,8 +5820,14 @@
      "category": "logement",
      "text": "Adapter la loi SRU en intégrant les logements en accession sociale dans le quota de logements sociaux.",
      "source": "https://www.debout-la-france.fr/projet/logement/",
-     "sim": "lisnard:68",
-     "opp": "roussel:55"
+     "sim": [
+      "lisnard:68",
+      "retailleau:38"
+     ],
+     "opp": [
+      "roussel:55",
+      "melenchon:39"
+     ]
     },
     {
      "category": "logement",
@@ -4430,8 +5843,12 @@
      "category": "logement",
      "text": "Résilier le bail des locataires sociaux condamnés pour trafic de stupéfiants ou délinquance.",
      "source": "https://www.debout-la-france.fr/projet/logement/",
-     "sim": "retailleau:37",
-     "opp": "roussel:56"
+     "sim": [
+      "retailleau:37"
+     ],
+     "opp": [
+      "roussel:56"
+     ]
     },
     {
      "category": "logement",
@@ -4442,7 +5859,10 @@
      "category": "agriculture",
      "text": "Rompre les accords de libre-échange jugés déloyaux (CETA, Nouvelle-Zélande, Kenya, Ukraine, Mercosur).",
      "source": "https://www.debout-la-france.fr/projet/agriculture/",
-     "sim": "philippe:31"
+     "sim": [
+      "roussel:29",
+      "philippe:31"
+     ]
     },
     {
      "category": "europe",
@@ -4453,7 +5873,9 @@
      "category": "europe",
      "text": "Sortir de la PAC pour rétablir une politique agricole nationale.",
      "source": "https://www.debout-la-france.fr/projet/agriculture/",
-     "opp": "retailleau:19"
+     "opp": [
+      "retailleau:19"
+     ]
     },
     {
      "category": "europe",
@@ -4479,13 +5901,17 @@
      "category": "economie",
      "text": "Réserver aux producteurs français 50 % puis 80 % des commandes publiques, dont la restauration collective.",
      "source": "https://www.debout-la-france.fr/projet/agriculture/",
-     "sim": "retailleau:39"
+     "sim": [
+      "retailleau:39"
+     ]
     },
     {
      "category": "agriculture",
      "text": "Empêcher l'accaparement des terres par des fonds d'investissement, notamment étrangers.",
      "source": "https://www.debout-la-france.fr/projet/agriculture/",
-     "sim": "melenchon:29"
+     "sim": [
+      "melenchon:29"
+     ]
     },
     {
      "category": "agriculture",
@@ -4501,8 +5927,6 @@
      "category": "europe",
      "text": "Organiser un référendum sur la sortie de la France de l'Union européenne.",
      "source": "https://www.debout-la-france.fr/projet/affaires-europeennes/",
-     "sim": "zemmour:17",
-     "opp": "glucksmann:4",
      "cost": {
       "amount": "Contribution nette de la France : environ 9,3 Md€ en 2023 (Sénat) ; prélèvement sur recettes brut : 23,1 Md€ en 2025, en hausse prévue à 28,4 Md€ en 2026",
       "level": "",
@@ -4513,13 +5937,24 @@
         "url": "https://www.senat.fr/rap/l25-736-233/l25-736-2331.pdf"
        }
       ]
-     }
+     },
+     "sim": [
+      "zemmour:17"
+     ],
+     "opp": [
+      "glucksmann:4",
+      "lisnard:30",
+      "attal:27",
+      "philippe:30"
+     ]
     },
     {
      "category": "europe",
      "text": "Rétablir les frontières nationales en sortant de l'espace Schengen.",
      "source": "https://www.debout-la-france.fr/projet/affaires-europeennes/",
-     "sim": "retailleau:51"
+     "sim": [
+      "retailleau:51"
+     ]
     },
     {
      "category": "europe",
@@ -4530,8 +5965,6 @@
      "category": "europe",
      "text": "Supprimer la contribution nette de la France au budget de l'UE.",
      "source": "https://www.debout-la-france.fr/projet/affaires-europeennes/",
-     "sim": "zemmour:17",
-     "opp": "glucksmann:4",
      "cost": {
       "amount": "Contribution nette de la France : environ 9,3 Md€ en 2023 (Sénat) ; prélèvement sur recettes brut : 23,1 Md€ en 2025, en hausse prévue à 28,4 Md€ en 2026",
       "level": "",
@@ -4542,7 +5975,16 @@
         "url": "https://www.senat.fr/rap/l25-736-233/l25-736-2331.pdf"
        }
       ]
-     }
+     },
+     "sim": [
+      "zemmour:17"
+     ],
+     "opp": [
+      "glucksmann:4",
+      "lisnard:30",
+      "attal:27",
+      "philippe:30"
+     ]
     },
     {
      "category": "europe",
@@ -4553,7 +5995,10 @@
      "category": "europe",
      "text": "Refuser l'accord UE-Mercosur et rompre les accords de libre-échange avec la Nouvelle-Zélande, le Kenya, le Canada et le Chili.",
      "source": "https://www.debout-la-france.fr/projet/affaires-europeennes/",
-     "sim": "philippe:31"
+     "sim": [
+      "roussel:29",
+      "philippe:31"
+     ]
     },
     {
      "category": "europe",
@@ -4564,8 +6009,12 @@
      "category": "institutions",
      "text": "Rétablir la primauté du droit national sur le droit européen.",
      "source": "https://www.debout-la-france.fr/projet/affaires-europeennes/",
-     "sim": "lisnard:31",
-     "opp": "philippe:16"
+     "sim": [
+      "lisnard:117"
+     ],
+     "opp": [
+      "philippe:16"
+     ]
     },
     {
      "category": "autre",
@@ -4581,13 +6030,19 @@
      "category": "institutions",
      "text": "Instaurer un référendum d'initiative citoyenne (RIC) : un million d'inscrits peuvent soumettre une loi.",
      "source": "https://www.debout-la-france.fr/projet/refonder-et-moraliser-notre-democratie/",
-     "sim": "lisnard:31"
+     "sim": [
+      "lisnard:31",
+      "retailleau:52"
+     ]
     },
     {
      "category": "institutions",
      "text": "Rendre le référendum obligatoire pour toute modification touchant la Constitution ou l'indépendance nationale.",
      "source": "https://www.debout-la-france.fr/projet/refonder-et-moraliser-notre-democratie/",
-     "sim": "lisnard:31"
+     "sim": [
+      "lisnard:31",
+      "retailleau:52"
+     ]
     },
     {
      "category": "institutions",
@@ -4603,7 +6058,9 @@
      "category": "institutions",
      "text": "Abroger la loi NOTRe de 2015 pour rendre leur autonomie aux communes.",
      "source": "https://www.debout-la-france.fr/projet/refonder-et-moraliser-notre-democratie/",
-     "sim": "melenchon:10"
+     "sim": [
+      "melenchon:10"
+     ]
     },
     {
      "category": "institutions",
@@ -4619,13 +6076,17 @@
      "category": "institutions",
      "text": "Supprimer le Conseil économique, social et environnemental (CESE).",
      "source": "https://www.debout-la-france.fr/projet/refonder-et-moraliser-notre-democratie/",
-     "sim": "zemmour:15"
+     "sim": [
+      "zemmour:15"
+     ]
     },
     {
      "category": "institutions",
      "text": "Créer un statut de l'élu et rémunérer les élus en fonction de leur présence effective.",
      "source": "https://www.debout-la-france.fr/projet/refonder-et-moraliser-notre-democratie/",
-     "sim": "melenchon:13"
+     "sim": [
+      "melenchon:13"
+     ]
     },
     {
      "category": "securite",
@@ -4636,13 +6097,19 @@
      "category": "societe",
      "text": "Revaloriser immédiatement les allocations familiales et les indexer sur l'inflation.",
      "source": "https://www.debout-la-france.fr/projet/famille/",
-     "sim": "lisnard:74"
+     "sim": [
+      "lisnard:74",
+      "retailleau:21"
+     ]
     },
     {
      "category": "societe",
      "text": "Rétablir l'universalité des allocations familiales, sans condition de revenu.",
      "source": "https://www.debout-la-france.fr/projet/famille/",
-     "sim": "lisnard:74"
+     "sim": [
+      "lisnard:74",
+      "retailleau:21"
+     ]
     },
     {
      "category": "societe",
@@ -4653,13 +6120,19 @@
      "category": "societe",
      "text": "Lancer un plan national de 100 000 places de crèches en 5 ans.",
      "source": "https://www.debout-la-france.fr/projet/famille/",
-     "sim": "attal:17"
+     "sim": [
+      "attal:17",
+      "melenchon:53"
+     ]
     },
     {
      "category": "societe",
      "text": "Étendre le congé parental, mieux rémunéré et partagé entre les deux parents.",
      "source": "https://www.debout-la-france.fr/projet/famille/",
-     "sim": "roussel:50"
+     "sim": [
+      "roussel:50",
+      "retailleau:25"
+     ]
     },
     {
      "category": "societe",
@@ -4670,7 +6143,10 @@
      "category": "societe",
      "text": "Interdire définitivement les transitions de genre médicales chez les mineurs.",
      "source": "https://www.debout-la-france.fr/projet/famille/",
-     "opp": "roussel:53"
+     "opp": [
+      "roussel:53",
+      "kazib:22"
+     ]
     },
     {
      "category": "societe",
@@ -4681,7 +6157,9 @@
      "category": "fiscalite",
      "text": "Revaloriser le quotient familial à 3 000 € par demi-part.",
      "source": "https://www.debout-la-france.fr/projet/famille/",
-     "sim": "lisnard:74"
+     "sim": [
+      "lisnard:74"
+     ]
     },
     {
      "category": "fiscalite",
@@ -4692,21 +6170,32 @@
      "category": "fiscalite",
      "text": "Réévaluer puis indexer sur l'inflation l'abattement successoral en ligne directe.",
      "source": "https://www.debout-la-france.fr/projet/famille/",
-     "sim": "lisnard:41",
-     "opp": "roussel:65"
+     "sim": [
+      "retailleau:49",
+      "lisnard:41"
+     ],
+     "opp": [
+      "roussel:65"
+     ]
     },
     {
      "category": "societe",
      "text": "Rétablir un service national de trois mois, incluant le permis de conduire financé par l'État.",
      "source": "https://www.debout-la-france.fr/projet/famille/",
-     "opp": "kazib:19"
+     "opp": [
+      "kazib:19"
+     ]
     },
     {
      "category": "europe",
      "text": "Consacrer 2,5 % du PIB au budget de défense.",
      "source": "https://www.debout-la-france.fr/projet/defense/",
-     "sim": "attal:22",
-     "opp": "kazib:18"
+     "sim": [
+      "attal:22"
+     ],
+     "opp": [
+      "kazib:18"
+     ]
     },
     {
      "category": "europe",
@@ -4717,7 +6206,9 @@
      "category": "europe",
      "text": "Renforcer la dissuasion nucléaire : veille technologique, missiles hypersoniques, simulation des essais.",
      "source": "https://www.debout-la-france.fr/projet/defense/",
-     "sim": "attal:23"
+     "sim": [
+      "attal:23"
+     ]
     },
     {
      "category": "europe",
@@ -4753,7 +6244,9 @@
      "category": "societe",
      "text": "Instaurer un service national civique obligatoire de trois mois, avec option d'un service militaire d'un an.",
      "source": "https://www.debout-la-france.fr/projet/defense/",
-     "opp": "kazib:19"
+     "opp": [
+      "kazib:19"
+     ]
     }
    ]
   },
@@ -4827,8 +6320,6 @@
      "category": "fiscalite",
      "text": "Non-remplacement de 800 000 départs administratifs sur le quinquennat (40 milliards d'euros).",
      "source": "https://www.budget2027.fr/",
-     "sim": "lisnard:2",
-     "opp": "roussel:41",
      "cost": {
       "amount": "40 Md€ d'économies annoncés pour 800 000 départs non remplacés sur le quinquennat",
       "level": "Faible",
@@ -4843,7 +6334,17 @@
         "url": "https://acteurspublics.fr/articles/les-suppressions-de-postes-rapportent-moins-que-prevu/"
        }
       ]
-     }
+     },
+     "sim": [
+      "lisnard:2",
+      "philippe:3",
+      "dupontaignan:23"
+     ],
+     "opp": [
+      "roussel:41",
+      "melenchon:43",
+      "kazib:2"
+     ]
     },
     {
      "category": "fiscalite",
@@ -4859,39 +6360,55 @@
      "category": "retraites",
      "text": "Réserver les prestations non contributives (RSA, APL, allocations familiales) aux citoyens français (15 à 20 milliards d'euros).",
      "source": "https://www.budget2027.fr/",
-     "sim": "dupontaignan:45"
+     "sim": [
+      "dupontaignan:45",
+      "lisnard:128",
+      "philippe:15"
+     ]
     },
     {
      "category": "retraites",
      "text": "Limiter le RSA à trois ans pour les bénéficiaires aptes au travail.",
      "source": "https://www.budget2027.fr/",
-     "sim": "dupontaignan:28",
-     "opp": "roussel:14"
+     "sim": [
+      "dupontaignan:28",
+      "retailleau:3"
+     ],
+     "opp": [
+      "roussel:14"
+     ]
     },
     {
      "category": "retraites",
      "text": "Lutter contre la fraude sociale et retirer les aides aux délinquants et criminels.",
      "source": "https://www.budget2027.fr/",
-     "sim": "dupontaignan:45"
+     "sim": [
+      "dupontaignan:45",
+      "lisnard:128",
+      "philippe:15"
+     ]
     },
     {
      "category": "sante",
      "text": "Supprimer les agences régionales de santé.",
      "source": "https://www.budget2027.fr/",
-     "sim": "lisnard:88"
+     "sim": [
+      "dupontaignan:141",
+      "lisnard:88"
+     ]
     },
     {
      "category": "education",
      "text": "Mettre fin à la gratuité des études pour les étudiants étrangers.",
      "source": "https://www.budget2027.fr/",
-     "sim": "dupontaignan:79"
+     "sim": [
+      "dupontaignan:79"
+     ]
     },
     {
      "category": "immigration",
      "text": "Supprimer l'aide médicale d'État.",
      "source": "https://www.budget2027.fr/",
-     "sim": "lisnard:125",
-     "opp": "kazib:10",
      "cost": {
       "amount": "Coût total de l'aide médicale d'État : 1,46 Md€ en 2025 selon le rapporteur spécial du Sénat (1,34 Md€ de dépenses de droit commun)",
       "level": "Moyen",
@@ -4902,7 +6419,15 @@
         "url": "https://www.senat.fr/rap/l25-736-228/l25-736-2281.pdf"
        }
       ]
-     }
+     },
+     "sim": [
+      "lisnard:125",
+      "dupontaignan:76"
+     ],
+     "opp": [
+      "kazib:10",
+      "roussel:52"
+     ]
     },
     {
      "category": "immigration",
@@ -4923,8 +6448,14 @@
      "category": "ecologie",
      "text": "Mettre fin au soutien public aux énergies renouvelables intermittentes (8 milliards d'euros).",
      "source": "https://www.budget2027.fr/",
-     "sim": "retailleau:30",
-     "opp": "roussel:24"
+     "sim": [
+      "retailleau:30",
+      "dupontaignan:22"
+     ],
+     "opp": [
+      "roussel:24",
+      "philippe:23"
+     ]
     },
     {
      "category": "ecologie",
@@ -4940,7 +6471,9 @@
      "category": "institutions",
      "text": "Supprimer le CESE et les Ceser.",
      "source": "https://www.budget2027.fr/",
-     "sim": "dupontaignan:213"
+     "sim": [
+      "dupontaignan:213"
+     ]
     },
     {
      "category": "europe",
@@ -4951,8 +6484,15 @@
      "category": "europe",
      "text": "Revenir au budget européen d'avant le Covid et réduire la dotation française (14 milliards d'euros).",
      "source": "https://www.budget2027.fr/",
-     "sim": "dupontaignan:29",
-     "opp": "glucksmann:4"
+     "sim": [
+      "dupontaignan:29"
+     ],
+     "opp": [
+      "glucksmann:4",
+      "lisnard:30",
+      "attal:27",
+      "philippe:30"
+     ]
     },
     {
      "category": "autre",
@@ -4963,7 +6503,9 @@
      "category": "autre",
      "text": "Supprimer les subventions aux associations politisées, à la presse et aux syndicats.",
      "source": "https://www.budget2027.fr/",
-     "opp": "melenchon:51"
+     "opp": [
+      "melenchon:51"
+     ]
     },
     {
      "category": "autre",

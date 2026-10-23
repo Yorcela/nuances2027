@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Les candidats · Comprendre et choisir</title>
+<meta name="description" content="Fiches des candidats à la présidentielle 2027 : parcours politique, parti et nuance, sondages et résultats aux dernières présidentielles.">
+<meta name="theme-color" content="#F4F6FA">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="site-header-in">
+    <a class="brand" href="index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false">
+        <defs><clipPath id="urne"><rect x="4" y="16" width="32" height="21" rx="3.5"/></clipPath></defs>
+        <g clip-path="url(#urne)"><rect x="4" y="16" width="11" height="21" fill="#0055A4"/><rect x="15" y="16" width="10" height="21" fill="#fff"/><rect x="25" y="16" width="11" height="21" fill="#EF4135"/></g>
+        <rect x="4" y="16" width="32" height="21" rx="3.5" fill="none" stroke="#0F172A" stroke-width="1.6"/>
+        <rect x="12" y="14.2" width="16" height="3.6" rx="1.8" fill="#0F172A"/>
+        <path d="M15.5 16.5V4.2a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1V16.5z" fill="#fff" stroke="#0F172A" stroke-width="1.4" stroke-linejoin="round"/>
+        <path d="M18 7.5h4M18 10.5h4" stroke="#0055A4" stroke-width="1.3" stroke-linecap="round"/>
+      </svg><span>Comprendre et choisir</span></a>
+    <nav aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="programmes.html">Programmes</a>
+      <a href="candidats.html" aria-current="page">Candidats</a>
+      <a href="sources.html">Sources</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+
+<h1 class="sr">Les candidats</h1>
+<p class="cd-intro">Cliquez sur un candidat pour lire son parcours, voir où il en est dans les sondages et ce que son camp a obtenu aux dernières présidentielles.</p>
+
+<ul class="cd-grid" id="cd-grid" aria-label="Candidats"></ul>
+
+</main>
+
+<div class="drawer-overlay" id="overlay" hidden></div>
+<aside class="drawer drawer-wide" id="drawer" role="dialog" aria-modal="true" aria-labelledby="d-title" hidden>
+  <div class="drawer-head">
+    <span class="drawer-theme">Fiche candidat</span>
+    <button type="button" class="drawer-close" id="d-close" aria-label="Fermer">×</button>
+  </div>
+  <div class="drawer-body">
+    <div class="cd-id">
+      <img class="cd-photo" id="d-photo" alt="">
+      <div class="cd-id-text">
+        <h2 id="d-title"></h2>
+        <p class="cd-born" id="d-born"></p>
+        <div class="cd-party" id="d-party"></div>
+      </div>
+    </div>
+    <div class="cd-poll" id="d-poll"></div>
+    <div class="tabs" role="tablist" aria-label="Sections de la fiche">
+      <button type="button" role="tab" id="tab-bio" aria-controls="panel-bio" aria-selected="true" data-tab="bio">Parcours</button>
+      <button type="button" role="tab" id="tab-pres" aria-controls="panel-pres" aria-selected="false" tabindex="-1" data-tab="pres">Présidentielles</button>
+    </div>
+    <div id="panel-bio" role="tabpanel" aria-labelledby="tab-bio"></div>
+    <div id="panel-pres" role="tabpanel" aria-labelledby="tab-pres" hidden></div>
+  </div>
+</aside>
+
+<script src="candidats.js" defer></script>
+</body>
+</html>
